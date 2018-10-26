@@ -1,5 +1,5 @@
 
-# OSS Development and Contribution Guide
+# Development and Contribution Guide
 
 ## Preamble
 An open ecosystem based on standards and interoperable reference implementations requires active discussions, comprehensive specifications, and collaborative code development. To establish a solid foundation for discussion, specification, and development, this set of guidelines lays out the manner and approach we should encourage to maximize our effectiveness and ensure we incorporate the input of all who seek to contribute.
