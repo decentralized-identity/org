@@ -4,7 +4,7 @@
 This Working Group Charter establishes the Scope and intellectual property terms used to develop the materials identified in this Working Group Charter for the Project. Project Steering Members and Associates that participate in the Working Group (meetings, discussions, code contributions, and all other forms of Working Group collaboration) will be bound by its terms and be permitted to participate in this Working Group.
 
 ### 1. Name:  Identifiers, Names, and Discovery Working Group
-### 2. Chairs: Drummond Reed (Everynm) and Jude Nelson (Blockstack) 
+### 2. Chairs: Markus Sabadello (Danube Tech) and Jude Nelson (Blockstack) 
 ### 3. Definition: 
  
 #### 3.1 Scope
