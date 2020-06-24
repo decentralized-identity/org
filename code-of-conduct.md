@@ -3,6 +3,8 @@
 
 _Last Revised: 6/20/20_
 
+*Note: This is a living document intended to evolve with our community over time. As such, please comment or open issues as you see fit; the DIF Steering Committee will review and accept proposals for change on a quarterly basis.*
+
 
 ### Purpose: Creating an open, healthy and productive culture where members and the community can build and grow together.
 
