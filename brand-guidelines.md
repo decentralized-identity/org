@@ -31,11 +31,29 @@ Do not use the DIF brand in a way that is inconsistent with the The DIF Brand Gu
 ### Activities that require approvals:
 
 
-* Communications that reference DIF branding, content, and technology shall be generally permitted, so long as they are created in good faith to highlight the work in DIF, genuine use of that work, and do not infer sponsorship, partnership, or any special relationship between DIF and any organization, product, or service it mentions. Any use that deviates from this is required to be approved by the DIF PR team, which can be reached at decentralized.identity@gmail.com.
-* You may not use our marks in domain names for non-DIF-related products or services without prior approval. Nor can you use brands on your own web pages in a way that represents a non-DIF-related product or service offering, without our prior approval. Obtain approval via decentralized.identity@gmail.com.
-* We recommend that pure PR/marketing material in which you plan to use the words “DIF” or any of our project brands, be submit to decentralized.identity@gmail.com for discussion and approval.
+* Communications that reference DIF branding, content, and technology shall be generally permitted, so long as they are created in good faith to highlight the work in DIF, genuine use of that work, and do not infer sponsorship, partnership, or any special relationship between DIF and any organization, product, or service it mentions. Any use that deviates from this is required to be approved by the DIF PR team, which can be reached at communication@identity.foundation
+* You may not use our marks in domain names for non-DIF-related products or services without prior approval. Nor can you use brands on your own web pages in a way that represents a non-DIF-related product or service offering, without our prior approval. Obtain approval via communication@identity.foundation
+* We recommend that pure PR/marketing material in which you plan to use the words “DIF” or any of our project brands, be submit to communication@identity.foundation for discussion and approval.
 
 
 ## Questions, Comments, Concerns
 
-We look to our community to help us retain the value of the DIF trademarks.  If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a DIF trademark, or to obtain written permission for a proposed use of DIF trademarks, contact: decentralized.identity@gmail.com.
+We look to our community to help us retain the value of the DIF trademarks.  If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a DIF trademark, or to obtain written permission for a proposed use of DIF trademarks, contact: communication@identity.foundation.
+
+# Brand elements
+
+
+
+
+Variable | TAG | Verbiage | Link 
+---- | --------- | ---------- | ----:
+Non-member guidelines | `FAQ`  | Tips for writers of promotional or journalistic guidelines | [LINK](https://www.notion.so/dif/Member-Messaging-Guide-8c7a8dd30b174137a0ec669b947257e4)
+Member Messaging Guide | `FAQ`  | Members - please read this before writing blog posts or speaking publically about your work in DIF! | [LINK](https://www.notion.so/dif/Member-Messaging-Guide-8c7a8dd30b174137a0ec669b947257e4)
+35-word DIF description | `blurb`  | The DIF is a Joint Development Foundation project that facilitates IPR-protected co-development among large and small industry players in the decentralized identity space. It produces open-source code, pre-standard specifications, market collaboration, and non-technical documentation. |  |
+longer DIF description | `blurb`  | This organization was formed as a Joint Development Foundation project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere. |  |
+Logo | `graphics`  | DIF posts updates on working groups, work items, non-technical initiatives on its Medium blog, as well as educational materials. | [Link](https://github.com/decentralized-identity/org/tree/master/Org%20documents/Brand%20materials/DIF%20Logo) | 
+medium  | `blog`  | DIF posts updates on working groups, work items, non-technical initiatives on its Medium blog, as well as educational materials. | [Link](http://bit.ly/DIF_medium_blog) |
+youtube  | `videos`  | DIF posts recordings of public talks, presentations, and original events on youtube for educational and promotional purposes. | [Link](http://bit.ly/Dif_youtube_direct) |
+twitter  | `social`  | DIF maintains a twitter account to provide updates on publications, work items, and events. | [Link](http://bit.ly/DIF_twitter) |
+github  | `code`  | DIF maintains github repositories for all past, present, and future work items; outside review and comment is welcome in all of them. | [Link](http://bit.ly/DIF_github) |
+
