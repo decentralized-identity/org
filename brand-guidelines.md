@@ -1,5 +1,10 @@
 # DIF Brand Guidelines
 
+[![hackmd-github-sync-badge](https://hackmd.io/MckRh3neR5ON93yJvdkQaQ/badge)](https://hackmd.io/MckRh3neR5ON93yJvdkQaQ)
+
+
+
+
 These guidelines apply to use of the DIF trademarks.  The DIF Brand Guidelines, available at https://github.com/decentralized-identity/org, also apply to any use of the DIF trademarks.
 
 In addition to the generally applicable rules discussed in The DIF Brand Guidelines, there are a few specific rules that we ask everyone to follow when using trademarks related to one of the DIF projects or the organization itself.
