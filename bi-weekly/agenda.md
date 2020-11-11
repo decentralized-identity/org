@@ -24,36 +24,42 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### Agenda
 
 1. **Welcome and introductions**
-2. **Additional Agenda items**
+3. **Additional Agenda items**
     * DIF F2F Virtual ~mid January 
         * [planning doc v1](https://docs.google.com/document/d/1GcTbLMixs_iaVAJpkNHEZl_c4LH9bH_vrNbe-2cL0GY/edit#)
     * Technical Steering Committee at DIF  (max 10 min)
-
+        * One WG Chair's point: sometimes WGs have difficult decisions about deduplication of efforts or recommendations-- would be good to have "higher authority" with which to consult for tricky judgment calls
+        * Frees up Steering Committee for more internal, structural, governance, and business topics
 3. **Groups**
-
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
         * [The What and Why of the DIF general-purpose Document-Loader](https://youtu.be/-yUbMDft5O0)  - by Orie Steele
         * [W3C-CCG Edu Creds Task Force & Tooling/Sandbox Intro](https://youtu.be/AEb02JGCArM) (Overview of CCG LD tooling) -  Kim H Duffy 
-        * Kaliya book presentation and the history of identity
-        * Gold-Button Interop
-        * Next call about BBS+ 
+        * Kaliya book presentation and the Domains of Identity [book](https://g.co/kgs/T6T8LQ)
+        * Gold-Button Interop (MyData panel next month by A. Gropper)
+        * **Next call about BBS+** agenda and "homework links" [here](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md#agenda---18-nov-2020---useu-time-0600-pst)
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * [DID WG meeting review during TPAC](https://docs.google.com/presentation/d/1RoE8E4y8S1j65EJaXZ8oihkduNbjTXXvdwtkzw961Xw/)
             * privacy violating properties
             * Abstract Data Model (ADM)
             * language that describes how to add and register new representations
             * Work on "security" and "privacy" in DID Rubric: https://github.com/w3c/did-rubric/pull/10
+            * Video Recording of Markus's TPAC resolutions/action items overview [here](https://us02web.zoom.us/rec/share/kupVdGlwe30wjuPFmHBfUG_toosS9Hv-2rl1pReIMWVrODDkJATa7MErNGk0FoQD.J2Ho-Tz_5ZYq3n8D)
         * Fuzzy vault - C++? 
         * Updates on current work items did:peer, KERI, Universal Resolver, .well-known DID configuration, DID parameters, secret recovery mechanisms
+        * KERI:
+            * "mini conference" on API design in about a month's time
+            * additional KERI meeting the hour before the current meeting time for use-cases and spec-authoring discussions to preserve the weekly meeting for #techTalk
     * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](hhttps://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
         * Credential Manifest 
             * Reuse existing Presentation Exchange call time and shift focus towards Credential Manifest.
             * Review Daniel Status
         * IIW recap
+        * Affinidi presentation in C&C [Recording](https://us02web.zoom.us/rec/share/3IYGkxbiCJG9acGTsoie_TQYWu8nKacNUcHEZPFx6yyMTjgp4-R_LsrE4SODrlAF.5dwcWpUCRYgI0BAs)
         * Presentation Exchange Status
             * [Multiple Schema identifiers](https://github.com/decentralized-identity/presentation-exchange/pull/149)
             * [Holder Binding between credentials](https://github.com/decentralized-identity/presentation-exchange/pull/123)
     * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * blog article about OIDF collaboration
     * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://docs.google.com/document/d/1BpTm5SmgfOJcEsXfizO0ZmH1r7imTJDGKudAZtYsm0M/edit?usp=sharing)
         * Spec milestones
             * First Complete Draft reads completely by end of November
@@ -67,11 +73,12 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             * Pick an issue you think can be closed
             * Pick an issue that shouldn’t be, and comment on what is needed next on the issue.
     * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * Working through issues
     * **SDS WG** (Kaliya, Dmitry, Tobias)
         * GNAP Presentation by Justin Richer
             * [Filling in the GNAP - Justin Richer](https://justinsecurity.medium.com/filling-in-the-gnap-a032453eaf8c)
             * [OAuth 3](https://oauth.net/3/)
-        * Spec Rename Update/Announcement (spoiler: Confidential Storage)
+        * Spec Rename Update/Announcement (spoiler: Confidential Data Store)
         * Special Topic Discussion: Integrating Hubs & Vaults in the spec
 
 
