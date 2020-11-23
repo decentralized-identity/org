@@ -1,6 +1,5 @@
-# DIF Brand Guidelines
+# DIF Style Guide
 
-DIF Knowledgebase for members, work items, and communications:
 |*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 
 ## Universal Style Guidance
