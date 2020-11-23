@@ -1,8 +1,7 @@
 # DIF Brand Guidelines
-[![hackmd-github-sync-badge](https://hackmd.io/8F5gbmolQRyWF2V9z5UNcQ/badge)](https://hackmd.io/8F5gbmolQRyWF2V9z5UNcQ)
 
-|DIF Comms:|[Brand Guidelines](brand-guidelines.md)|Style Guide|
-|---|---|---|---|---|---|
+DIF Knowledgebase for members, work items, and communications:
+|*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 
 ## Universal Style Guidance
 High level guidance for all writing about DIF, whether in member submissions or otherwise:
