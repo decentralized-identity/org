@@ -1,6 +1,11 @@
+# DIF Brand Guidelines
+[![hackmd-github-sync-badge](https://hackmd.io/8F5gbmolQRyWF2V9z5UNcQ/badge)](https://hackmd.io/8F5gbmolQRyWF2V9z5UNcQ)
 
+|DIF Comms:|[Brand Guidelines](brand-guidelines.md)|Style Guide|
+|---|---|---|---|---|---|
 
-## Universal Rules of thumb - High level guidance for all writing about DIF:
+## Universal Style Guidance
+High level guidance for all writing about DIF, whether in member submissions or otherwise:
 * Never forget the prime directive of Nemethi: “DIF should never side with any tech over another unless it's siding with SSI over a non-SSI alternative.”
 * Universal statements about technological breakthroughs, best practices, or other blanket pronouncements are to be avoided, particularly in reference to participation in DIF
    * scoping claims to a specific set of use cases or market contexts is strongly advised
