@@ -1,10 +1,11 @@
 # DIF Brand Guidelines
 
-[![hackmd-github-sync-badge](https://hackmd.io/MckRh3neR5ON93yJvdkQaQ/badge)](https://hackmd.io/MckRh3neR5ON93yJvdkQaQ)
+|*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|
 
-These guidelines apply to use of the DIF trademarks.  The DIF Brand Guidelines, available at https://github.com/decentralized-identity/org, also apply to any use of the DIF trademarks.
+These guidelines apply to use of the DIF trademarks, specifications, codebases, and non-technical deliverables alike. 
 
-In addition to the generally applicable rules discussed in The DIF Brand Guidelines, there are a few specific rules that we ask everyone to follow when using trademarks related to one of the DIF projects or the organization itself.
+In addition to the generally applicable rules discussed in the DIF Brand Guidelines, there are a few specific rules that we ask everyone to follow when using trademarks related to one of the DIF projects or the organization itself.
 
 ### DIF Projects
 
@@ -35,9 +36,11 @@ In addition to the generally applicable rules discussed in The DIF Brand Guideli
     * Please note the [Brand Elements](https://hackmd.io/MckRh3neR5ON93yJvdkQaQ#Brand-elements) section further down in this document, which include blocs of boiler-plate for press releases and presentation scripts.
     * **Press Tracking**: If any press release you send leads to press coverage that mentions DIF, dropping a link into an email to the <a href=mailto:communication@identity.foundation>communication@i.f</a> mailing list would also be appreciated for our own press tracking.
 * Where referring to DIF, use the **official unabbreviated name** at first mention and include a link to the homepage of the website if possible. 
+* 
 * Do not use any DIF trademark in a misleading way, which includes the following:
     * **Do not modify** the DIF trademarks or logos (e.g., do not add hyphens, periods, or other characters, or change the colors, orientation or any other visual aspect of any logos).
     * **Do not use** DIF trademarks in connection with any **products or services that are not related** to, built for or associated with the software projects hosted by the DIF organization.
+        * 
    * **Do not add your organization's logo(s) on public-facing DIF materials without explicit consent from Communications staff**. This includes official presentations, slide decks, medium articles, youtube videos, tweets, etc.
    * **Do not impersonate DIF materials,** i.e., do not create marketing or other public-facing materials that look like they are coming from DIF rather than your organization.
    * **Do not logo-rank**, i.e., do not use the DIF logo larger than your own organization’s logo(s) on public-facing materials.
@@ -68,8 +71,7 @@ We recommend (and offer free of charge) consulting with DIF in advance about any
 
 Variable | TAG | Verbiage | Link 
 ---- | --------- | ---------- | ----:
-Non-member guidelines | `FAQ`  | Tips for writers of promotional or journalistic guidelines | [LINK](https://www.notion.so/dif/Member-Messaging-Guide-8c7a8dd30b174137a0ec669b947257e4)
-Member Messaging Guide | `FAQ`  | Members - please read this before writing blog posts or speaking publically about your work in DIF! | [LINK](https://www.notion.so/dif/Member-Messaging-Guide-8c7a8dd30b174137a0ec669b947257e4)
+Style Guide | `FAQ`  | Recommended reading before writing about DIF membership or participation, but **required reading** before submitting to the DIF blog, asking for a retweet, etc. | [Link](style-guide.md)
 35-word DIF description | `blurb`  | The DIF is a Joint Development Foundation project that facilitates IPR-protected co-development among large and small industry players in the decentralized identity space. It produces open-source code, pre-standard specifications, market collaboration, and non-technical documentation. |  |
 longer DIF description | `blurb`  | This organization was formed as a Joint Development Foundation project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere. |  |
 Logo | `graphics`  | DIF posts updates on working groups, work items, non-technical initiatives on its Medium blog, as well as educational materials. | [Link](https://github.com/decentralized-identity/org/tree/master/Org%20documents/Brand%20materials/DIF%20Logo) | 
