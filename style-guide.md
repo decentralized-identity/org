@@ -1,6 +1,6 @@
 # DIF Style Guide
 
-|*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|[Brand Guidelines\(brand-guidelines.md)|*Style Guide*|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|
 
 ## Universal Style Guidance
