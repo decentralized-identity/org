@@ -19,6 +19,73 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+## Meeting - 25 Nov 2020 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        * BBS+ presentation by Tobias (Mattr)
+            * answering questions about his IIW [presentation](https://www.youtube.com/watch?v=AVnCVzW0rkI)
+            * Discussion questions
+                * To what degree is this a VC "format", and to what degree is it a VP upgrade?
+                * What standards need to change/upgrade for these additional values ("proofValue", "subjectAuthenticationMethod", etc.) to be widespread? Consequences for core VC spec, LD-Proof spec, etc?
+                * How are domains and linked secrets related, in the Aries universe? Are systems outside of the Aries world using domain-based indirection?
+                * How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
+                * [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
+        * ESSIF-LAB and Odyssey Momentum
+            * tbd
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Questions around DID deactivation and resolution metadata
+            * Can you verify a credential that was signed by a DID that has been deactivated?
+            * older versions of a DID document - *version_id* and *version_time* parameters.
+            * But support for those parameters is optional.
+            * Sidetree's "checkpoint" feature
+        * MIME types of DID documents - [issue](https://github.com/w3c/did-core/issues/208
+        * Update on issues with [WebID](https://tcwiki.azurewebsites.net/index.php?title=Authentication_UX)
+            * Potentially DIF should work on getting WebID into browsers
+            * Opportunity for smooth iteration
+            * WebAuthn is an option?
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Bloom Presentation: [The Wallet Credential Interactions Spec Proposal](https://specs.bloom.co/) by Jace Hensley
+        * Next steps: Credential Schemas
+        * Workitem Status: Presentation Exchange
+            * Go Implementation Workday
+            * JSONPath / Ontology Discussion Recap
+            * [Open Issues](https://github.com/decentralized-identity/presentation-exchange/issues)
+        * Workitem Status: Credentials Manifest calls
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * blog article about OIDF collaboration
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](hhttps://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * First Complete Draft - reads correctly from beginning to end Nov 30th.
+        * DIDComm.org Progress
+            * https://github.com/decentralized-identity/didcomm.org
+        * DIDcomm usecase to DID Core https://github.com/w3c/did-use-cases/pull/100
+        * Issues:
+            * [117](https://github.com/decentralized-identity/didcomm-messaging/pull/117) - forward secrecy
+            * [124](https://github.com/decentralized-identity/didcomm-messaging/pull/124) - mime types
+            * [127](https://github.com/decentralized-identity/didcomm-messaging/pull/127) - structured headers
+            * [128](https://github.com/decentralized-identity/didcomm-messaging/pull/128) - to header semantics
+            * [129](https://github.com/decentralized-identity/didcomm-messaging/pull/129) - post quantum
+            * [126](https://github.com/decentralized-identity/didcomm-messaging/issues/126) - DIDDocs for Peer DIDs
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * SIP 1 status [issue](https://github.com/decentralized-identity/sidetree/pull/928)
+            * PR for renamed files and properties
+        * Canonical and equivalent identifiers status
+        * Spec / reference implementation inconsistencies
+    * **SDS WG** (Kaliya, Dmitry, Tobias)
+        * EDV and Hub Use Cases
+            * Demos of what people are using it for now (navigator api, etc)
+            * Present/talk about why people are investing in EDVs / being in this group. (Is there overlap between people's use cases?)
+            * For example, primary EDV use case: Wallet backup / portability. Is that true for the group?
+
+
+3. **Additional Agenda items**
+    * DIF-wide strategic goals for 2021 (Juan) + [opinion poll](https://forms.gle/jkeC7tTvPr5Ux4vH7)
+------------------------
+
+
 ## Meeting - 11 Nov 2020 - (1100 ET) 
  
 ### Agenda
