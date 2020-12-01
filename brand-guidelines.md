@@ -1,6 +1,6 @@
 # DIF Brand Guidelines
 
-|*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|*Brand Guidelines*|[Style Guide](style-guide.md)|Working Group Lifecycle|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|
 
 These guidelines apply to use of the DIF trademarks, specifications, codebases, and non-technical deliverables alike. 
