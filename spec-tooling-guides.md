@@ -1,7 +1,7 @@
 # DIF Specification Tooling Guides
 
 DIF Knowledgebase for members, work items, and communications:
-|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|Working Group Lifecycle|Work Item Lifecycle|*Spec Tooling Guides*|[Code of Conduct](code-of-conduct.md)|
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|Working Group Lifecycle|[Work Item Lifecycle](work-item-lifecycle.md)|*Spec Tooling Guides*|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|
 
 DIF recommends two different tools for writing specifications:
