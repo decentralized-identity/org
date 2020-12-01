@@ -1,6 +1,7 @@
-# DIF Style Guide
+# DIF Brand Guidelines
 
-|[Brand Guidelines](brand-guidelines.md)|*Style Guide*|Working Group Lifecycle|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+DIF Knowledgebase for members, work items, and communications:
+|*Brand Guidelines*|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|
 
 ## Universal Style Guidance
@@ -41,26 +42,9 @@ Section-specific guidance
 
 ## Twitter
 
-Style
-* Tone should be straightforward and not too frivolous, light, or shilly. Explicit calls to action or boastful claims are to be avoided.
-* Tag member orgs and liaison/partner orgs rather than individual accounts wherever possible; when in doubt, don't tag or ask first.
-
 Feed ergonomics
 * Tweets should appear at regular intervals, usually no more than once per day
 * Tweets announcing blog posts, specs, or the release/ratification of other deliverables should be timed for bi-coastal business hours (i.e., the between 9-3 PT/12-6 ET)
 
-## Youtube
-
-Style:
-* Tone should be straightforward and avoid the conventions of recreational, marketing, and commercial video. Educational content should be tagged and toned appropriately.
-* Where possible, use an illustrative screengrab as the preview image so that people will pull 
-* Verbose descriptions naming all speakers and members orgs are essential.
-   * Where appropriate, include a with "table of contents" breakdown where multiple speakers share one clip or chapter marks, 
-
-Settings and Ergonomics
-* Always ensure that user subtitles can be uploaded by activist communities-- the appropriate settings are hard to find in the youtube studio interface.
-* tags should always include DIF and reflect the conventions used on DIF Medium (see above)
-
-## Website
-
-* TBD
+Website
+* Feed ergonomics
