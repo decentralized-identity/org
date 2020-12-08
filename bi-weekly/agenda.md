@@ -20,6 +20,82 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+## Meeting - 9 December 2020 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page]
+        *  Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
+        *  BBS+ in Aries overview with Stephen Curran
+        *  SSIF & ESSIF-Lab interop deep dive
+            *  Interop specifications discussion-- how to align with existing API standards?
+
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Method Spec Registry analytics and some possible directions for DIF-based efforts to structure DID Method comparison/review
+            * Sam suggested to do analytics of DID method usage through Universal Resolver
+            * Sophie suggested that authors/implementers should be asked to supply contact information
+        * Discussion around accessibility/usability of DID technology
+            * it felt hard to get back to the topic and find the inside knowledge that's required to use DIDs.
+            * Sophie agreed that it was hard to find things, there are too many documents and some broken links.
+            * Eric suggested it would be good to have third-party journalistic review of DID methods.
+        * Key roll-over and recovery
+            * repo in IDWG for lists recovery methods we know about.
+            * For the Confidential Storage (SDS) WG, key recovery is pretty much out of scope. 
+            * There is essentially only a limited set of options (menmonic devices, secret sharing).
+            * Biometrics must not be used as a primary private key ("you can't rotate biometrics"). Biometrics can be used to unlock a private key, i.e. as an authorization capability.
+            * Universal Wallet Conceptual Clarifications 
+            * Universal Registrar problem
+
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Update around [WACI](https://github.com/hellobloom/wallet-credential-interactions/pull/5)
+        * Inform about VC Marketplace Workitem: Candidates:
+            * In addition to existing: *KILT, Civic*
+        * Credential Ontology and Tooling: What should the output to the group be: JSON Schemas, JSON-LD Contexts, Overlab with CCG Vocubulary. Workitem + Affinidi. Getting people at the table.
+        * Recovation Workitem TBD (discuss with Gabe.)
+
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * blog article about OIDF collaboration
+        * [OIDC workshop on Dec 15th inclusing SIOP/DIF](https://openidentityexchange.org/networks/87/events.html?id=1031)
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * Current status on 1st complete draft? 
+        * DIDComm.org Progress
+            * https://github.com/decentralized-identity/didcomm.org
+            * https://didcomm.org / https://www.didcomm.org  (works)
+        * DID Use Cases
+            * [Original]( https://github.com/w3c/did-use-cases/pull/100)
+            * [Nader](https://github.com/w3c/did-use-cases/pull/122)
+                - [Preview](https://pr-preview.s3.amazonaws.com/creatornader/did-use-cases/pull/122.html#messaging)
+            - Needs New PR.
+            - Expansion of messaging into protocols?
+        * Issues:
+            - [128](https://github.com/decentralized-identity/didcomm-messaging/pull/128) - to header semantics
+            - [131](https://github.com/decentralized-identity/didcomm-messaging/pull/131) - from/to DID Query Parameters
+        * Bluetooth Transport
+            - [status/questions](https://hackmd.io/@animo/didcomm-bluetooth-transport)
+
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * SIP 1 status
+            * Expected by the end of the month.
+        * Canonical and equivalent identifiers status
+        * Finalize rules for evaluation of operations and dropping of files
+        * Spec / reference implementation inconsistencies
+    * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+        * new name: *Confidential Data Store Specification*
+        * Discussion: Storage Operations, and Authorization Structure
+    * Glossary group 
+        * might come back to life with new work item(s)
+            * Updates? 
+
+3. **Additional Agenda items**
+    * __DIF F2F Virtual meeting - January 19, Tuesday.__
+        * [Sign up](https://www.eventbrite.com/e/dif-face-to-face-virtual-2-tickets-131061150429)
+    * Track GitHub 
+        * Reach out to the Chairs of WGs (where WG charter for IPR has been signed) with your Github handle to be added to the Github teams 
+    * Announcement from DID Auth WG: there will be a SIOP/DIF presentation at the Open Identity Exchange December workshop at 1500-1700 GMT.  information [here](https://openidentityexchange.org/networks/87/events.html?id=1031)
+
+
 ## Meeting - 25 Nov 2020 - (1100 ET) 
  
 ### Agenda
