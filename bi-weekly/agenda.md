@@ -26,10 +26,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. **Welcome and introductions**
 2. **Groups**
-    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page]
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
         *  Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
         *  BBS+ in Aries overview with Stephen Curran
-        *  SSIF & ESSIF-Lab interop deep dive
+        *  eSSIF & eSSIF-Lab interop deep dive
             *  Interop specifications discussion-- how to align with existing API standards?
 
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
@@ -72,8 +72,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Issues:
             - [128](https://github.com/decentralized-identity/didcomm-messaging/pull/128) - to header semantics
             - [131](https://github.com/decentralized-identity/didcomm-messaging/pull/131) - from/to DID Query Parameters
-        * Bluetooth Transport
-            - [status/questions](https://hackmd.io/@animo/didcomm-bluetooth-transport)
+        * Bluetooth Transport - possible work item?
+            - [status/questions](https://hackmd.io/animo/didcomm-bluetooth-transport)
+        *  
 
     * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
         * SIP 1 status
@@ -93,8 +94,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * [Sign up](https://www.eventbrite.com/e/dif-face-to-face-virtual-2-tickets-131061150429)
     * Track GitHub 
         * Reach out to the Chairs of WGs (where WG charter for IPR has been signed) with your Github handle to be added to the Github teams 
+    * [MyData conference](https://online2020.mydata.org/tickets/) next two days!
+        * DIF Member Domi Labs aG will be [talking about](https://www.linkedin.com/posts/domi-labs_event-digital-digitaltransformation-activity-6742433961647063040-EpvN) their work in the European Commission's Data Portability Services Incubator (DAPSI)
+    * [Thoughtful Biometrics](https://thoughtfulbiometrics.org/) conference, featuring many DIF companies and independent researchers, will be in early February. In addition to the obvious authentication, security, ethics, and government/digital-ID topics, there will also be a technical focus on biometrics for less well-known use-cases, such as [key recovery](https://medium.com/decentralized-identity/dif-id-wg-starting-work-on-cryptographic-secret-recovery-204117b6a2ab?source=friends_link&sk=15e09af545daa6dc86fae39ee9ea632e).
     * Announcement from DID Auth WG: there will be a SIOP/DIF presentation at the Open Identity Exchange December workshop at 1500-1700 GMT.  information [here](https://openidentityexchange.org/networks/87/events.html?id=1031)
-
 
 ## Meeting - 25 Nov 2020 - (1100 ET) 
  
