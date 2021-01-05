@@ -20,22 +20,101 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+
+# Meeting - 6 January 2021 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        *  Microsoft Authenticator functionality presentation (not live demo) and discussion around consent 
+        *  Year in review session
+  
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * new .NET implementation 
+        * goal to create new work item proposal/approval process
+        * preparation for F2F started
+
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * New work items:
+            * [Credential Manifest - work item](https://github.com/decentralized-identity/claims-credentials/pull/2)
+                * Presentation exchange meetings will be Credential Manifest meetings from now on.
+            * [VC Marketplace - work item](https://github.com/decentralized-identity/claims-credentials/pull/1)
+        * Presentation Exchange, nearing 0.1.0 release.
+            *  blog article in preparation
+            *  last issues have been raised 
+        * Aries RFCs and their Integration of PE and CM specifications.
+        * Aries-GO plans full support of BBS+ and PE and the end of Q1/2021
+        * Status on Schema Work
+
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * 
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * DID core usecases added 
+        - PR/Issues: 
+            - [128](https://github.com/decentralized-identity/didcomm-messaging/pull/128) - to header semantics
+            - [134](https://github.com/decentralized-identity/didcomm-messaging/issues/134) - `reply_*` headers and the support of DIDs without endpoints
+            - [135](https://github.com/decentralized-identity/didcomm-messaging/issues/135) - Size (byte length) Specification for DIDComm Messages
+            - [140](https://github.com/decentralized-identity/didcomm-messaging/pull/140) - Anonymous From
+            - [141](https://github.com/decentralized-identity/didcomm-messaging/pull/141) - expires_time semantics
+        - Support DID Methods without endpoint support
+        - Interop testing? 
+        - DIDComm Bluetooth discussion (Wed - Jan 6th, 12pm ET)
+        - ACK - inclusion and status
+        - [139](https://github.com/decentralized-identity/didcomm-messaging/pull/139) - Proposed Reply Header Text
+
+
+
+
+
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * Sidetree.js (Orie / Transmute)
+            * https://github.com/transmute-industries/sidetree.js
+        * Element DID method
+            * http://staging.element.transmute.industries/ < blockexplorer / staging testnet
+            * https://element-did.com/ < older version on a previous version of sidetree.
+        * Photon DID method (based on Amazon QLDB + ipfs)
+        * Ion DID Method (Daniel / Microsoft)
+        * SecureKey
+            * GoLang implementation in progress - https://github.com/trustbloc/sidetree-core-go
+        * Issue review:
+            * [965](https://github.com/decentralized-identity/sidetree/issues/965) - algorithm to use for hashing suffix data
+
+
+    * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+        * new name: *Confidential Data Store Specification*
+        
+    * Glossary group 
+        * might come back to life with new work item(s)
+            * Updates? 
+
+3. **Additional Agenda items**
+    * __DIF F2F Virtual meeting - January 19, Tuesday.__
+        * [Sign up](https://www.eventbrite.com/e/dif-face-to-face-virtual-2-tickets-131061150429)
+        * [Agenda discussion](https://docs.google.com/spreadsheets/d/1hVnwrnU7QOp_rA7AcK2NTQkflSAg0zvQ3-We2DqyRpk/edit?ts=5fea38e1#gid=445783158)
+        * Testing/learning [graphical conference tool](https://gather.town/app/OhVftM5pgOzKTV7t/DIF%20F2F) 
+    * Reminder: Better GitHub Tracking: Teams, WGs, WIs
+        * Reach out to the Chairs of WGs (where WG charter for IPR has been signed) with your Github handle to be added to the Github teams 
+
+
 ## Meeting - 9 December 2020 - (1100 ET) 
  
 ### Agenda
 
 1. **Welcome and introductions**
 2. **Groups**
-    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
         *  Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
         *  BBS+ in Aries overview with Stephen Curran
         *  eSSIF & eSSIF-Lab interop deep dive
             *  Interop specifications discussion-- how to align with existing API standards?
 
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
-        * Method Spec Registry analytics and some possible directions for DIF-based efforts to structure DID Method comparison/review
+        * [Method Spec Registry analytics](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md#meeting---30-nov-2020---1400-et-recording) and some possible directions for DIF-based efforts to structure DID Method comparison/review
             * Sam suggested to do analytics of DID method usage through Universal Resolver
             * Sophie suggested that authors/implementers should be asked to supply contact information
+            * Juan mentioned journalists, researchers, and consultancies would all benefit from a common repository for neutral, factual information as well as self-assessments against the DID Rubric
         * Discussion around accessibility/usability of DID technology
             * it felt hard to get back to the topic and find the inside knowledge that's required to use DIDs.
             * Sophie agreed that it was hard to find things, there are too many documents and some broken links.
@@ -90,9 +169,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             * Updates? 
 
 3. **Additional Agenda items**
+    * Question about DID Method certification or U.R. data: Markus mentioned that this is an ongoing conversation, most recently discussed at the 30Nov ID [WG meeting](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md#meeting---30-nov-2020---1400-et-recording).
     * __DIF F2F Virtual meeting - January 19, Tuesday.__
         * [Sign up](https://www.eventbrite.com/e/dif-face-to-face-virtual-2-tickets-131061150429)
-    * Track GitHub 
+    * Better GitHub Tracking: Teams, WGs, WIs
         * Reach out to the Chairs of WGs (where WG charter for IPR has been signed) with your Github handle to be added to the Github teams 
     * [MyData conference](https://online2020.mydata.org/tickets/) next two days!
         * DIF Member Domi Labs aG will be [talking about](https://www.linkedin.com/posts/domi-labs_event-digital-digitaltransformation-activity-6742433961647063040-EpvN) their work in the European Commission's Data Portability Services Incubator (DAPSI)
