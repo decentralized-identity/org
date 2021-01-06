@@ -28,8 +28,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 1. **Welcome and introductions**
 2. **Groups**
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
-        *  Microsoft Authenticator functionality presentation (not live demo) and discussion around consent 
+        *  Microsoft Authenticator func
+        *  tionality presentation (not live demo) and discussion around consent 
         *  Year in review session
+            *  Where Interop Happens
+            *  Adrian presentation
   
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * new .NET implementation 
@@ -42,6 +45,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                 * Presentation exchange meetings will be Credential Manifest meetings from now on.
             * [VC Marketplace - work item](https://github.com/decentralized-identity/claims-credentials/pull/1)
         * Presentation Exchange, nearing 0.1.0 release.
+            *  [**call for review on this version - Until 22nd of January**](https://lists.w3.org/Archives/Public/public-credentials/2020Dec/0148.html)
             *  blog article in preparation
             *  last issues have been raised 
         * Aries RFCs and their Integration of PE and CM specifications.
@@ -49,7 +53,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Status on Schema Work
 
     * **DID Auth** (Oliver, Kyle) *half hibernated state*
-        * 
+        * Asia specific AB connect wg calls at OIDF.
+        * Tobias & Kristina lead the work there 
+        * Special topic calls within OIDF 
+            * 
     * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         * DID core usecases added 
         - PR/Issues: 
@@ -84,6 +91,8 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
     * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
         * new name: *Confidential Data Store Specification*
+        * Discussion on identifiers
+            * Items added to EDV, therefore, they need identifiers for retrieval. "content addresssable identifier" is not best match
         
     * Glossary group 
         * might come back to life with new work item(s)
