@@ -3,5 +3,15 @@ Here you will find the authoritative legal texts of the [foundation](https://git
 
 ## Member Knowledge-Base:
 
+Legal documents: 
+|[DIF Member Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf)|[DIF Feedback Agreement](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Feedback%20Agreement%20v.%204.0.2_3_18.pdf)|[DIF Liaison Agreement](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Generic%20Liaison%20Agreement_preview.pdf)|
+|---|---|---|
+
+Working Group chaters 
+
+|[Identifiers and Discovery WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_ID_WG_charter_v1.pdf)|[Claims and Credentials WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_CC_WG_charter_v1.pdf)|[DID Authentication WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_DIDAuth_WG_charter_v1.pdf)|[DID Communication WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_DIDcomm_WG_Charter_v1.pdf)|[Sidetree WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_Sidetree_WG_charter_v1.pdf)|[Secure Data Storage WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_SDS_WG_charter_v1.pdf)|
+|---|---|---|---|---|---|
+
+Useful documents
 |[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|
