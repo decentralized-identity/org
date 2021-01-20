@@ -20,6 +20,66 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+# Meeting - 20 January 2021 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+    - Thank you for everyone making DIF F2F Virtual such a success! 
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        * Kaliya presented her new [paper](https://docs.google.com/document/d/1sipXx9f_hBC8D0S1qZNMAhehblRW8pab-B4TX7CF0lw/edit0)
+            *  Scene by Scene reviwe
+            *  call to action:
+                *  Scenes that need the most love: 8, 9, 10
+        *  [Veramo](http://veramo.io/) intro - modular Javascript framework for verifiable data
+            *  Consensys will donate the work to DIF, once the right location is found. 
+        
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * preparation for F2F
+        * [list](https://github.com/decentralized-identity/identifiers-discovery#work-items) of current work items 
+            * discussion on did:peer's status
+            * KERI implementations are moving ahead
+            * Tomislav Markovski (Streetcred) donated [DID:key implementation in RUST](https://github.com/decentralized-identity/did-key.rs)
+            * DID syntax discussion
+    
+    
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Accepted work items: 
+            * [Credential Manifest](https://github.com/decentralized-identity/claims-credentials/blob/main/work_items/credential_manifest.md) `Weekly Thu 1PM EST`
+            * [VC Marketplace](https://github.com/decentralized-identity/claims-credentials/blob/main/work_items/vc_marketplace.md) `Weekly Tue 8AM EST`
+        * Presentation Exchange status update
+            * `Comments on the Draft are welcome through 03:59 UTC/GMT on 2021-01-22`
+        * Spherity (Aledander Yenkalov) presentation 
+        * DIF F2F preparation
+
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * OIDF meeting after DIF F2F
+        * Kristina presented at F2F about the effort OIDF will do on SIOP.
+
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * preparation for DIF F2F 
+        * Jolocom DIDcomm Demo (Ivan)
+        * DIDcomm bluetooth first meeting 
+        * NFC discussion? 
+
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * [Deactivate resolution/metadata](https://github.com/w3c/did-core/issues/468)
+        * [Equivalence property notes on implications](https://github.com/w3c/did-core/pull/542)
+        * discussion:
+            * Align with did core PR
+                1. deactivate result missing context
+                2. Empty controller in all resolution results
+                3. Return HTTP 200 instead of 410 for deactivate
+                    * https://github.com/decentralized-identity/sidetree/pull/1000#issuecomment-762442040
+
+     * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+         * discussion:
+             * Example capabilities for operations
+
+3. **Additional Agenda items**
+    - Thank you again for F2F
+    - 
 
 # Meeting - 6 January 2021 - (1100 ET) 
  
