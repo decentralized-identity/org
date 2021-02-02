@@ -20,6 +20,68 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+# Meeting - 3 February 2021 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+    -  
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        * Origianal Context:
+            * [HealthCards](https://github.com/smart-on-fhir/health-cards) 
+            * Mitre, Carin, and Common [press release](https://www.businesswire.com/news/home/20210114005294/en/Broad-Coalition-of-Health-and-Technology-Industry-Leaders-Announce-Vaccination-Credential-Initiative-to-Accelerate-Digital-Access-to-COVID-19-Vaccination-Records)
+        * Discussions
+            - eparation of concerns where for protocols and data models
+                - authorization and messaging as yin and yang?
+                - diversion through didcomm
+        
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Integration between [ACA-py](https://github.com/hyperledger/aries-cloudagent-python/)/[Veramo](https://github.com/uport-project/veramo)/[aries-framework-go](https://github.com/hyperledger/aries-framework-go/) and [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/).
+            * DID write operations in Aries-framework-go, in Veramo, in Universal Registrar
+            * Discussion around "trusted endpoints" for DID methods
+        * discussion on DID CRUD operations, including architectures, interfaces, implementations (such as Universal Resolver/Registrar, ACA-py, aries-framework-go, Veramo, DIDKit)
+            * Introduction to DIDKit
+            * Discussion on architectures of DID registration software
+            * Discussion around government-approved cryptography, and adoption of DIDs.
+        * Consider proof-of-control
+
+    
+    
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Presentation Exchange is waiting for the last PR
+        * 
+
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * 
+
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * DID Registry DIDComm service types
+        - DID Use Cases
+            - Extended discussion: https://github.com/w3c/did-use-cases/pull/126
+            - New PR: https://github.com/w3c/did-use-cases/pull/139
+            - New PR Preview: https://pr-preview.s3.amazonaws.com/w3c/did-use-cases/pull/139.html#messaging
+        - PRs
+            - [140](https://github.com/decentralized-identity/didcomm-messaging/pull/140)
+        -  DIDCom V2 Library - Rust (donated by Jolocom
+            -  https://github.com/decentralized-identity/didcomm-rs
+        - Walkthrough and Q&A
+            - [Localization](https://hackmd.io/Bcomd6hqTVOVh7oWjlo6kQ)
+            - [Attachments](https://hackmd.io/zPQHVHtpTiShXG64TYHyiQ)
+
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * [did:orb](https://trustbloc.github.io/did-method-orb/) 
+
+     * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+         * discussion:
+             * Replication Discussion
+                 * [notes](https://lists.identity.foundation/g/sds-wg/wiki/25267)
+
+3. **Additional Agenda items**
+    - Wallet Security WG
+        - [Draft charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) 
+
+
 # Meeting - 20 January 2021 - (1100 ET) 
  
 ### Agenda
@@ -79,7 +141,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 3. **Additional Agenda items**
     - Thank you again for F2F
-    - 
+    - What was your (honest) opinion about gatherTown + Zoom
+        - Went great (opinion) 
+        - gather.town sponsored IIW event
+        - networking was good, but for event hosting its not the best
+            - 
 
 # Meeting - 6 January 2021 - (1100 ET) 
  
