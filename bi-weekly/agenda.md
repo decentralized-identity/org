@@ -99,7 +99,7 @@ VC file formats: https://lists.w3.org/Archives/Public/public-credentials/2021Feb
                 - Is the wallet only for SSI or also could be used for finance too? 
                 - eg: https://en.wikipedia.org/wiki/FinTS
                 - Who would be interested to co-chair? 
-                - mailing list?
+                - mailing list - https://lists.identity.foundation/g/wallet-security
 
 
 
