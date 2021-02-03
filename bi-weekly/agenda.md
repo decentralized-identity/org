@@ -25,16 +25,19 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### Agenda
 
 1. **Welcome and introductions**
-    -  
+    -  Hakan Yildiz (TU Berlin)
+    -  Michael Herman (Trusted Digital Web)
+    -  Paul Bastian (Bundesdruckerei)
 2. **Groups**
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
         * Origianal Context:
-            * [HealthCards](https://github.com/smart-on-fhir/health-cards) 
             * Mitre, Carin, and Common [press release](https://www.businesswire.com/news/home/20210114005294/en/Broad-Coalition-of-Health-and-Technology-Industry-Leaders-Announce-Vaccination-Credential-Initiative-to-Accelerate-Digital-Access-to-COVID-19-Vaccination-Records)
         * Discussions
             - eparation of concerns where for protocols and data models
                 - authorization and messaging as yin and yang?
                 - diversion through didcomm
+        - Dan Brunett: DID-core presentaion and ETH Entr. Alliance
+        - Markus: potential multi VC format representation
         
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * Integration between [ACA-py](https://github.com/hyperledger/aries-cloudagent-python/)/[Veramo](https://github.com/uport-project/veramo)/[aries-framework-go](https://github.com/hyperledger/aries-framework-go/) and [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/).
@@ -45,6 +48,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             * Discussion on architectures of DID registration software
             * Discussion around government-approved cryptography, and adoption of DIDs.
         * Consider proof-of-control
+        * KERI WG charter is being finalized 
 
     
     
@@ -70,7 +74,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             - [Attachments](https://hackmd.io/zPQHVHtpTiShXG64TYHyiQ)
 
     * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
-        * [did:orb](https://trustbloc.github.io/did-method-orb/) 
+        * ion v1
+        * issue reviews and editorial PRs for spec v1
+        * fyi: new Sidetree-based DID method: [did:orb](https://trustbloc.github.io/did-method-orb/) 
 
      * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
          * discussion:
@@ -80,6 +86,21 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 3. **Additional Agenda items**
     - Wallet Security WG
         - [Draft charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) 
+            - Question:
+                - Should there be consideration for SaaS wallet as well as standalone?
+VC file formats: https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0000.html
+                - Does the WG is focusing on best practices or evaluation? 
+                - Adding a use case index as a part of the WG? (similar to VC EDU) - https://docs.google.com/document/d/1vjrvwmvHOYmJd_Dqwk_TfGjKLTiTe9fzX9J4QqCUcf0/edit#
+                https://github.com/w3c-ccg/vc-ed-use-cases/issues
+                https://w3c.github.io/did-use-cases/#featureBenefitGrid
+                    - substances (drugs) related secure signatures (Adrian’s mention of DEA licensing for writing prescriptions in the US)
+                    - education ^^ 
+                - Are there dependencies? Is there a timeline or hard deadline? 
+                - Is the wallet only for SSI or also could be used for finance too? 
+                - eg: https://en.wikipedia.org/wiki/FinTS
+                - Who would be interested to co-chair? 
+                - mailing list?
+
 
 
 # Meeting - 20 January 2021 - (1100 ET) 
