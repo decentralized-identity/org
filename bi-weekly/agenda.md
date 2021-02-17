@@ -20,6 +20,55 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+# Meeting - 17 February 2021 - (1100 ET) 
+ 
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        * Last week: Intro to the Revocation Topic (first in a series- Martin Riedel gave a very even-handed overview of pros and cons of the three main types of status-check mechanism, and gave examples of each. Future sessions will cover proposed new mechanisms by DIF members, and some might even be led by guest-host Andreas Freitag, who is looking at how to evaluate them objectively against something like the DID-Rubric!
+        * Today: Recently registered DID Methods- DID:Orb and DID:Tezos, with a discussion of how to design and specify and register future methods
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Updates on Fuzzy Encryption project (C++ implementation released!), KERI (WG Charter pending SC approval)
+        * DID-Dillo project- lightweight in-browser DIDKit build for resolving DIDs locally with UR fallback. 300kb microbrowser can run on a flipphone!
+        * Helpful overview of DID Method registration process, multi-signature and verification method mechanics
+        * Universal Registrar/Resolver & DIDComm: interesting work item afoot   
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Gabe Cohen has had to step down from chairship, but will still be involved in specific work items. His colleague Daniel McGrogan has been nominated.
+        * Presentation Exchange is in final-final editorial, and ready for review! 
+        * VC Marketplace is still accepting use-case proposals, get in touch if you're interested in their VC business-model/marketplace-use-case sandbox/discussion group!
+        * Credential Manifest still booting up and accepting initial PRs, not too late to get involved
+        * Poke around the new work item [Schema Forms](https://github.com/decentralized-identity/schema-forms)
+    * **DID Auth** (Oliver, Kyle) *half hibernated state*
+        * SIOP meetings
+
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        * Major open PRs: [#157 - JSON-LD Context](https://github.com/decentralized-identity/didcomm-messaging/pull/157) 
+        * PRs merged or closed: [DID-use-cases #messaging](https://w3c.github.io/did-use-cases/#messaging), [Editorial PR #160](https://github.com/decentralized-identity/didcomm-messaging/pull/160)
+        * Issues discussed: [159 - Which keys are used for encryption](https://github.com/decentralized-identity/didcomm-messaging/issues/159), [did-core #599](https://github.com/w3c/did-core/issues/599)
+        * Ongoing work items on sample implementation of [DIDComm-rs](https://github.com/decentralized-identity/didcomm-rs) & extension spec+implementation of [DIDComm-bluetooth](https://github.com/decentralized-identity/didcomm-bluetooth)
+    * **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        * home stretch of WG-internal "spec v1" PRs and discussions-- only 7 open issues tagged "v1" left! will be calling for wide review in a week
+        * new Sidetree-based DID method: [did:orb](https://trustbloc.github.io/did-method-orb/) was discussed on interop 2 hours ago, check Slack for the recording!
+    * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+         * use-cases discussion for better defining identity hub/EDV boundary and division of labor
+             * Replication Discussion
+                 * [notes](https://lists.identity.foundation/g/sds-wg/wiki/25267)
+
+3. **Additional Agenda items**
+    - Wallet Security WG
+        - [Draft charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) 
+            - Questions:
+                - Should there be consideration for SaaS wallet as well as standalone?
+VC file formats: https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0000.html
+                - Does the WG is focusing on best practices or evaluation? 
+                - Adding a use case index as a part of the WG? (similar to VC EDU) - https://docs.google.com/document/d/1vjrvwmvHOYmJd_Dqwk_TfGjKLTiTe9fzX9J4QqCUcf0/edit#
+                - Who would be interested to co-chair? 
+                - mailing list - https://lists.identity.foundation/g/wallet-security
+     - #DIF-Gov update - operating addendum iterated and ready to go, but implementation details such as appointment/election calendar and transitions still to be worked out. Come friday if such details interest you!
+
+
 # Meeting - 3 February 2021 - (1100 ET) 
  
 ### Agenda
