@@ -41,7 +41,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Credential Manifest still booting up and accepting initial PRs, not too late to get involved
         * Poke around the new work item [Schema Forms](https://github.com/decentralized-identity/schema-forms)
     * **DID Auth** (Oliver, Kyle) *half hibernated state*
-        * SIOP meetings
+        * DIF-OIDF joint meetings
 
     * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         * Major open PRs: [#157 - JSON-LD Context](https://github.com/decentralized-identity/didcomm-messaging/pull/157) 
