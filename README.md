@@ -1,6 +1,8 @@
 # Organizational Documentation Hub
 Here you will find the authoritative legal texts of the [foundation](https://github.com/decentralized-identity/org/tree/master/Org%20documents/Membership%20agreements) and of its [Working Groups](https://github.com/decentralized-identity/org/tree/master/Org%20documents/WG%20documents), as well as a more functional knowledge-base for its members.
 
+New members and organizations considering joining DIF are recommended to peruse the minutes and recordings of the [biweekly updates](https://github.com/decentralized-identity/org/blob/master/bi-weekly/agenda.md) meetings.
+
 ## Member Knowledge-Base:
 
 Legal documents: 
