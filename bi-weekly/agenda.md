@@ -20,6 +20,16 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
 </details>
 
+# Meeting - 3 March 2021 - (1100 ET)
+
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+3. **Additional Agenda items**
+    - __Biweekly Topic: Travel and Hospitality SIG Proposal__
+        * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows.
+
 # Meeting - 17 February 2021 - (1100 ET) 
  
 ### Agenda
