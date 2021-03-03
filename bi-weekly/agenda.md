@@ -62,17 +62,24 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     - **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
          * Discussion about [Identity Hub Requirements](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view)
      * **Product Managers** 
+         * DIF updates - Wallet Security WG
+         * Key Management (part 2), part 1 [summary here](https://whimsical.com/dif-product-manager-topics-GTPeiBy3qQ7DBNTSqDZiZ5)
 
     * **Healthcare** 
 
     * **Finance & Banking** 
+        * General planning for 2021
+        * Wallet Security WG's relationship to the SIG
+        * AOBs
 
              
 
 
 4. **Additional Agenda items**
+    * **Wallet Security kickoff** - [register](https://forms.gle/A391WWLYWxMHZ7qt6) for next week or listen to recording
     - __Biweekly Topic: Travel and Hospitality SIG Proposal__
-        * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows.
+        * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows. [**Register here**](https://forms.gle/87na2GD58v9PSbmd8)
+
 
 # Meeting - 17 February 2021 - (1100 ET) 
  
