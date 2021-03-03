@@ -26,7 +26,51 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. **Welcome and introductions**
 2. **Groups**
-3. **Additional Agenda items**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
+        * Revocation Mechanisms - Mike Lodder and Revocable BBS+
+            * Non-Private Methods, Pseudonymous Methods, Anonymous Methods, Indy Style, Merkle trees w/circuit proofs, RSA, Bilinear Maps Accumulators, 
+            * Revocation is just difficult mathematically to scale
+        * Mike is also working on a bearer-token/passwordless auth system as well
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Updates on progress on DID Core in W3C DID WG - Discussion around data model and representations, e.g. see
+        * Controller, verification methods, authorization in DID Core - See issues in DID Core
+        * Presentation by Jack about EOS chain and larger EOSIO ecosystem
+            * Detailed discussions about multi-sig verification methods and delegation methods
+            * Consensus that a new **cryptosuite** should be defined (as a work item in W3C CCG or DIF)
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * [Presentation Exchange](https://identity.foundation/presentation-exchange/) aims to reach WG approved level next week
+        * [Credential Manifest](https://github.com/decentralized-identity/credential-manifest) - how issuers differ from verifiers in their publication needs and mechanisms
+        * [VC Marketplace](https://github.com/decentralized-identity/vc-marketplace) - VC business-model/marketplace-use-case sandbox/discussion group! Detailed discussions not just about payment and incentivization but also discovery mechanisms, semantic definition/propagation
+    *  **DID Auth** (Oliver, Kyle) half hibernated state
+        *  DIF-OIDF joint meetings - follow along on the [bitbucket](https://bitbucket.org/openid/connect/issues) issues if the timing doesn't work for you!
+    *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        *  PRs
+            - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context
+            - [160](https://github.com/decentralized-identity/didcomm-messaging/pull/160) - Remove old queue reference/TODOs
+        - Issues
+            - [162](https://github.com/decentralized-identity/didcomm-messaging/issues/162) - Rewrapping forwarded messages.
+            - [159](https://github.com/decentralized-identity/didcomm-messaging/issues/159) - Which keys are used for encryption.
+        - Discussion Topics
+            - Peer DID Method 2: https://github.com/decentralized-identity/peer-did-method-spec/pull/26
+    - **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
+        - [**Sidetree v1.0.0**](https://identity.foundation/sidetree/spec/) 
+        - ION dashboard demo
+        - Open PRs
+        - Tag spec v1.0. Agreed to tag EOD today.
+        - Spec followup: need to add references.
+        - Discussion of v1.1 (time permitting)
+    - **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+         * Discussion about [Identity Hub Requirements](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view)
+     * **Product Managers** 
+
+    * **Healthcare** 
+
+    * **Finance & Banking** 
+
+             
+
+
+4. **Additional Agenda items**
     - __Biweekly Topic: Travel and Hospitality SIG Proposal__
         * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows.
 
@@ -71,13 +115,13 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
          * use-cases discussion for better defining identity hub/EDV boundary and division of labor
              * Replication Discussion
                  * [notes](https://lists.identity.foundation/g/sds-wg/wiki/25267)
-         * second half of use-case list tomorrow (inshallah)
+         * second half of use-case list tomorrow 
     
     * **Product Managers** - KMS and UX
         * Next session: round 2
 
     * **Healthcare** - FHIR-->LD VC translation
-        * There was a great session with Burak Serdar (Cloud Privacy Labs) and John Walker (Linux Foundation Public Health/Covid Credentials Initiative) talking about their work in ToIP structuring FHIR queries and converting their responses into Linked-Data-grounded VCs that could then be translated to various VC formats, utilizing the OCA framework in two different ways. A recording worth listening to if you're working on portable health records, for Covid purposes or otherwise!
+  =
 
     * **Finance & Banking** - Guest presentation on AML
         * next meeting is a working session
