@@ -17,8 +17,81 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * To participate - This is an open call, feel free to join and contirubute
 * Time: bi-weekly Wednesdays, 11:00-12:00 ET
 * [Calendar entry](https://calendar.google.com/event?action=TEMPLATE&tmeid=OWtzNWZuanA4bWRnYmF0ZnVxaDR0MnQ2cGVfMjAyMDA5MjFUMTgwMDAwWiBkZWNlbnRyYWxpemVkLmlkZW50aXR5QG0&tmsrc=decentralized.identity%40gmail.com&scp=ALL)
-* [Zoom room](https://us02web.zoom.us/j/313879009?pwd=dHZiSFlFUEYwVk91dEptaTAraTlBZz09), Meeting ID: 313 879 009, Password: 743522 
+* [Zoom room](https://us02web.zoom.us/j/81262437540?pwd=UW5ZZkxxTGZXc1RpbFVXTW5JNkdDUT09), Meeting ID: 812 6243 7540, Password: 212121 
 </details>
+
+# Meeting - 17 March 2021 - (1100 ET)
+
+### Agenda
+
+1. **Welcome and introductions**
+    * [Presentation Exchange](https://identity.foundation/presentation-exchange/) v1.0.0!! 
+    * +1 summer time zone misery.
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
+        * Justin Richter & Adrian Gropper on  newest [GNAP core spec](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-04.html)
+            * GNAP = Grant Negotiation and Authorization Protocol
+                * _Defines a mechanism for delegating authorization to a piece of software, and conveying that delegation to the software. This delegation can include access to a set of APIs as well as information passed directly to the software._
+            * Naïv version: everyone is their own AS 
+            * "Token factory" verion
+            * Fancy version 
+        * NGI report on disposible identites 
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        *  discussion on multisig and delegation in DID methods
+            *  review of https://github.com/Gimly-Blockchain/verifiable-conditions
+            *  discussion on advanced verification methods involving smart contracts, etc.
+        *  new did:solid method (but not related to Solid) but identitydotcom
+        *  Solana blockchain discussion
+        *  member run universal resolver: https://did.civic.com/
+        *  Universal Registrar discussion
+    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * **[Presentation Exchange](https://identity.foundation/presentation-exchange/) - v1.0.0 status** - WOW! 
+        *  Credential Manifest
+            *  Extract Styling Spec
+        *  VC Marketplace
+            *  How will the VCM handle registration crawling
+        *  LDAP VC method status
+    *  **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
+        *  DIF-OIDF joint meetings - follow along on the [bitbucket](https://bitbucket.org/openid/connect/issues) issues if the timing doesn't work for you!
+            *  Special calls on SIOP taking place under OIDF. (incl. in DIF calendar)
+        *  On 29th April SIOP/DIF will be represented by Kristina at the OIDF workshop.
+    *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        *  - PRs
+            - [171](https://github.com/decentralized-identity/didcomm-messaging/pull/171) - media type in envelope
+            - - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context (conflicts)
+            - [166](https://github.com/decentralized-identity/didcomm-messaging/pull/166) - Curve P-384
+            - [167](https://github.com/decentralized-identity/didcomm-messaging/pull/167) - accept property
+            - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments WIP
+                - [Encrypted Attachments](https://hackmd.io/jx8W0boDSzmLe2r6LKQU5w)
+        - Issues
+            - [165](https://github.com/decentralized-identity/didcomm-messaging/issues/165) - cty of JWM
+            - [162](https://github.com/decentralized-identity/didcomm-messaging/issues/162) - Rewrapping forwarded messages. - awaiting PR
+        - Discussion
+            - Peer DID Method 2 - [pull 26](https://github.com/decentralized-identity/peer-did-method-spec/pull/26)
+    * **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+        * [Secure Data Storage Features](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ)
+            * EDV Client Features
+            * EDV Server Features
+            * HUB Features
+            * Decentralized Twitter (Dewitter) Requirements List
+                * Assumptions, Principles, Requirements, and Other Considerations
+    * **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+    * **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+         * Discussion on Wallet Security WG
+         * Product intros:
+             * GlobaliD
+             * Serto
+    * **Healthcare** 
+        * delayed meetings until April
+    * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
+        * no meeting since last bi-weekly
+3. **Additional Agenda items**
+    * Wallet Security - soon a WG, attend next week's meeting to close all outstanding comments on the charter. 
+    * **DIF Grants/Bounties/founded challenges** 
+        * [Proposal](https://docs.google.com/document/d/1MQllNfFvC3PiVi5jo_kT6OCq9w3_GoEGWjZb-0pwuys/edit) for managing it
+
+
+
 
 # Meeting - 3 March 2021 - (1100 ET)
 
@@ -30,21 +103,28 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Revocation Mechanisms - Mike Lodder and Revocable BBS+
             * Non-Private Methods, Pseudonymous Methods, Anonymous Methods, Indy Style, Merkle trees w/circuit proofs, RSA, Bilinear Maps Accumulators, 
             * Revocation is just difficult mathematically to scale
-        * Mike is also working on a bearer-token/passwordless auth system as well
+            * Mike is also working on a bearer-token/passwordless auth system as well
+        * Manu gave a presentation (earlier today) about the W3C / CCG long term plans 
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * Updates on progress on DID Core in W3C DID WG - Discussion around data model and representations, e.g. see
         * Controller, verification methods, authorization in DID Core - See issues in DID Core
         * Presentation by Jack about EOS chain and larger EOSIO ecosystem
             * Detailed discussions about multi-sig verification methods and delegation methods
             * Consensus that a new **cryptosuite** should be defined (as a work item in W3C CCG or DIF)
+
     * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
         * [Presentation Exchange](https://identity.foundation/presentation-exchange/) aims to reach WG approved level next week
+            * Next Monday - it will reach WG approved status unless last issues are raised
         * [Credential Manifest](https://github.com/decentralized-identity/credential-manifest) - how issuers differ from verifiers in their publication needs and mechanisms
         * [VC Marketplace](https://github.com/decentralized-identity/vc-marketplace) - VC business-model/marketplace-use-case sandbox/discussion group! Detailed discussions not just about payment and incentivization but also discovery mechanisms, semantic definition/propagation
-    *  **DID Auth** (Oliver, Kyle) half hibernated state
+    *  **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
         *  DIF-OIDF joint meetings - follow along on the [bitbucket](https://bitbucket.org/openid/connect/issues) issues if the timing doesn't work for you!
+            *  Special calls on SIOP taking place under OIDF. (incl. in DIF calendar)
+        *  SIOP "laundry list" by Kyle
+            *  selfissued.me was a limitation
     *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         *  PRs
+            - [166](https://github.com/decentralized-identity/didcomm-messaging/pull/166) - recommending P-384 over P-256 in DIDComm handshake/channel-security
             - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context
             - [160](https://github.com/decentralized-identity/didcomm-messaging/pull/160) - Remove old queue reference/TODOs
         - Issues
@@ -52,6 +132,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             - [159](https://github.com/decentralized-identity/didcomm-messaging/issues/159) - Which keys are used for encryption.
         - Discussion Topics
             - Peer DID Method 2: https://github.com/decentralized-identity/peer-did-method-spec/pull/26
+            - P384 discussion lead by Troy
     - **Sidetree** (Daniel,Troy, Tobias) - [meeting page](https://docs.google.com/document/d/12l4wNkgkDn0tXxTPKB502gRXHa1hd7m0_KyebfRqMAo/edit)
         - [**Sidetree v1.0.0**](https://identity.foundation/sidetree/spec/) 
         - ION dashboard demo
@@ -61,6 +142,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         - Discussion of v1.1 (time permitting)
     - **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
          * Discussion about [Identity Hub Requirements](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view)
+         * Once it is done then the focus is on EDV Specs 
      * **Product Managers** 
          * DIF updates - Wallet Security WG
          * Key Management (part 2), part 1 [summary here](https://whimsical.com/dif-product-manager-topics-GTPeiBy3qQ7DBNTSqDZiZ5)
@@ -70,15 +152,22 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * **Finance & Banking** 
         * General planning for 2021
         * Wallet Security WG's relationship to the SIG
+        * Discussion on wallets for the Banking sector
         * AOBs
+        *  __"portable KYC paper from EEA"__
+            *  reached out to the group
+            *  reworded [problem statement](https://github.com/sustany/dvg/wiki/Problem-Statement-Framing)
 
-             
-
-
-4. **Additional Agenda items**
+3. **Additional Agenda items**
     * **Wallet Security kickoff** - [register](https://forms.gle/A391WWLYWxMHZ7qt6) for next week or listen to recording
     - __Biweekly Topic: Travel and Hospitality SIG Proposal__
-        * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows. [**Register here**](https://forms.gle/87na2GD58v9PSbmd8)
+        * Some new members will be taking input on their [draft charter](https://drive.google.com/file/d/133WJ3RrviGBl7ppPNgo-dilZu9Xq3osY/view?usp=sharing) for a SIG looking at what industry-specific problems and power structures could gain from decentralized identity solutions for customer information and data flows. [**Register here**](https://forms.gle/87na2GD58v9PSbmd8) - 11th March, Thursday, 10 am ET.
+    *  __DIF Africa call kickoff__ 
+        *  Takes place tomorrow at 8am GMT+1
+    *  __#documentation-corps__ <- slack channel 
+    *  __IIW is coming up April 20-22__
+
+
 
 
 # Meeting - 17 February 2021 - (1100 ET) 
