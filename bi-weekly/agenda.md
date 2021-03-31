@@ -91,7 +91,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Use this coupon code for **20%** off: **DIF_XXXII_20**
     * DIF Governance Operating Addendum
         * SC election is coming up
-    * Documentation Corps 
+    * [Documentation Corps](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) 
 
 
 
