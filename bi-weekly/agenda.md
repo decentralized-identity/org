@@ -35,10 +35,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                 * [Slides and demo/videos from SVIP event last week](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit?usp=sharing)
                 - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
                 - [CHAPI test suite](https://github.com/w3c-ccg/chapi-interop-test-suite) recently updates as well
-        - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
-        - [Guided tour](https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
-        - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
-        - Cross-Industry plug-a-thon? Smaller than profiles
+        * Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
+        * [Guided tour](https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
+        * [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
+        * Cross-Industry plug-a-thon? Smaller than profiles
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * Review and discussion of DID WG test suite: https://github.com/w3c/did-test-suite/
         * Timeline and what the current ["CR"](https://docs.google.com/presentation/d/1nSLk3cwJ8CanDoMLsO_JS3-ltBEeM8HZVXSsAZbrIl4/) state means 
@@ -84,7 +84,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * delayed meetings until April
     * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
         * Alex David, Global Business Development Manager @ Raon
-        * 
+
 3. **Additional Agenda items**
     * Wallet Security WG is looking for Chairs (interim)
     * **[IIW is coming up](https://internetidentityworkshop.com/)** 
@@ -134,7 +134,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         *  - PRs
             - [171](https://github.com/decentralized-identity/didcomm-messaging/pull/171) - media type in envelope
-            - - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context (conflicts)
+            - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context (conflicts)
             - [166](https://github.com/decentralized-identity/didcomm-messaging/pull/166) - Curve P-384
             - [167](https://github.com/decentralized-identity/didcomm-messaging/pull/167) - accept property
             - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments WIP
