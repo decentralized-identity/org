@@ -20,6 +20,96 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/81262437540?pwd=UW5ZZkxxTGZXc1RpbFVXTW5JNkdDUT09), Meeting ID: 812 6243 7540, Password: 212121 
 </details>
 
+
+# Meeting - 14 April 2021 - (1100 ET)
+
+### Agenda
+
+1. **Welcome and introductions**
+    * [IIW](https://internetidentityworkshop.com/) is coming up. 
+* 2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
+    
+        * VC status review and discussion
+        * hack away at a simple public-facing, entry-level [FAQ](https://docs.google.com/document/d/1umHFLN-BbNF4YtDY5PdQMtdGHWKEKzcpLS8C-T4T8pQ/edit#) for basic SSI topics
+        * IIW panel and workshop scope review 
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * Breaking changes in [DID Core JSON-LD](https://github.com/w3c/did-spec-registries/pull/277) context
+            * Strictly speaking, all UR DID method implementations are now broken.
+            * Discussion around changing JSON-LD contexts, caching, versioning, hashlinks
+            * UR could implement a "fixing layer" for a transitional period, and simultaneously try to motivate implementers to fix their drivers.
+        * Universal Resolver policy questions about [driver submission and maintenance](https://github.com/decentralized-identity/universal-resolver/issues/186)
+            * UR currently supports several DID methods that are not in the DID spec registries.
+            * Probably we should have stricter policies going forward (e.g. only accept drivers for DID methods in the W3C method registry)
+            * group will propsoe to the TSC
+   * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+       * Presentation Exchange 
+           * **Ratification of v1.0.0: "Workgroup-approved Status"**
+           * next steps 
+       * Credential Manifest
+           * Still going through some scoping / requirement engineering.
+           * Should CM support to output multiple credentials.
+           * Presentation of current resolutions
+       * VC marketplace
+           * Moving it into Spec-up format
+           * Filling the determined UC Categories with more content.
+       * quick overview [UVI](https://gataca-io.github.io/verifier-apis/) (Essiflab)
+    * **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
+        *  DIF-OIDF joint meetings - follow along on the [bitbucket](https://bitbucket.org/openid/connect/issues) issues if the timing doesn't work for you!
+            *  Special calls on SIOP taking place under OIDF. (incl. in DIF calendar)
+            *  On 29th April SIOP/DIF will be represented by Kristina at the [OIDF workshop](https://openid.net/2021/03/01/registration-open-for-openid-foundation-virtual-workshop-april-29-2021/).
+    *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        *  PRs
+            - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message. 
+            - [173](https://github.com/decentralized-identity/didcomm-messaging/pull/173) - accept property in service block
+            - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments WIP
+                - [174](https://github.com/decentralized-identity/didcomm-messaging/pull/174) - Actual PR
+            - [177](https://github.com/decentralized-identity/didcomm-messaging/pull/177) - Profiles
+                - [Negotiation Topics](https://hackmd.io/p-ci0BZfQQirvNiN0poHHA)
+        - [181](https://github.com/decentralized-identity/didcomm-messaging/pull/181) - accept property with profiles
+        -  [180](https://github.com/decentralized-identity/didcomm-messaging/pull/180) - Align service Type with Aries
+            - [179](https://github.com/decentralized-identity/didcomm-messaging/issues/179) - Issue with commentary
+            - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message.
+        - Issues
+            - [Negotiation Topics](https://hackmd.io/p-ci0BZfQQirvNiN0poHHA)
+            - DIDComm RecipientKeys: Signing vs Encryption
+        - Discussions
+            - DIDComm RecipientKeys: Signing vs Encryption
+            - KERI Event Logs
+    *  **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+        *  Confidential Storage Specification Refactoring - 
+            *  calls alternating weekly between Identity Hubs and EDVs
+        *  Identity Hub dedicated subcall
+    *  **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+        *  IIW demo planning
+        *  [did:keri](https://identity.foundation/keri/did_methods/) method spec draft
+        *  did:peer is an intermediate step until KERI direct mode is live  
+    * **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+        *  Workday education wallet demo
+            * history of changes that lead to current key management profile
+            *  Q&A on roadmap, VC issuance, formats etc. 
+        *  DIF updates
+    * **Healthcare** 
+        * hybernated meetings 
+    * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
+        * Alex David, Global Business Development Manager @ Raon
+    * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
+        * No meeting since last meeting
+3. **Additional Agenda items**
+    * Wallet Security WG meeting next Monday. 
+    * **[IIW is coming up](https://internetidentityworkshop.com/)** 
+        * Use this coupon code for **20%** off: **DIF_XXXII_20**
+    * [SC election is here](https://blog.identity.foundation/nominations-for-the-steering-committee-election-now-open/)
+    * [Documentation Corps FAQ](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) v0.1 is live - feel free to leave marginal comments requesting new questions or better answers!
+
+
+
+
+
+
+
+
+
 # Meeting - 31 March 2021 - (1100 ET)
 
 ### Agenda
@@ -28,6 +118,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Summer time zone misery is over. 
 * 2. **Groups**
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
+    
         * Machine readable governance framework straw man (Telegramsam)
         * Trust frameworks at ToiP (Sankarshan)
         * The interoperability interop meeting 
@@ -35,10 +126,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                 * [Slides and demo/videos from SVIP event last week](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit?usp=sharing)
                 - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
                 - [CHAPI test suite](https://github.com/w3c-ccg/chapi-interop-test-suite) recently updates as well
-        * Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
-        * [Guided tour](https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
-        * [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
-        * Cross-Industry plug-a-thon? Smaller than profiles
+        - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
+        - Brief mention of the [Guided tour](https://www.youtube.com/watch?v=cWPiJrVKj-U) of DIF member iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit) recorded at a ToIP meeting 
+        - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
+        
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * Review and discussion of DID WG test suite: https://github.com/w3c/did-test-suite/
         * Timeline and what the current ["CR"](https://docs.google.com/presentation/d/1nSLk3cwJ8CanDoMLsO_JS3-ltBEeM8HZVXSsAZbrIl4/) state means 
@@ -74,24 +165,27 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     *  **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
         *  Confidential Storage Specification Refactoring
     *  **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+        *  QnA and less tech talk
     *  **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+        *  Lissi wallet demo (Adrian)
         *  Events & conferences 
             * GS1 US Digital Innovation Conference (March 30th / sign up by March 26th) [Details](https://web.cvent.com/event/5c5e5d0e-08b5-49f9-8f5e-c115c031b729/summary)
-        *  DHS SVIP Interoperability update (10 mins) 
+        *  DHS SVIP Interoperability update 
             * [Deck](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit#slide=id.p1)
             * [Transmute post](https://medium.com/transmute-techtalk/interoperability-is-not-a-choice-387d57c6dc32)
     *  **Healthcare** 
         * delayed meetings until April
     * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
         * Alex David, Global Business Development Manager @ Raon
-
+    * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
+        * Gathering tenative list of use-cases to focus on while deciding on chairs
 3. **Additional Agenda items**
     * Wallet Security WG is looking for Chairs (interim)
     * **[IIW is coming up](https://internetidentityworkshop.com/)** 
         * Use this coupon code for **20%** off: **DIF_XXXII_20**
     * DIF Governance Operating Addendum
         * SC election is coming up
-    * [Documentation Corps](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) 
+    * [Documentation Corps FAQ](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) v0.1 is live - feel free to leave marginal comments requesting new questions or better answers!
 
 
 
@@ -134,7 +228,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         *  - PRs
             - [171](https://github.com/decentralized-identity/didcomm-messaging/pull/171) - media type in envelope
-            - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context (conflicts)
+            - - [157](https://github.com/decentralized-identity/didcomm-messaging/pull/157) - JSON-LD Context (conflicts)
             - [166](https://github.com/decentralized-identity/didcomm-messaging/pull/166) - Curve P-384
             - [167](https://github.com/decentralized-identity/didcomm-messaging/pull/167) - accept property
             - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments WIP
