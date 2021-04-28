@@ -21,6 +21,105 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 </details>
 
 
+# Meeting - 28 April 2021 - (1100 ET)
+
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
+        * IIW 
+        * Nick Mothershaw (OIX) from Open Identity Exchange talks about the [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) to define, enforce and compare trust frameworks while Pamela Dingle (Microsoft) brings her own experience to the table
+    * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+        * [Markus, Bernhard, Niclas] Updates to Universal Resolver/Registrar configuration, and work on [Helm charts](https://github.com/decentralized-identity/charts.
+        * [Philip Feairheller, Sam Smith] [KERI-based DID methods](https://identity.foundation/keri/did_methods/), and use of DID Resolution metadata
+        * Short discussion on Universal resolver governance and DID method registry issues
+        * Organizational topics in ID WG
+            * Consider changing ID WG meeting time
+        * [IOP Chooser](https://docs.google.com/presentation/d/1OaMecHecTUexv1skJZoYzJoHKYH8H03REFpFstLRjPg/)
+        * [Universal Resolver Driver Policy Discussion](https://docs.google.com/document/d/1LFl38lcJc1keadiyVUC-Q1Nm5vqPp8XjZFifyKcx9hg/)
+        * [DID resolution over DIDComm to a Universal Resolver](https://docs.google.com/document/d/178qwAlv2nnRRtm7UcKUoo4NWOrYa1q_DAoE1Lq5VqHc/)
+        * Discussion around .well-known and did:web
+            * Dmitri is willing to give an update on
+   * **Claims & Credentials** (Daniel, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+        * Work item update - short meeting due to IIW
+        * MetaMask Credentials- Upgrading [EIP712](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md) (Spruce+Consensys Mesh)
+        * IIW Discussion
+        * WACI PE-X meetings (during IIW) and first meeting to settle basics 
+            * [meeting notes from 26th April, pre-work item meeting](https://docs.google.com/document/d/18L2-t4_2yrO_xZkwPjMCRcKIDiRGCziNs2X4k093pvo/edit)
+            * goal to have a spec in 1-2 months, ready to use by theˇ Health Pass project
+            * See [WACI](https://specs.bloom.co/wallet-and-credential-interactions/) draft spec for context
+        * VC Marketplace focuses on wrap up / writedown.
+            
+    * **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
+        *  DIF-OIDF joint meetings - follow along on the [bitbucket]
+            *  the meeting will cover more time-zones with andulating meeting schedule
+        *  On 29th April SIOP/DIF (tomorrow) will be represented by Kristina at the [OIDF workshop](https://openid.net/2021/03/01/registration-open-for-openid-foundation-virtual-workshop-april-29-2021/).
+        
+    *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        - IIW Happenings
+            - Jello Bowl Death Match (Didcomm-PeX/WACI work item starting up in CC WG)
+        - ECDH-1PU vs everything else (chat related discussion)
+            - ECDH-ES
+            - Authenticated Encryption
+            - Andrew's Idea: https://hackmd.io/gC4ItH4IQKS_at8P8RyQOQ?view
+        - KID/SKID Related Topics
+            - ESKID
+            - Encrypted Sender
+        - PRs
+            - [183](https://github.com/decentralized-identity/didcomm-messaging/pull/183) - OOB Accept
+            - [185](https://github.com/decentralized-identity/didcomm-messaging/pull/185) - kid and skid headers
+            -  Complexity vs re-encryption bloat
+                -  [182](https://github.com/decentralized-identity/didcomm-messaging/issues/182) - Discussion Issue
+                - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments WIP
+                - [174](https://github.com/decentralized-identity/didcomm-messaging/pull/174) - Encrypted Attachments
+            -  [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message. 
+        - Discussion Topics
+            - DIDComm RecipientKeys: Signing vs Encryption 
+            - KERI Event Logs
+
+      *  **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+          *  calls are alternating weekly between Identity Hubs and EDVs
+          *  SDS EDV call 
+              *  The need in the new EDV repo to be cleansed of hubs related work, and the same applies to Identity Hub repo
+              *  [Add batch operation service](https://github.com/decentralized-identity/edv-spec/pull/1)
+                  *  Batch operations are required (Derek) by citing the issues with HTTP signing performance when using a remote KMS.
+                  *  The architecture of batch APIs and how these influence implementation complexities.
+              *  [Add option to get full documents from queries](https://github.com/decentralized-identity/edv-spec/pull/2)
+              *  Proposed: new features to be merged into the spec, if no objection, but marked with "at risk" until at least 2 implementations are confirmed
+
+    *  **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+        - Agreement ADPL and KEL: restore anchor to inception (required for NFT, essential to TrustFrame). 
+            - Use more generic term in spec documentation for external support infrastructure, 'endorser' instead of original ['witness'](https://github.com/decentralized-identity/keri/blob/master/kids/kid0009Comment.md). This does not require changing abbreviated labels in existing code/prefix tables.
+            - Should we genericise label? compact labels already consumed e, s  (for endorser, supporter) synomym backer, b is not consumed. Otherwise leave as w.
+        - [Restore External Content Anchoring to Inception Event #140](https://github.com/decentralized-identity/keri/issues/140)
+        - [Revised KSN key state notification message #130](https://github.com/decentralized-identity/keri/issues/130)
+        - Roadmap:
+            - Witness support code in KERIpy. ready to test build demo.
+            - Added repo for keri-dht-py Conrad Rosenbrock contributor.
+
+    *  **Sidetree WG** (Troy, Daniel)
+       - Moving to bi-weekly meeting schedule. In case of larger work items, we will schedule time in the alternate week (when needed).
+       - Discussed future work item status.
+       - Sidetree-based DID method coordination discussion.
+
+    * **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+        *  IIW
+    * **Healthcare** 
+        * hibernating pending second chair 
+    * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
+        * 
+    * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
+        * exploratory use-case/industry conceptual alignment meetings continue weekly, including side-meetings
+3. **Additional Agenda items**
+    * **Steering Committee election** - nominations until 13th May!
+    * [Wallet Security WG charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) is finalized - will be approved by TSC if no comments. 
+    * ECDH-ES <> ECDH-1PU discussion in DIDcomm
+    * Any topics for Technical Steering Committee?
+
+
+
+
 # Meeting - 14 April 2021 - (1100 ET)
 
 ### Agenda
@@ -29,10 +128,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * [IIW](https://internetidentityworkshop.com/) is coming up. 
 * 2. **Groups**
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md) 
-    
         * VC status review and discussion
         * hack away at a simple public-facing, entry-level [FAQ](https://docs.google.com/document/d/1umHFLN-BbNF4YtDY5PdQMtdGHWKEKzcpLS8C-T4T8pQ/edit#) for basic SSI topics
         * IIW panel and workshop scope review 
+        * 
     * **Identifiers & Discovery** (Markus, Sam) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
         * Breaking changes in [DID Core JSON-LD](https://github.com/w3c/did-spec-registries/pull/277) context
             * Strictly speaking, all UR DID method implementations are now broken.
@@ -44,20 +143,21 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             * group will propsoe to the TSC
    * **Claims & Credentials** (Gabe, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
        * Presentation Exchange 
-           * **Ratification of v1.0.0: "Workgroup-approved Status"**
-           * next steps 
+           *
        * Credential Manifest
-           * Still going through some scoping / requirement engineering.
-           * Should CM support to output multiple credentials.
-           * Presentation of current resolutions
+           * multi cred issuance 
+               * pass/fail 
+           * map descriptors worked on by Bloom
        * VC marketplace
-           * Moving it into Spec-up format
-           * Filling the determined UC Categories with more content.
+           * 
        * quick overview [UVI](https://gataca-io.github.io/verifier-apis/) (Essiflab)
     * **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
         *  DIF-OIDF joint meetings - follow along on the [bitbucket](https://bitbucket.org/openid/connect/issues) issues if the timing doesn't work for you!
             *  Special calls on SIOP taking place under OIDF. (incl. in DIF calendar)
             *  On 29th April SIOP/DIF will be represented by Kristina at the [OIDF workshop](https://openid.net/2021/03/01/registration-open-for-openid-foundation-virtual-workshop-april-29-2021/).
+            *  OIDF Special call:
+                *  Support request and VC in user endpoint (through OIDC)
+                *  review "medi connect" options 
     *  **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         *  PRs
             - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message. 
@@ -66,10 +166,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                 - [174](https://github.com/decentralized-identity/didcomm-messaging/pull/174) - Actual PR
             - [177](https://github.com/decentralized-identity/didcomm-messaging/pull/177) - Profiles
                 - [Negotiation Topics](https://hackmd.io/p-ci0BZfQQirvNiN0poHHA)
-        - [181](https://github.com/decentralized-identity/didcomm-messaging/pull/181) - accept property with profiles
-        -  [180](https://github.com/decentralized-identity/didcomm-messaging/pull/180) - Align service Type with Aries
-            - [179](https://github.com/decentralized-identity/didcomm-messaging/issues/179) - Issue with commentary
-            - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message.
+            - [181](https://github.com/decentralized-identity/didcomm-messaging/pull/181) - accept property with profiles
+            -  [180](https://github.com/decentralized-identity/didcomm-messaging/pull/180) - Align service Type with Aries
+                - [179](https://github.com/decentralized-identity/didcomm-messaging/issues/179) - Issue with commentary
+                - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message.
         - Issues
             - [Negotiation Topics](https://hackmd.io/p-ci0BZfQQirvNiN0poHHA)
             - DIDComm RecipientKeys: Signing vs Encryption
@@ -90,17 +190,17 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             *  Q&A on roadmap, VC issuance, formats etc. 
         *  DIF updates
     * **Healthcare** 
-        * hybernated meetings 
+        * hibernating pending second chair 
     * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
         * Alex David, Global Business Development Manager @ Raon
     * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
-        * No meeting since last meeting
+        * exploratory use-case/industry conceptual alignment meetings continue weekly, including side-meetings
 3. **Additional Agenda items**
     * Wallet Security WG meeting next Monday. 
     * **[IIW is coming up](https://internetidentityworkshop.com/)** 
         * Use this coupon code for **20%** off: **DIF_XXXII_20**
     * [SC election is here](https://blog.identity.foundation/nominations-for-the-steering-committee-election-now-open/)
-    * [Documentation Corps FAQ](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) v0.1 is live - feel free to leave marginal comments requesting new questions or better answers!
+    * [Documentation Corps FAQ](https://docs.google.com/document/d/1AczRHKJOx4hNMr6TmCDcN4XfXB1Pm6213BbQqPcKXJc/edit) v0.1 is live - feel free to leave marginal comments requesting new questions or better answers! Will go on to DIF website next Monday
 
 
 
