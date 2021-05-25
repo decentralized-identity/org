@@ -20,6 +20,105 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/81262437540?pwd=UW5ZZkxxTGZXc1RpbFVXTW5JNkdDUT09), Meeting ID: 812 6243 7540, Password: 212121 
 </details>
 
+# Meeting - 26 May 2021 - (1100 ET)
+
+### Agenda
+
+1. **Welcome and introductions**
+2. **Groups**
+    * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+        - Jace(BlooM) gave a tour of the WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions) - what it does, what it specifies, what you can do with it
+        - Q&A about the v0.1 and v1 scopes for the WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange), with Brent Zundel (work item maintainer) as respondent
+        - IDUnion presentation (TBD)
+        - Blogpost on [Setting Interop Targets](https://blog.identity.foundation/setting-interoperability-targets/)
+     * **Identifiers & Discovery** (Markus, Alen) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
+         * new work-item specific calls 
+             * DID Registration Work Item Call - Wednesdays 1000 ET
+             * Universal Resolver Work Item Call - Wednesdays 1300 ET
+         * Universal Registrar - an overview
+            - Universal Registrar - can obtaining access to registries be unified 
+                    - (from the wallet implementation perspective)?
+              - References:
+                - [Universal Registrar](https://github.com/decentralized-identity/universal-registrar)
+                - https://uniregistrar.io/
+              - Issue:
+                - Onboarding/getting access to a DID registry is usually DID-registry-specific.
+              - Proposals:
+                - Consider the most frequent flows:
+                  - Redirect to a webpage (authentication or other operations are performed outside the wallet)
+                  - Authentication via API (some existing Universal Registrar drivers support this)
+                - Proposal should work for most DID methods (e.g., did:web, Sovrin, sidetree)
+                - A more detailed compatibility analysis is required
+               - Outcomes
+                   - Proposals will be further analysed and discussed in the Universal Registration call
+                   - Issues will be opened in the Universal Registration repository
+   * **Claims & Credentials** (Daniel, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
+       * Workitem Status: [WACI-PEX](https://github.com/decentralized-identity/claims-credentials/pull/5)
+       * Workitem Status: PE (Maintenance) + [Credential Manifest](https://github.com/decentralized-identity/credential-manifest)
+       * Workitem Status: [VC Marketplace](https://github.com/decentralized-identity/vc-marketplace)
+    * **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
+        * DIF-OIDF joint meetings
+    * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
+        - Keys by Value or By ID
+            - [191](https://github.com/decentralized-identity/didcomm-messaging/issues/191) Issue
+        - XChaCha / Ethereum Compatible Key Wrapping - Oliver
+        - Sender Key/ID Encryption
+            - Do we need to?
+            - How is that done?
+        - Keys by Value or By ID
+        - Blog Post on the status of DIDcomm, Juan in-collaboration with other WG members
+        - PRs
+            - [195](https://github.com/decentralized-identity/didcomm-messaging/pull/195) - anoncrypt warning
+            - [185](https://github.com/decentralized-identity/didcomm-messaging/pull/185) - kid and skid headers
+                - keys vs key refs
+            - [172](https://github.com/decentralized-identity/didcomm-messaging/pull/172) - Fix inconsistencies with to/next attributes in a forward message. 
+            - [161](https://github.com/decentralized-identity/didcomm-messaging/pull/161) - Attachments
+    *  **SDS WG** (Kaliya, Dmitry, Tobias) - [meeting page](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)
+          *  _calls are alternating weekly between Identity Hubs and EDVs_
+          * EDV
+              * Discussed PR to [add option to get full documents from queries](https://github.com/decentralized-identity/edv-spec/pull/8)
+              * Support was noted for a seperate pagination proposal
+              * [History API for listing changes](https://github.com/decentralized-identity/edv-spec/issues/11#issuecomment-829585284) labelled ready for PR and some design decisions/resolutions taken
+          * Identity Hub
+              * Review candidate issues for transfer
+    *  **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+        *  [Signature/Digest Algorithm Forward Compatibility](https://github.com/decentralized-identity/keri/issues/124
+        *  [TEL design comparison](https://github.com/decentralized-identity/keripy/issues/133)
+            *  Main event: Phil’s tour of the TEL prototype
+        *  [Simplify Delegated Events using Hetero Attachments](https://github.com/decentralized-identity/keri/issues/146) was created.
+        *  Issues: 
+            *  Omnibus changes to KERI events post-IIW; coming soon to KeriPy
+            *  anchor field in inceptions
+            *  simplified delegation also simplifies delegation exchange (Issue [#146](https://github.com/decentralized-identity/keri/issues/146)
+            *  remove VRC event type
+            *  Query Messages
+                - FN
+                - KRAM
+            - Key State Message
+
+    *  **Sidetree WG** (Troy, Daniel) [meeting minutes](https://github.com/decentralized-identity/sidetree/blob/agenda/agenda.md)
+        *  Sidetree DID Type Registry - Daniel (https://github.com/decentralized-identity/sidetree/pull/1120/files)
+              - Approved during WG call.
+              - Next action: clarify how the type number is related to the Sidetree property value.
+
+    * **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+        * Topics the group could focus on
+            * What is the credential payload? (Keith can format presentation)
+            * Usability demos + conversations
+            * How do we make wallets accessible to everyone? 
+            * How do I trust the issuer? 
+            * What do interoperable ecosystems look like?
+            * Business Models for Respective Markets 
+
+    * **Healthcare** 
+        * hibernating pending second chair 
+    * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
+        * Invited speaker Nacho Alamillo Domingo from [Alastria](https://alastria.io/en/) 
+        
+    * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
+        * use case exploration on 4 parallel tracks 
+            * Government-Sanctioned Credentials
+            
 
 # Meeting - 12 May 2021 - (1100 ET)
 
@@ -40,7 +139,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * iGrant will present on their Aries Interop Playground harness (for background, see [this recording](https://www.youtube.com/watch?v=cWPiJrVKj-U) of an earlier presentation and Q&A about the Playground at a ToIP call)
         - Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements in the ToIP [Notice & Consent TF](https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
     * **Identifiers & Discovery** (Markus, Alen) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
-        * Alen Horvat is a new chair of ID WG
+        * Alen Horvat is a new co-chair of ID WG
         * Discussed regular call schedule, work items, special topic calls
             * [proposal for new special topic calls](https://github.com/decentralized-identity/identifiers-discovery/pull/1)
         * Persistence and versioning of JSON-LD contexts, and implications on Linked Data Signatures
@@ -55,6 +154,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                 * How the auth system advertises that DID connect is possbile 
                 * Webfinger discovery based on email-like identifieres (to avoid NASCAR problem) 
                 * IIW had a session about SIOP Chooser (see https://docs.google.com/presentation/d/1OaMecHecTUexv1skJZoYzJoHKYH8H03REFpFstLRjPg/).
+            * Danubetech donated work items:
+                * https://github.com/danubetech/uni-registrar-driver-did-web
+                * https://github.com/danubetech/uni-registrar-driver-did-ion
+                * https://github.com/peacekeeper/did-registration/
    * **Claims & Credentials** (Daniel, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
        * New Workitem: [WACI-PEX](https://github.com/decentralized-identity/claims-credentials/pull/5)
        * IIW32 in Review
@@ -85,7 +188,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
           * EDV
               * Discussed PR to [add option to get full documents from queries](https://github.com/decentralized-identity/edv-spec/pull/8)
               * Support was noted for a seperate pagination proposal
-              * [History API for listing changes](https://github.com/decentralized-identity/edv-spec/issues/11) labelled ready for PR
+              * [History API for listing changes](https://github.com/decentralized-identity/edv-spec/issues/11#issuecomment-829585284) labelled ready for PR and some design decisions/resolutions taken
           * Identity Hub
               * Review candidate issues for transfer
     *  **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
@@ -105,7 +208,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             *  Approved during WG call.
             *  Next action: clarify how the type number is related to the Sidetree property value.
     * **Wallet Security WG** (Kristina, Paul, Oliver, Bernard)
-        * First WG meeting is next Monday.
+        * First WG meeting is next Tuesday.
     * **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
         *  Open Badges and Verifiable Credentials: how to build the ecosystem.
             *  Nate Otto, Kerri Lemoie, Simone Ravaioli, Kim Hamilton Duffy
@@ -113,14 +216,15 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * **Healthcare** 
         * hibernating pending second chair 
     * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
-        * 
+        
     * **Travel and Hospitality** - [mailing list](https://lists.identity.foundation/g/hospitalityandtravel/topics)
         * use case exploration on 4 parallel tracks 
             * Government-Sanctioned Credentials
-            * 
+            
 3. **Additional Agenda items**
     * **Steering Committee election** - nominations until 13th May! (tomorrow)
-    * 
+        * email to nominations@identity.foundation
+    
 
 
 
