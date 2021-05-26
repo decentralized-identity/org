@@ -27,14 +27,14 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 1. **Welcome and introductions**
 2. **Groups**
     * **Interop WG** (Kaliya, Pamela, Juan) - [meeting page](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
-        - Jace(BlooM) gave a tour of the WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions) - what it does, what it specifies, what you can do with it
+        - Jace(Bloom) gave a tour of the WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions) - what it does, what it specifies, what you can do with it
         - Q&A about the v0.1 and v1 scopes for the WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange), with Brent Zundel (work item maintainer) as respondent
-        - IDUnion presentation (TBD)
+        - Next week: IDUnion presentation (TBD)
         - Blogpost on [Setting Interop Targets](https://blog.identity.foundation/setting-interoperability-targets/)
      * **Identifiers & Discovery** (Markus, Alen) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
-         * new work-item specific calls 
-             * DID Registration Work Item Call - Wednesdays 1000 ET
-             * Universal Resolver Work Item Call - Wednesdays 1300 ET
+         * New [Special Work Item Calls](https://identity.foundation/did-registration/)
+             * [DID Registration](https://identity.foundation/did-registration/) Work Item Call - Wednesdays 1000 ET
+             * [Universal Resolver](https://github.com/decentralized-identity/universal-resolver) Work Item Call - Wednesdays 1300 ET
          * Universal Registrar - an overview
             - Universal Registrar - can obtaining access to registries be unified 
                     - (from the wallet implementation perspective)?
@@ -52,15 +52,25 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
                - Outcomes
                    - Proposals will be further analysed and discussed in the Universal Registration call
                    - Issues will be opened in the Universal Registration repository
+           * Discussions about:
+               * Gataca's [DID method](https://github.com/gataca-io/gataca-did-method) 
+               * Historical resolution & different properties/categories of methods WRT historical options
+               * DID revocation: historical signature retroactively invalidated or do they survive?
+           * Work Item calls added to DIF calendar for people want to get involved with Univ Res and Univ Reg projects
    * **Claims & Credentials** (Daniel, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)
        * Workitem Status: [WACI-PEX](https://github.com/decentralized-identity/claims-credentials/pull/5)
        * Workitem Status: PE (Maintenance) + [Credential Manifest](https://github.com/decentralized-identity/credential-manifest)
        * Workitem Status: [VC Marketplace](https://github.com/decentralized-identity/vc-marketplace)
     * **DID Auth** (Oliver, Kyle, Kristina) half hibernated state
-        * DIF-OIDF joint meetings
+        * DIF-OIDF joint meetings:
+            * [OIDC VPs](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html) draft document was ADOPTED by A/B Connect WG within OIDF, iterative evolution to follow (specifying grants, incl SIOPv2!)
+            * Other adjacent specs and documents such as Mattr/Convergence Cred Prov spec & Claims Aggregation spec (N. Sakimura's more general, accomodates VC+Other claims) also being worked on in parallel and aligned
+            * Aligning VP draft and PresEx being actively discussed already - some good DIF involvement there for now - reach out if you want to support and get involved representing DIF
+            * A/B Connect WG is hub of all this-- in DIF Calendar
     * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
         - Keys by Value or By ID
             - [191](https://github.com/decentralized-identity/didcomm-messaging/issues/191) Issue
+            - Resolution: Passing by reference mandatory, passing clear value as well optional (decoupling KMS helps UX & adoption in some contexts, but encrypting identifier wanted by some parties)
         - XChaCha / Ethereum Compatible Key Wrapping - Oliver
         - Sender Key/ID Encryption
             - Do we need to?
@@ -97,6 +107,12 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
             - Key State Message
 
     *  **Sidetree WG** (Troy, Daniel) [meeting minutes](https://github.com/decentralized-identity/sidetree/blob/agenda/agenda.md)
+        *  DID Test Suite now has an Ion entry and an Orb entry! 
+            *  ` equivalentID` and `canonicalId`  and DIDComm Service Blocks all represented in DID-Core (no longer at risk?)
+        *  outstanding issues:
+            *  work items for specifying generalizable Orb primitive (like activity anchors) need to be spun up
+            *  Activity Anchors (core to Orb but more generalized) - how to anchor things (not just Sidetree event digests) in ActivityPub **and** CAS (i.e. IPFS)
+                *  Oliver: InteropWG presi from that commuity? Juan: YASSSS 
         *  Sidetree DID Type Registry - Daniel (https://github.com/decentralized-identity/sidetree/pull/1120/files)
               - Approved during WG call.
               - Next action: clarify how the type number is related to the Sidetree property value.
@@ -112,6 +128,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
     * **Healthcare** 
         * hibernating pending second chair 
+
     * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
         * Invited speaker Nacho Alamillo Domingo from [Alastria](https://alastria.io/en/) 
         
