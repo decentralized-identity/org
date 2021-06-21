@@ -1,5 +1,8 @@
 ## Github Donation
 
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|*Github Donation*|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|---|
+
 1.) DIF accepts donations of “clean IPR” only, meaning original work done by member organizations. If a repository or work item has accepted contributions from non-employees, please reach out to working group chairs or DIF staff to discuss; CLAs may be required for any non-employee contributions. Furthermore, if you have any questions about code dependencies or their licensing, also reach out.
 
 2.) Write to the chairs of the DIF group to which you are donating, and CC donation@identity.foundation -- email should contain:
