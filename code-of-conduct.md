@@ -1,8 +1,7 @@
 # DIF Code of Conduct (final draft) 
 
-DIF Knowledgebase for members, work items, and communications:
-|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|*Code of Conduct*|
-|---|---|---|---|---|---|
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|*Code of Conduct*|
+|---|---|---|---|---|---|---|
 
 _Last Revised: 6/20/20_
 

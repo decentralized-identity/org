@@ -1,7 +1,8 @@
 # DIF Style Guide
 
-|[Brand Guidelines](brand-guidelines.md)|*Style Guide*|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
-|---|---|---|---|---|---|
+
+|[Brand Guidelines](brand-guidelines.md)|*Style Guide*|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|---|
 
 ## Universal Style Guidance
 High level guidance for all writing about DIF, whether in member submissions or otherwise:
@@ -14,7 +15,7 @@ High level guidance for all writing about DIF, whether in member submissions or 
    * Avoid contrasting DIF’s approach to that of other open-source foundations working in the decentralized identity space-- complementary or win-win framings are strongly encouraged to discourage the appearance of antagonism or competition
 * For other high-level guidance, see the [Brand Guidelines](brand-guidelines.md)
 
-## Medium
+## Blog (and Medium republication)
 
 Authorship
 * Original posts should be signed by the DIF generic account unless there is a compelling reason to sign a post individually. Examples include:

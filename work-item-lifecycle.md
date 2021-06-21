@@ -1,13 +1,14 @@
 # Work Item Life Cycle
 
-|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|*Work Item Lifecycle*|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
-|---|---|---|---|---|---|
+
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|*Work Item Lifecycle*|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|---|
 
 
 
 *Note: this overview was created by combining section 7 of the underlying JDF [charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf) with the October 2020 [addendum](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/Project%20Charter%20Addendum.md) to be readable as a consolidated overview. It is not an authoritative document, so if you find any discrepancies, those two linked documents are the authoritative documents.*
 
-*Please note:* deliverables (code and/or specifications) may be "donated" to DIF at any point in the process below, which describes **original** work happening inside DIF.  For instructions on how to effect a donation, see the [Github Donation](#github-donation) section below.
+*Please note:* deliverables (code and/or specifications) may be "donated" to DIF at any point in the process below, which describes **original** work happening inside DIF.  For instructions on how to effect a donation, see the [Github Donation](github-donation.md) section.
 
 ## Deliverable Development Process.
 
@@ -40,31 +41,4 @@ Upon the designation of a Draft Deliverable as an Approved Deliverable, the Exec
 ### 7.6. **Submissions to Standards Bodies**.
 No Draft Deliverable or Approved Deliverable may be submitted to another standards development organization without Approval by the Steering Committee. Upon Approval by the Steering Committee, the Executive Director will coordinate the submission of the applicable Draft Deliverable or Approved Deliverable to another
 standards development organization with Joint Development Foundation Projects, LLC. Working Group Participants that developed that Draft Deliverable or Approved Deliverable agree to grant the copyright rights necessary to make those submissions.
-
-## Github Donation
-
-1.) DIF accepts donations of “clean IPR” only, meaning original work done by member organizations. If a repository or work item has accepted contributions from non-employees, please reach out to working group chairs or DIF staff to discuss; CLAs may be required for any non-employee contributions. Furthermore, if you have any questions about code dependencies or their licensing, also reach out.
-
-2.) Write to the chairs of the DIF group to which you are donating, and CC donation@identity.foundation -- email should contain:
-the github organization that will be transferring a repo to DIF
-the github handle that will be maintaining the item once it moves to DIF. (This person should have an employment or IPR relationship with a member of that group)
-A simple one-sentence declaration that this is being donated by a working group member that was the sole contributor. 
-
-3.) Schedule a time to effect the transfer with DIF staff. (requires Admin approval) 
-
-4.) “Transfer” the repository under repository settings, at the end of the general settings in the “Danger Zone”. 
-
-![](https://i.imgur.com/AHSXz67.png)
-
-5. Follow the instructions for transfer. THe name of the GitHub organization is decentralized-identity
-
-![](https://i.imgur.com/DEJl2tF.png)
-
-6.) On the “Team access” selection page, please select the team corresponding to the working group to which you are donating the repository and its IPR. The code maintainer listed in 2B should already be a member of that group. Access and other settings can only be set by group chairs, by default.
-
-![](https://i.imgur.com/gkswV3A.png)
-
-7.) Done. Your repo is transferred. Congrats, you are officially an open-source hero :) 
-
-![](https://i.imgur.com/QJyUaHx.png)
 
