@@ -1,7 +1,8 @@
 # Working Group Life Cycle
 
-|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|*Working Group Lifecycle*|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
-|---|---|---|---|---|---| 
+
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|*Working Group Lifecycle*|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|---|
  
 The DIF Working Group process is set up as follows: 
  
