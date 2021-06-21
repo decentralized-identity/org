@@ -1,6 +1,6 @@
 # Work Item Life Cycle
 
-|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|*Work Item Lifecycle*|[Donation](github-donation.md)[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|*Work Item Lifecycle*|[Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|---|
 
 
