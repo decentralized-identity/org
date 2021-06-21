@@ -1,7 +1,8 @@
 # DIF Style Guide
 
-|[Brand Guidelines](brand-guidelines.md)|*Style Guide*|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
-|---|---|---|---|---|---|
+
+|[Brand Guidelines](brand-guidelines.md)|*Style Guide*|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
+|---|---|---|---|---|---|---|
 
 ## Universal Style Guidance
 High level guidance for all writing about DIF, whether in member submissions or otherwise:
