@@ -1,4 +1,5 @@
-# DIF bi-weekly - open call
+# DIF all-hands - open call 
+### (formerly bi-weekly)
 
 [![hackmd-github-sync-badge](https://hackmd.io/sdTB8He_TASbNSJOSUdfvQ/badge)](https://hackmd.io/sdTB8He_TASbNSJOSUdfvQ)
 
