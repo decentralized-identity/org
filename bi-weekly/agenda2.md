@@ -1,4 +1,7 @@
-# DIF all hands - open call
+# DIF All hands - open call
+
+[![hackmd-github-sync-badge](https://hackmd.io/uMfiml4_QfmJFmgSZhmxdw/badge)](https://hackmd.io/uMfiml4_QfmJFmgSZhmxdw)
+
 
 
 [**Website** ](https://identity.foundation ) | [Mailing list](https://lists.identity.foundation/) | [Old minutes](https://docs.google.com/document/d/1vVSGCxZ_YTluSUnwyUNwV74pd6cjLBL-n2ydht_5NyA/edit#) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2039757024)
@@ -37,9 +40,13 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
            *  x509 as issuer ; "DID" for holder to express a key (did:key like encoding from [IETF RFC](https://datatracker.ietf.org/doc/html/rfc7519))
            *  "Protocols for VCs should not presume DIDs"
        *  [Good Health Pass](https://www.goodhealthpass.org/) Blueprint by Drummond Reed, Global Covid Certificate Network by Lucy Yang.
-           *  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
+           *  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 June
            *  [GCCN annoucement](https://www.lfph.io/2021/06/08/gccn/)
-       *  WACI-PEx update (TBD)
+       *  WACI-PEx update 
+       *  Identiverse (conference) update 
+
+
+
  * **Identifiers & Discovery** (Markus, Alen) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
      * "controller" property in DID documents and verification methods.
          * "controller" on the top level seems clear, but on the "verificationMethod" is less clear.
@@ -56,15 +63,23 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ](https://www.federalregister.gov/documents/2021/04/19/2021-07957/minimum-standards-for-drivers-licenses-and-identification-cards-acceptable-by-federal-agencies-for)
            * [Proposed Rules](https://www.govinfo.gov/content/pkg/FR-2021-04-19/pdf/2021-07957.pdf)
            * [Update](https://www.federalregister.gov/documents/2021/06/16/2021-12616/public-meeting-and-extension-of-comment-period-on-request-for-information-minimum-standards-for)
+        - Universal Resolver 
+        - DID Registration
   * **Claims & Credentials** (Daniel, Wayne, Martin) - [meeting page](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md) 
       * Workitem Status: WACI-PEX
+          * next week restructure PR (going in) 
+          * work continues apace, please open issues if anything is unclear and attend monday meetings!
       * Workitem Status: PE (Maintenance) + Credential Manifest
       * Workitem Status: VC Marketplace
+          * Plugathon and interop-profile for participating companies
+          * blog post (series) explaining the plugathon project forthcoming
   * **DID Auth** (Oliver, Kyle, Kristina) call under OIDF
       * A/B Connect WG is hub of all this-- in DIF Calendar
       * SIOP V2
           * Progress on SIOP properties: https://hackmd.io/@dwaite/Hyg0vTZFd 
+          * [Stop using SIOP umbrella term?](https://bitbucket.org/openid/connect/issues/1239/we-should-stop-using-siop-as-an-umbrella)
       * OIDC4VP
+          *  [DIF PE to OIDC4VP](https://bitbucket.org/openid/connect/pull-requests/20)
 
   * **DIDcomm** (Sam, Tobias, Oliver) - [meeting page](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)
       * Discussion Topics
@@ -109,4 +124,58 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         - Opened Issues 
             - [correlation of server-visible information](https://github.com/decentralized-identity/edv-spec/issues/58)
             - [default root zcaps for EDVs](https://github.com/decentralized-identity/edv-spec/issues/59)
+    - Identity Hubs
+        - JOSE and CBOR agreement
+        - Joel from 3Box/Ceramic gave an informative presentation on DAG-JOSE (JOSE-style tooling for IPFS)
+        - Brooklyn from FISSION gave an informative presentation on Cryptree (a merkle-based file-system-like thing)
+        - Implementers call (today) 10am PST 
+*  **Sidetree WG** (Troy, Daniel) [meeting minutes](https://github.com/decentralized-identity/sidetree/blob/agenda/agenda.md)
+    *  Adding update new form of equivalent ID 
+        *  have more anchoring data in it 
+            *  enables short IDs (7 digit short) / phone number lenght
+* **KERI WG** (Sam, Charles) - [meeting page](https://github.com/decentralized-identity/keri/blob/master/agenda.md)
+    * py implementation's use case and driving design decisions 
+    * design process for TELs (txn logs/microledgers for VCs, smart contracts, or other verifiable data objects)
+    * discussion of new, more detailed proposal did:indy:xxx:keri "tunnel" (re-registering indy DIDs as KERI AIDs and vice versa)
+* **Product Managers** - [meeting page](https://github.com/decentralized-identity/product-managers/blob/main/agenda.md)
+    * Keith Kowal proposed as a new chair for the group 💪
+    * Credential payloads discussion
+        * [Slides](https://github.com/decentralized-identity/product-managers/files/6607771/DIF.PM.Update.June.21.pdf) and [Recording](https://us02web.zoom.us/rec/share/wnkcrIpwjA_fqUdTjSdi-AxquhjEpkRl_aYr4KOgnRGuyD4FfBraMRwBTk5SliPc.4NoaZNFIxICZfk2b)
+    * Events
+        * User experience in SSI potential half day un-conference: July 22nd
+        * Open Skills Network Conference - July (https://www.openskillsnetwork.org/)
+        * ASU Digital Trust Summit today/tomorrow: https://uto.asu.edu/events/digital-trust-summit/agenda#DTS3
+    * [eIDAS Update](https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/european-digital-identity)
+    * Potential demo from Lucas Czarnecki - credential design
+* **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
+    * Chris Kamier (Sustany) proposed as a new chair 
+* **Travel and Hospitality** - [meeting page](https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3)
+    * new WG 
+    * weekly 4 sub-group meetings 
+        * [**Verifiable Credentials & Offers**](https://www.notion.so/Verifiable-Credentials-Offers-fa83440a49af4f508188b8279afc6d6e)
+        * [**Travel Change & Disruption**](https://www.notion.so/Travel-Change-Disruption-2067e043fc434c2386fa2a35a5d4bae2)
+        * [**KYC / Customer Profile / Loyalty**](https://www.notion.so/KYC-Customer-Profile-Loyalty-bd412ae7bb494170b3cae0c71674be41)
+        * [**Government Sanctioned Credentials**](https://www.notion.so/Government-Sanctioned-Credentials-346c7d18fad149a99b10ff1e46bb1b53)
+* **APAC/ASEAN**
+* **Africa**
+
+
+
+3. **Additional items**
+    - F2F meeting timing: 
+        - Considerations:
+            - IIW33: Oct 12-14
+            - mini-IIWs: July 22 and Aug 4
+        - commnets: 
+            - mid august onwards +1
+            - september +1 - 7 or 14 are tuesdays, 1Sept (Wed)
+    - Asia event
+        - asia time-zone friendly meeting 
+        - China/Asia session as part of F2F?
+            - Or, hold second F2F with EU/APAC hours (sorry, america)?
+            - Or, ALTERNATE US/EU and EU/APAC F2Fs (+2 from the Europeans, hehe)
+        - middle-of-the-night sessions day before or after F2F? (//IIW)
+        - Discuss what would be good for them? 
+        - community to be more appreciative and get different regiouns involved 
+            - reuse material (if possible)
     - 
