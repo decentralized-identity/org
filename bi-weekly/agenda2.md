@@ -150,12 +150,13 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * **Finance & Banking** - [meeting page](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)
     * Chris Kamier (Sustany) proposed as a new chair 
 * **Travel and Hospitality** - [meeting page](https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3)
-    * new WG 
-    * weekly 4 sub-group meetings 
-        * [**Verifiable Credentials & Offers**](https://www.notion.so/Verifiable-Credentials-Offers-fa83440a49af4f508188b8279afc6d6e)
-        * [**Travel Change & Disruption**](https://www.notion.so/Travel-Change-Disruption-2067e043fc434c2386fa2a35a5d4bae2)
-        * [**KYC / Customer Profile / Loyalty**](https://www.notion.so/KYC-Customer-Profile-Loyalty-bd412ae7bb494170b3cae0c71674be41)
-        * [**Government Sanctioned Credentials**](https://www.notion.so/Government-Sanctioned-Credentials-346c7d18fad149a99b10ff1e46bb1b53)
+    * Four weekly sub-group meetings: (Selected use cases to be taken to PoC given appropriate interest)
+        * [Verifiable Credentials & Offers](https://www.notion.so/Verifiable-Credentials-Offers-fa83440a49af4f508188b8279afc6d6e)
+        * [Travel Change & Disruption](https://www.notion.so/Travel-Change-Disruption-2067e043fc434c2386fa2a35a5d4bae2)
+        * [KYC / Customer Profile / Loyalty](https://www.notion.so/KYC-Customer-Profile-Loyalty-bd412ae7bb494170b3cae0c71674be41)
+        * [Government Sanctioned Credentials](https://www.notion.so/Government-Sanctioned-Credentials-346c7d18fad149a99b10ff1e46bb1b53)
+    * Investigating adoption and/or development of H&T schemas to support documented use cases
+    *  Good Health Pass Collaborative - to extend the interoperability blueprint focus beyond Interational air travel.
 * **APAC/ASEAN**
 * **Africa**
 
