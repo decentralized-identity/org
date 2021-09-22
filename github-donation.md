@@ -6,9 +6,10 @@
 1.) DIF accepts donations of “clean IPR” only, meaning original work done by member organizations. If a repository or work item has accepted contributions from non-employees, please reach out to working group chairs or DIF staff to discuss; CLAs may be required for any non-employee contributions. Furthermore, if you have any questions about code dependencies or their licensing, also reach out.
 
 2.) Write to the chairs of the DIF group to which you are donating, and CC donation@identity.foundation -- email should contain:
-the github organization that will be transferring a repo to DIF
-the github handle that will be maintaining the item once it moves to DIF. (This person should have an employment or IPR relationship with a member of that group)
-A simple one-sentence declaration that this is being donated by a working group member that was the sole contributor. 
+- the github organization that will be transferring a repo to DIF
+- the github handle that will be maintaining the item once it moves to DIF. (This person should have an employment or IPR relationship with a member of that group)
+- a realistic commitment to maintenance/issue triage and bring major issues to WG meetings when they arise
+- A simple one-sentence declaration that this is being donated by a working group member that was the sole contributor. 
 
 3.) Schedule a time to effect the transfer with DIF staff. (requires Admin approval) 
 
@@ -16,7 +17,7 @@ A simple one-sentence declaration that this is being donated by a working group 
 
 ![](https://i.imgur.com/AHSXz67.png)
 
-5. Follow the instructions for transfer. THe name of the GitHub organization is decentralized-identity
+5. Follow the instructions for transfer. The name of the GitHub organization is `decentralized-identity`
 
 ![](https://i.imgur.com/DEJl2tF.png)
 
