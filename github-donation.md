@@ -11,21 +11,26 @@
 - a realistic commitment to maintenance/issue triage and bring major issues to WG meetings when they arise
 - A simple one-sentence declaration that this is being donated by a working group member that was the sole contributor. 
 
-3.) Schedule a time to effect the transfer with DIF staff. (requires Admin approval) 
+3.) Particularly if the work item has implications for other DIF work items or ratified specifications (i.e., relies on them, risks market/implementer confusion about dependencies), WG chairs may request changes, implementation guidance, explicit discussion of upstream specifications or dependencies, etc. In some cases, WG chairs may even propose conditions for acceptance analogous to the test vectors required at the [WG approval stage](https://github.com/decentralized-identity/org/blob/master/work-item-lifecycle.md#73-working-group-approval) of a DIF-native work item, which could include, for example:
+- participation in adjacent or upstream work items to research interoperability and edge-case issues
+- tracking alignment/interop issues with adjacent or upstream work items on a GH issue to ensure alignment over time
+- proven conformance with test suites of an upstream work item
 
-4.) “Transfer” the repository under repository settings, at the end of the general settings in the “Danger Zone”. 
+4.) Schedule a time to effect the transfer with DIF staff. (requires Admin approval) 
+
+5.) “Transfer” the repository under repository settings, at the end of the general settings in the “Danger Zone”. 
 
 ![](https://i.imgur.com/AHSXz67.png)
 
-5. Follow the instructions for transfer. The name of the GitHub organization is `decentralized-identity`
+6.) Follow the instructions for transfer. The name of the GitHub organization is `decentralized-identity`
 
 ![](https://i.imgur.com/DEJl2tF.png)
 
-6.) On the “Team access” selection page, please select the team corresponding to the working group to which you are donating the repository and its IPR. The code maintainer listed in 2B should already be a member of that group. Access and other settings can only be set by group chairs, by default.
+7.) On the “Team access” selection page, please select the team corresponding to the working group to which you are donating the repository and its IPR. The code maintainer listed in 2B should already be a member of that group. Access and other settings can only be set by group chairs, by default.
 
 ![](https://i.imgur.com/gkswV3A.png)
 
-7.) Done. Your repo is transferred. Congrats, you are officially an open-source hero :) 
+8.) Done. Your repo is transferred. Congrats, you are officially an open-source hero :) 
 
 ![](https://i.imgur.com/QJyUaHx.png)
 
