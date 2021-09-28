@@ -21,4 +21,4 @@ Useful documents
 |[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|[Code of Conduct](code-of-conduct.md)|
 |---|---|---|---|---|---|---|
 
-DIF Chair cheat sheet
+[DIF Chair cheat sheet](https://github.com/decentralized-identity/org/blob/master/chair_cheat_sheet.md)
