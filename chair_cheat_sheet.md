@@ -29,7 +29,7 @@ The responsibilites of a DIF Working Group chair include:
 ### Table:
 
 |   Name  	|   Comment  	|   Sub comment  	|   Link1  	|   Link2 	|
-|---	|---	|---	|---	|---	|
+| ---	| ---	| ---	| ---	| ---	|
 |   DIF Code to claim host in zoom  	|   212121  	|   Claim host on both accounts  	| This is often needed to allow screen-sharing for participants    	|     	|
 |   Recordings  	|   A list of all DIF recordings.   	|   Recordings are broken down by WG using TABS at the bottom  	|   http://bit.ly/DIF_recordings_list  	|   http://bit.ly/DIF_recordings_list  	|
 |   Send the  agenda before the meeting via email/slack	|   Please share an agenda before the meeting  	|    Link to agenda can be reshared in meeting chat 	|    Link to agenda should also be available in the calendar entry and from the DIF WG webpage 	|     	|
