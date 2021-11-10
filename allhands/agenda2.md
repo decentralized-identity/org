@@ -124,6 +124,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         - 3 additional methods w/o sufficient description
         - Discussed the testcase including numbers
         - Link to the google doc [link](https://docs.google.com/spreadsheets/d/1B6Koo8_wUoN4SPDvX7gaKBtkKBr6efOLwKIeVoy4mdI/edit#gid=1798866783) where you can find the method list, the assessment setup and future results
+
+* **[✈️ Hospitality & Travel](https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3)** 
+    * Discussion continues around customer journeys, and developing working models based on the existing use-cases identified by the group
 * **[🏦 Finance & Banking](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)**
     * **Presentations:**
         * *2nd Nov 2021*
@@ -131,7 +134,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * *21st Oct 2021*
 Tobias Halloran and Alex Tweedale - cheqd and their approach to SSI
         * *7th Oct 2021*
-Pieterjan Uytterhoeven - Isabel Group
+Pieterjan Uytterhoeven - Isabel Group discussed TruliUs, an SSI solution for businesses
 
 * **APAC/ASEAN Open Call**
     * Discussion with ToIP continue about cohosting APAC calls in 2022
@@ -152,6 +155,7 @@ Pieterjan Uytterhoeven - Isabel Group
 * **DIF Comms**
     * ToIP & DIF [Joint Public Statement of Support](https://blog.identity.foundation/w3cdidspec/) for Decentralized Identifiers (DIDs) v1.0 specification becoming a W3C Standard. 
     * Weekly open Comms calls (see [DIF Calendar](https://bit.ly/dif-calendar)) continue to be a gret venue for generating ideas and collecting feedback 
+    * DIF newsletter going out soon, any last-minute additions, updates, events etc. please submit them to us asap
  
 ----
 
