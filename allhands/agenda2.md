@@ -20,6 +20,141 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * [Zoom room](https://us02web.zoom.us/j/81262437540?pwd=UW5ZZkxxTGZXc1RpbFVXTW5JNkdDUT09), Meeting ID: 812 6243 7540, Password: 212121 
 </details>
 
+<h2 id="meeting-Nov-10">Meeting - 11 Nov 2021 - (1100 ET) </h2>
+
+### Agenda
+
+1. **Welcome and introductions**
+    - 
+
+2. **Groups**
+
+| ID | CC | DIDAuth | DIDcomm | SDS | Sidetree | KERI | WalletSec |Crypto|
+|---|---|---|---|---|---|---|---|---|
+|**Interop**|**Prod managers**|**H&T SIG**|**Finance SIG**|**APAC/ASEA**|**Africa**| | | |
+
+* **[☂️ InterOp WG (cross-community)](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)**(Kaliya, Pamela, Juan)
+    * Library polooza followup meeting
+        * [stack diagram](https://docs.google.com/spreadsheets/d/12_03m8QU1J0VaskBEnA97aUXz38kSTskvM7DwfSAPFg/edit#gid=0)
+    * IIW recap session 
+        * matiruty of the ecosystem 
+        * discussion on KERI vs DIDcomm 
+        * Govt direction is not completely aligned with tech direction
+    * 10th November - Today
+        *  A visit from the German community to hear how they have approached interop. This conversation started
+    * Rechartering, take [inspiration from this:]( https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3). 
+    * [Pr this older PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb432fe8-da02-469e-aeb6-9affd920d646/DIF_HandT_SIG_overview.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T141153Z&X-Amz-Expires=86400&X-Amz-Signature=75a7b9625d76d72b206d73249a79ea80f3afd06e6cf95928d37cc06dea783e1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DIF%2520HandT%2520SIG%2520overview.pdf%22). 
+    * Interop group is not IP protected and the current status of the [charter is here](https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit)
+
+* **[💡 Identifiers & Discovery](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)** (Markus, Alen)
+     * Universal Resolver Work Item calls have come to an end, work will continue at the main ID WG, Slack and GitHub - [DIF blog article announcement](https://blog.identity.foundation/universal-resolver-calls-wrapup/)
+     *  US mobile driver's license comment period: [https://www.regulations.gov/commenton/DHS-2020-0028-0001](https://www.regulations.gov/commenton/DHS-2020-0028-0001)
+     *   Discussion on RealID and ISO 18013-5: [https://www.iso.org/standard/69084.html](https://www.iso.org/standard/69084.html)
+     *   Introduction to mDL technology
+     *   Discussion on difference between ISO mDL and W3C VC standards
+     *   Digital wallets in Europe vs US
+
+ * **[🛡️ Claims & Credentials](https://github.com/decentralized-identity/claims-credentials/blob/main/AGENDA.md)** (Daniel, Wayne, Martin) 
+     * [JWS test suite (1st DIF Grant)](https://github.com/decentralized-identity/JWS-Test-Suite) is delivered by Transmute
+     * Wayne stepping down as C&C chair
+     * progress on JWS signatures and full VC-JWT
+         * blog post explaining the ambiguity and suggesting possible resolutions (mandate normalization from the heavens?) forthcoming.
+     * draft status on the PE portion of WACI-PEx, but hit roadblocks on low-level BBS+ mechanism that impeded a reference implementation being testable.
+     * Shifting focus to issuance; PRs coming fast already
+     * OIDF group feedback being folded into PE v2
+     * VC Marketplace
+         * work item concluded
+         * blog deliverable is expected
+     * Verifier Universal Interface (VUI)
+         * ESSIF lab is preparing for donation. IPR continuity is a goal. 
+         * other profiles to be considered to be hosted in DIF. 
+* **🔓 [DID Auth](https://identity.foundation/working-groups/authentication.html)** (Oliver, Kyle, Kristina)
+    * No meetings of this group at present
+* **[📻 DIDcomm](https://github.com/decentralized-identity/didcomm/blob/main/agenda.md)** (Sam, Tobias, Oliver)
+    * IIW review session 
+    * [DIF blog post about ECDH-1PU rollout](https://blog.identity.foundation/ecdh-1pu-implementation/)
+    * didcomm.org update -> can be already used to register new protocols
+        * https://github.com/decentralized-identity/didcomm.org/pullsZAZ
+    * Potential [DIDComm Users Group](https://hackmd.io/UTIirjBXTSCDwhbfDK5CUQ)
+        * Next version of DIDcomm to live at IETF discussion
+    * PRS
+        - [https://github.com/decentralized-identity/didcomm-messaging/pulls](https://github.com/decentralized-identity/didcomm-messaging/pulls)
+    - Issue Triage
+        - [pending close](https://github.com/decentralized-identity/didcomm-messaging/issues?q=is%3Aopen+is%3Aissue+label%3A%22pending+close%22)
+        - [needs discussion](https://github.com/decentralized-identity/didcomm-messaging/issues?q=is%3Aissue+is%3Aopen+label%3A%22needs+discussion%22)
+    - Tasks
+        - [PR Needed Issues](https://github.com/decentralized-identity/didcomm-messaging/issues?q=is%3Aissue+is%3Aopen+label%3A%22PR+Needed%22)
+
+* **[📦 SDS WG](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)** (Kaliya, Dmitry, Tobias)
+    * Notes - EDV Dedicated Call
+    * Reviewed PRs; [151](https://github.com/decentralized-identity/confidential-storage/pull/151)
+    * Reviewed Issues; [37](https://github.com/decentralized-identity/confidential-storage/issues/37), [49](https://github.com/decentralized-identity/confidential-storage/issues/49 ), [5](https://github.com/decentralized-identity/confidential-storage/issues/5)
+* **[🔧 KERI](https://github.com/decentralized-identity/keri/blob/master/agenda.md)** (Charles, Sam)
+    * reorganization of the WG is in process
+    * proposal for new work items 
+        * CESR or CESR-like encoding for cryptographic material
+        * compound data representations, events, attachment model, transport representation
+        * authentic log/microledger structure and validation rules
+        * potential use-cases for KERI-like systems beyond identifiers
+        * did:keri method resolver/spec - ID working group?
+        * general structure of components to bring into a spec eventually
+    * proposal to do work elsewhere or depending on IETF work 
+* **[🌱 Sidetree WG](https://github.com/decentralized-identity/sidetree/blob/agenda/agenda.md)** (Troy, Daniel)
+    * no meetings for the WG 
+* **[🌱 Wallet Security WG](https://github.com/decentralized-identity/wallet-security/blob/main/agenda.md)**
+    * Oliver L. nd Kristina Y. stepped down as chairs of the WG. 
+    * The WG is working on a new narrative
+    * WG Implemented a work item proposal framework
+
+* **[🌱 Applied Crpyto WG](https://github.com/decentralized-identity/crypto-wg/blob/main/agenda.md)**
+    * [bbs signatures](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/bbs_signatures.md)
+        - had biweekly meeting with some new attendees. 
+    - [bof secure software supply chain](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/bof_secure_software_supply_chain.md)
+        - made contact with counterparts in the OpenSSF (open secure software foundation)
+    - [cbb data encoding](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/cbb_data_encoding.md)
+        - boiling down requirements - why can't existing schemes do this? 
+    - [cbb service protocol](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/cbb_service_protocol.md)
+        - discussions around requirements
+    - [JSON Web Proof](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/json_web_proof.md)
+        - JWT is built as a layer above JWS
+        - JWP was originally thought of as a single layer, but now we're looking at a multi-signing layer, followed by a claims layer.
+        - designing it so that it can be used with ZKP pairing friendly curves, as well as single use presentations from traditional algorithms.
+    - [revocation_methods_for_verifiable_credentials](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/revocation_methods_for_verifiable_credentials_.md)
+        - Collected 8 methods 
+        - 3 additional methods w/o sufficient description
+        - Discussed the testcase including numbers
+        - Link to the google doc [link](https://docs.google.com/spreadsheets/d/1B6Koo8_wUoN4SPDvX7gaKBtkKBr6efOLwKIeVoy4mdI/edit#gid=1798866783) where you can find the method list, the assessment setup and future results
+* **[🏦 Finance & Banking](https://www.notion.so/dif/Meetings-a243fc1d22e2458b87381ef41b9bffb8)**
+    * **Presentations:**
+        * *2nd Nov 2021*
+[David Lutz](https://www.linkedin.com/in/david-lutz-cams-cci-59768822/) - Advantage Digital Advisors & Kurtis Minder - GroupSense spoke on anticorrupion and cybercrime-fighting efforts, ransomware et al
+        * *21st Oct 2021*
+Tobias Halloran and Alex Tweedale - cheqd and their approach to SSI
+        * *7th Oct 2021*
+Pieterjan Uytterhoeven - Isabel Group
+
+* **APAC/ASEAN Open Call**
+    * Discussion with ToIP continue about cohosting APAC calls in 2022
+    * Group Chair & SC Member Catherine is moderating a panel on Strong Authentication Solutions at [Identity Week Asia](https://www.terrapinn.com/exhibition/identity-week-asia/index.stm) 
+    *Tue, Nov 16 – Wed, Nov 17*
+     * 28 Oct
+         * Niall Dennehy of [AID:Tech](https://www.aid.technology/) presented their approach to using DeFi to deliver international aid and cooperate with NGOs and Governments
+            - [Affinidi schema Manager](https://ui.schema.affinidi.com/schemas) presentation: a tool to find and integrate schemas that are widely adopted or create a custom schema according to specific needs in JSON format
+    - 23 Sept 
+        - Digital Identity Infrastructure: Myanmar & Zada.io
+            - Review of implemented COVIDPass, 10,000+ active members on Sovrin Mainnet
+* **Africa Open Call**
+    * 4 Nov Presentation: Nairobi Decentralizd Identity project [Gravity](https://www.gravity.earth/) postponed until Dec 2
+
+         
+       
+
+* **DIF Comms**
+    * ToIP & DIF [Joint Public Statement of Support](https://blog.identity.foundation/w3cdidspec/) for Decentralized Identifiers (DIDs) v1.0 specification becoming a W3C Standard. 
+    * Weekly open Comms calls (see [DIF Calendar](https://bit.ly/dif-calendar)) continue to be a gret venue for generating ideas and collecting feedback 
+ 
+----
+
 <h2 id="meeting-sep-15">Meeting - 15 Sep 2021 - (1100 ET) </h2>
 
 ### Agenda
@@ -27,7 +162,6 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 1. **Welcome and introductions**
     - IIW is coming up - 12th-14th October
     - DIF Grant #1: [Winner Announcement Transmute Technologies](./grants/grant_1/selection.md)
-
 2. **Groups**
 
 | ID | CC | DIDAuth | DIDcomm | SDS | Sidetree | KERI | WalletSec |Crypto|
@@ -72,7 +206,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 - **[📦 SDS WG](https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md)** (Kaliya, Dmitry, Tobias)
     - only two meetings held in August
     -  there are no notes for the WG for August
-- **[🔧 KERI](https://github.com/decentralized-identity/keri/blob/master/agenda.md)** (Charles, Sam)
+* **[🔧 KERI](https://github.com/decentralized-identity/keri/blob/master/agenda.md)** (Charles, Sam)
     - SAI (Self-Addressing Identifier) crate announcement
     - hash-based/self-addressing only
     - Using KERI for SSH
