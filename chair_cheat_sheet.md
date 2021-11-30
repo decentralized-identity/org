@@ -1,4 +1,4 @@
-# WG chair cheat-sheat
+# WG chair (Quick Reference)
 
 This page is designed as a central resource hub for DIF chairs. It will be kept up-to-date with useful links and information, official DIF processes and tooling.
 
