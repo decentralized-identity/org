@@ -37,4 +37,4 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [Spec Tooling Guides](spec-tooling-guides.md)
 * [Code of Conduct](code-of-conduct.md)
 * [DIF Chair cheat sheet](https://github.com/decentralized-identity/org/blob/master/chair_cheat_sheet.md) (Handy reference)
-* [DIF Chair guidelines(https://github.com/decentralized-identity/org/blob/master/chair_guidelines.md) (More comprehensive)
+* [DIF Chair guidelines](https://github.com/decentralized-identity/org/blob/master/chair_guidelines.md) (More comprehensive)
