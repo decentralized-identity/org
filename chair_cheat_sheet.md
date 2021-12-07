@@ -10,13 +10,14 @@ The responsibilites of a DIF Working Group chair include:
 - Driving inclusivity, setting a positive and productive tone.
 - Identifying consensus within the group, and recording decisions & further actions.
 - Developing, communicating an agenda and leading the meetings.
+  - Inviting guests and publicising guest appearances (it's good form to disclosure business relations with guests in both introductions and in public advance promotion of guest appearances)
 - Attendance lists are optional, but chairs should invite new members to introduce themselves to the group.
 - Overseeing note-taking for the WG meetings
- - Notes are used to summarize the important topics and points discussed during the meetings, a full transcript is not neccessary.
- - Notes are used by DIF for the Newsletter and for the All-hands meeting to update the broader community.
- - Notes are useful to discover historical meetings where certain topics were discussed.
- - Notes are often used by the wider community to follow progress on work items.
- - Notes also archive links, files etc. from the chat to make them accessible after the meeting.
+  - Notes are used to summarize the important topics and points discussed during the meetings, a full transcript is not neccessary.
+  - Notes are used by DIF for the Newsletter and for the All-hands meeting to update the broader community.
+  - Notes are useful to discover historical meetings where certain topics were discussed.
+  - Notes are often used by the wider community to follow progress on work items.
+  - Notes also archive links, files etc. from the chat to make them accessible after the meeting.
 - Being a liaison between the group and all groups (both at DIF and externally) with which the group is coordinating.
 - Engaging with media, performing outreach, and ensuring the transparent operation of the group.
 - Sharing monthly updates for the DIF newsletter to inform the community
