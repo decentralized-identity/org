@@ -13,7 +13,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 
 --- 
 
-1. Prepare and share an Agenda for the call, ideally 24 hours in advance 
+1. Prepare and share an Agenda for the call, ideally 24 hours in advance. Disclose any business relations between chairs and speakers/topics, if pertinent.
 2. Take notes (4-5 bullet points) to capture main topics 
 3. Make sure everyone on the call has signed the WG charter 
 4. Follow-up on agreed tasks 
@@ -56,7 +56,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 * All WG calls are automatically recorded to DIF’s zoom account.
     * If a member requests pausing the call, please inform them that since WG meetings are IPR protected the entire meeting must be on record. Suggest them to discuss their topic offline and find an alternative non WG meeting time to hear what they intend to share. If in doubt about IPR, please reach out to DIF operations. 
 * Share the link to the Agenda [hackmd] document in the Zoom chat
-* Consider screen-sharing the Agenda document
+* Consider screen-sharing the Agenda document and/or minutes, to encourage assistance with note-taking, URL sharing, and/or corrections
 * Invite people again to add items onto the agenda for the call
 * An attendance list in the agenda document is not essential, but can be helpful
 * If needed, please ask the group for volunteers or support with note-taking
@@ -114,10 +114,10 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 * Spreadsheet of DIF call recordings is [here](http://bit.ly/DIF_recordings_list), divided by group
     * Recordings should appear shortly after the call, including the text chat 
 * Record group decisions and further actions
-    * Note the person responsible for the task
-    * Setting a timeframe for the task is advisable
+    * Note the person responsible for the task, double-check that they've been assigned if using github issues/PRs/discussions
+    * Setting a timeframe for the task is advisable; tagging accordingly in GH can be helpful
     * Include links, documents, contact names etc. needed for these steps
-
+* It's never too early to start setting the agenda for the following week or sending out reminders about upcoming guests or special agendas.
 --- 
 
 ### ![](https://i.imgur.com/SxAB6i1.png) Asynchronous: GitHub, Slack
