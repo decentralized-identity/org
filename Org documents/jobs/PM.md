@@ -8,7 +8,7 @@ See a detailed job description below and apply directly by sending an email to j
 
 *Please send the following two documents:*
 * *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.* 
-* *a resume* 
+* *a résumé* 
 
 
 ## **Program Manager - Full-time**
