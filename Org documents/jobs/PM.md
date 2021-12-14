@@ -6,6 +6,10 @@ along with the booming digital identity sector and the foundation itself. Is thi
 
 See a detailed job description below and apply directly by sending an email to jobs@identity.foundation.
 
+*Please send the following two documents:*
+* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.* 
+* *a resume* 
+
 
 ## **Program Manager - Full-time**
 **_Core Responsibilities_**
@@ -56,3 +60,8 @@ See a detailed job description below and apply directly by sending an email to j
 * **Start Date**: 1st Jan. preferred, but later, or a gradual "ramp-up" to full time are both feasible options to consider.
 
 Send applications to jobs@identity.foundation
+
+
+*Please send the following two documents:*
+* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.* 
+* *a resume* 
