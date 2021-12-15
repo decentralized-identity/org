@@ -1,27 +1,22 @@
-#DIF Org FAQ Dropdown test
-
-**<details><summary>Background</summary><br>**
-The Decentralized Identity Foundation organization was formed as a Joint Development Foundation (part of the Linux Foundation) project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.
-</details>
-
+# DIF Org FAQ 
 
 
 ## [What is DIF?](https://github.com/decentralized-identity/org/blob/master/brand-guidelines.md)
 
 
-**<details><summary>Background</summary>**
-The **Decentralized Identity Foundation** organization (commonly shortened to '**DIF**') was formed as a [Joint Development Foundation](https://www.jointdevelopment.org/) (part of the [Linux Foundation](https://www.linuxfoundation.org/))  project in 2017, and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.</details>
+### Background
+The Decentralized Identity Foundation organization (also known as DIF) was formed as a Joint Development Foundation (part of the Linux Foundation) project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.
 
-<details><summary>Currently</summary>
-DIF has a diverse, international membership, including over 270 member companies, universities, and government agencies that are collaboratively developing the broader space of decentralized identities. 
+
+Currently, DIF has a diverse, international membership, including over 270 member companies, universities, and government agencies that are collaboratively developing the broader space of decentralized identities. 
 
 There are 9 technical working groups, 3 business interest groups, and 4 different open groups to bring together members with shared interests, common goals, and a desire to collaborate. 
-</details>details>
+
 
     		
 
 
-## [Vision & Mission](https://identity.foundation/governance/about)
+## [DIF's Vision & Mission](https://identity.foundation/governance/about)
 
 **<details><summary>Vision</summary>**
     DIF wants to enable a world where decentralized identity solutions allow entities to gain control over their identities and allow trusted interactions.
@@ -29,13 +24,15 @@ There are 9 technical working groups, 3 business interest groups, and 4 differen
 
 
 **<details><summary>Mission</summary>**
+	
 The Decentralized Identity Foundation (DIF) exists to advance the interests of the decentralized identity community, including performing research and development to advance “pre-competitive” technical foundations towards established interoperable, global standards. DIF  views this work as a foundational step towards secure, efficient, empowered and democratic interactions online. To that end, DIF aims to include contributions from a diversity of viewpoints and foster an environment of empathy and cooperation, and make its work freely available to the public as Open Source resources.
 </details>
 
 ## [Organizational Structure](https://identity.foundation/governance/about) 
 
 **<details><summary>Internal Org Structure</summary>**
-
+	
+![DIF Org Structure](https://user-images.githubusercontent.com/89832649/146234518-218dd260-e82d-466a-8884-a21a64c93d09.png)
 As defined in the [DIF Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf) and [Governance - Operating Addendum](https://github.com/decentralized-identity/org/blob/c06c17bd2df58633eb74d9d5237281c79d9b676e/Org%20documents/Membership%20agreements/DIF%20Governance%20-%20Operating%20Addendum%20-%2020210304.pdf), DIF is governed by the elected Steering Committee (SC). The SC is made up of 10 elected members and the representatives of the Technical Steering Committee. The election takes place in Q1-2 of each year.  Nominees are required to be members of DIF at the time of the annual elections, however, only Associate member organizations are qualified to vote.  \
 The SC is the legal decision-maker in DIF: it created the Technical Steering Commitee (TSC) to delegate decision-making authority on operational technical matters to the TSC. The TSC is made up of the current (technical) Working Group chairs, with every WG sending at least one chair to participate. On voting matters, there is one vote per WG, not per person. The TSC chair is elected by the WG chairs at the TSC and not general DIF membership. 
 
@@ -48,12 +45,14 @@ The Operating Addendum governing the structure of the SC and TSC can be found [h
     
 
 **<details><summary>Funding</summary>**
+	
 DIF is a US-registered 501(c)(6) membership organization. DIF’s funding originates only from the membership fees paid by Associate members. DIF does not accept external donations and does not sell commercial products or advertisements of any kind. 
 
 As of [July 2021](https://blog.identity.foundation/dif-grant-1-jws-test-suite/), DIF is delighted to administer various grants for specific items of work that contribute value to the open-source decentralized identity space. This funding either comes from DIF directly, or is sponsored by a member organization and awarded and administered by DIF.
 </details>
 
 **<details><summary>Sounds great! How can I join?</summary>**
+	
 Membership applications can be submitted via our website [here](https://identity.foundation/join) or by emailing [membership@identity.foundation](mailt:membership@identity.foundation). 
     Read our [Membership section](#Membership) for more detailed information about becoming a member of DIF and what options are available.
 </details>
@@ -70,12 +69,15 @@ DIF has several different membership types, some of which are free and some whic
 The DIF [Participation Matrix](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/DIF%20participation%20matrix_4.0.2_20210519.pdf) gives a comprehensive overview of the differences between the various types of DIF membership. Paid associate membership comes with a number of exclusive extras, including a vote in Steering Committee elections, representation on the DIF website, and the ability to list opportunities on our DIF [jobs board](https://identity.foundation/jobs/).
 
 **Associate membership:**
+	
 The highest tier of membership level is available for companies of all sizes. The Associate membership is a paid membership and the fees are dynamically scaled based on total employee numbers. The fee scale can be found [here](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2_appendix_C.pdf).
 
 **Contributor membership:**
+	
 This is DIF’s **free** membership tier designed for companies. This membership is available for companies with less than 1000 employees. Contributors do not participate in the election and are not eligible to submit technical news to the newsletter. 
 
 **Individual freelancers (Feedback Agreement):**
+	
 Designed for individual contributors to DIF Working Groups, **free of charge**. The contributions are provided on an individual basis, not as a representative of an organization or company (you **must not** be in full-time employment at an organization). Regardless of freelance status, check with the legal department of your clients to make sure this agreement would be actionable and is not in breach of your existing contracts.
 
 **FYI:** this option CANNOT be used if you are a full-time employee or executive officer of an entity, regardless of for-profit/non-profit status.
@@ -97,7 +99,7 @@ The term of the membership agreement is 1 year from the date this agreement is c
     </details>
 
 
-**<details><summary>Invoices for paying members</summary><br>**
+**<details><summary>Invoices for paying members</summary>**
 
 As [part of the Linux Foundation](https://www.linuxfoundation.org/), DIF relies on its financial administration infrastructure. The invoice is managed and issued by Linux Foundation accounting from an @linuxfoundation.org email address. DIF membership fees are billed annually. \
 </details>
@@ -118,43 +120,49 @@ GitHub is DIF’s primary place of collaboration and the main archive of the wor
 To get involved with any of this work please join DIF as a member **and** sign the applicable WG charter (s). Once that’s done, please reach out to membership@identity.foundation or on Slack with your associated GitHub handles to be added to the various repositories.</details>
 	
 **<details><summary>Meetings</summary>**
+	
 Regular meetings of our working, special interest, open and work-item groups take place online via Zoom. The public DIF calendar [here](https://bit.ly/dif-calendar) gives an overview of the many meetings that take place,: the calendar entries contain the access details for the calls, and some useful links to agendas, charters etc. Meetings are open for anyone (not just DIF members), however, contribution to a WG via voice, chat, or screen sharing is **<span style="text-decoration:underline;">strictly limited</span> **to members who have signed both the DIF membership agreement and the applicable WG charter. Special Interest Groups and Open Calls do not have this requirement and are intended for open discussion without restrictions. Participation is typical via chat and voice, but video and screen sharing (where relevant) are encouraged. We would ask that you use a full name while participating in Zoom calls, and your corporate affiliation can also be noted, eg. _John Doe (DeFi Corp Ltd.). _Most Zoom calls at DIF are recorded and made available to the public [here](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=1343983492). Zoom will notify you on login if the call is being recorded. If you have an objection to this, make it known to the chair at the start of the call.	
 </details>
 
 **<details><summary>DIF Blog</summary>**
+	
 DIF maintains a regular blog ([link](https://blog.identity.foundation)), hosted on the DIF website, as well as [Medium.com](https://medium.com/@decentralized.identity). Here we report exciting developments, news and project successes both at DIF and from the wider decentralized identity community. Most of the content is written by DIF members and WG chairs, often to explain specific details of a work item or working group, or as a high-level overview of some of the core concepts and technologies underpinning our work. We highly recommend you take a look through the archive here LINK. 
 </details>
 
 
 **<details><summary>YouTube</summary>**
 
-
 DIF also runs a [YouTube channel](https://www.youtube.com/channel/UCicZIzvOXOyij0A6jlA7nxQ), which is particularly suited to video-explainers of decentralized identity technology, or hosting webinars and virtual events, whether live or pre-recorded. If you have any content you would like to upload, present as a webinar or want to produce with us, please reach out to us directly.</details>
 
 
 
 **<details><summary>Code Donations</summary>**
+	
     DIF accepts and encourages members to work on community-owned work instead of in-house open-source projects. For this reason, DIF developed a straightforward method for [donation](https://github.com/decentralized-identity/org/blob/master/github-donation.md) of work to the organization, which DIF will then provide to the public under an open-source license for use, further development, testing, forking etc. DIF does not accept financial or material donations of any kind.
 </details>
 
 **<details><summary>Mailing list</summary>**
+	
     Every DIF group (Technical or Open) has a respective [mailing list](https://lists.identity.foundation/).  Everyone can subscribe to any mailing list, however, the contribution is limited, in the case of the Technical WG mailing list, to members who signed the WG charter. Updates related to the work of the group, as well as scheduling and agenda of regular calls can be shared through this channel. We encourage member representatives to use their corporate email addresses. Please whitelist @identity.foundation email addresses to make sure they don’t land in your spam filter. We are not interested in selling your data to third parties or sending you spam.</details>
 
 
 **<details><summary>Newsletter</summary>**
+	
 DIF also produces a monthly newsletter: This includes status updates on the work across DIF groups, relevant industry news, upcoming events and job opportunities at DIF members. This is a great way to get an overview of all the moving parts at DIF. The newsletter archive of past issues can be found [here](https://github.com/decentralized-identity/newsletterarchives), and you can subscribe to the newsletter directly on the DIF homepage [here](https://identity.foundation/). If you have any exciting announcements or tips, you can submit them for inclusion using [this form](https://docs.google.com/forms/d/106K_65wkYSiWEEg5haKYJuSbVW2DsXabhv4_LgCDo2o/viewform?edit_requested=true).</details>
 
 
 **<details><summary>Slack</summary>**
+	
 DIF also hosts a [Slack workspace](difdn.slack.com) to host conversations around topics or for members of a specific group. Please note that significant contributions to group work should be kept on GitHub and for the group Zoom calls. Please register for the DIF Slack using your corporate email address and real name.** Note**: as this is an unpaid Slack space, message history is limited: currently the channels have approx 4-5 weeks of history. Please save any important info, files, links etc or move the conversation to an email chain if it will be needed for reference later.</details>
 
 **<details><summary>Twitter</summary>**
+	
 DIF maintains a Twitter presence with the handle [@decentralizedID](http://bit.ly/DIF_twitter) account to provide frequent updates on industry news, publications, work progress at DIF, and events.
     </details>
     
 **<details><summary>Grants</summary>**
 
-Documentation on the nature of DIF Grants can be found on GitHub [here](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/DIF%20Grants%20Operating%20Addendum_20210402.pdf), which includes the form for applying. 
+Documentation on the nature of DIF Grants can be found on GitHub [here](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/DIF%20Grants%20Operating%20Addendum_20210402.pdf), which includes the form for applying. Consideraions for what makes a compelling application is discussed in the [DIF Blog article announcing the Grant scheme](https://blog.identity.foundation/introducing-dif-grants/). 
 
 For an example of the kind of work that can be funded by a grant from DIF, read about our first awardee, a JWS Test Suite, on the [DIF Blog here](https://blog.identity.foundation/dif-grant-1-jws-test-suite/).</details>
 
@@ -197,12 +205,7 @@ DIF hosts two distinctive types of groups, to which different legal agreements a
 **Working groups** (shortened to '**WG**') are the core of DIF’s work. These are the groups collaborating on specifications and standards to extend the capabilities of Decentralized Identities. To join these groups one **<span style="text-decoration:underline;">must</span>** have a legal agreement with DIF (membership) and **<span style="text-decoration:underline;">must</span>** have signed the IPR waiver (individual WG charter) before contributing. It is highly important that all parties follow these rules as the value of a freely usable, IPR-claim-free specification is the fundamental basis for open [standardizaiton](https://blog.identity.foundation/drilling-down--open-standards/). In case of doubt, please contact the WG chair directly before contributing.</details>
 
 
-
-
 **The following are the Working Groups at DIF:**
-
-
-
 
 * [Identifiers & Discovery](https://identity.foundation/working-groups/identifiers-discovery.html) 
 * [DID Authentication](https://identity.foundation/working-groups/authentication.html)
@@ -231,4 +234,8 @@ Open Groups & Special Interest Groups are meeting series that are not focused di
 * [Africa Community Call](https://www.notion.so/dif/DIF-Africa-Discussion-Group-a0309cb4a1d4461085683744d2955973)
 * [Product Managers](https://dif.groups.io/g/id-productmanagers)
 
-</details>
+
+
+As always, we are striving to be clear, precise and accessible in our documentation. Have questions or suggestions for us! Please feel free to create a pull request with your feedback!
+
+_Copyright © |2021| |DECENTRALIZED IDENTITY FOUNDATION|_  
