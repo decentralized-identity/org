@@ -1,4 +1,4 @@
-# DIF Org FAQ Dropdown test
+#DIF Org FAQ Dropdown test
 
 **<details><summary>Background</summary><br>**
 The Decentralized Identity Foundation organization was formed as a Joint Development Foundation (part of the Linux Foundation) project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.
