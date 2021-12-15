@@ -42,3 +42,7 @@ Upon the designation of a Draft Deliverable as an Approved Deliverable, the Exec
 No Draft Deliverable or Approved Deliverable may be submitted to another standards development organization without Approval by the Steering Committee. Upon Approval by the Steering Committee, the Executive Director will coordinate the submission of the applicable Draft Deliverable or Approved Deliverable to another
 standards development organization with Joint Development Foundation Projects, LLC. Working Group Participants that developed that Draft Deliverable or Approved Deliverable agree to grant the copyright rights necessary to make those submissions.
 
+## Work Item 
+
+A work item considered a DIF work item once the status of the item reaches one of the stages mentioned in the Deliverable Development Process (above).
+Each DIF work item must be concluded and developed under the https://github.com/decentralized-identity organization's repository to be considered part of the Deliverable Development Process, making it a DIF work item. 
