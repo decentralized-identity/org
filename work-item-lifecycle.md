@@ -29,7 +29,7 @@ Group chair will designate each submission as a “Pre-Draft” document.
 1. A Pre-Draft MAY BE referred to as a “Straw man” internally
 2. Additional “Straw men” can serve as input documents to a Draft Deliverable,
    in part or in whole, and can be submitted after a Draft has been initiated at
-   the discretion of the chairs.
+   the discretion of the chairs. 
 
 ### 7.2. **Draft**. 
 Each Pre-Draft document of a Working Group must first be Approved by the Working
