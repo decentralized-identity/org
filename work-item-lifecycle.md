@@ -64,11 +64,6 @@ Group Approved” status.
    section below. If the WG chairs and membership cannot come to consensus about
    specific acknowledgements, this can be escalated to the Technical Steering
    Committee by either party.
-3. Approved drafts should be put at a **permanent link** tracked on DIF's
-   website or github. See [presentation
-   exchange](https://identity.foundation/presentation-exchange) for an example
-   of how to publish 1 or more "ratified versions" in addition to an ongoing
-   draft.
 
 
 ### 7.4. **Final Approval**.
