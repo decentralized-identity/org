@@ -28,7 +28,13 @@ Each Pre-Draft document of a Working Group must first be Approved by the Working
 ### 7.3. **Working Group Approval**.
 Once a Working Group believes it has achieved the objectives for its deliverable as described in the Scope, it will progress its Draft Deliverable to “Working Group Approved” status.
 1. Where protocols or interfaces are being specified, a section explicitly defining **test vectors for conformance testing** SHALL be written at time of approving a draft or earlier.
-2. Approved drafts should be put at a **permanent link** tracked on DIF's website or github.
+2. Approved drafts should be put at a **permanent link** tracked on DIF's
+   [spec-tracking
+   repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
+   github. See the entry for [Presentation
+   Exchange](https://identity.foundation/presentation-exchange) for an example
+   of how to publish 1 or more "ratified versions" in addition to an ongoing
+   "current draft".
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive Director or his/her designee will present that Working Group Approved Draft Deliverable to the Steering Committee for Approval. Upon Approval by the Steering Committee, that Draft Deliverable will be designated an “Approved Deliverable.”
