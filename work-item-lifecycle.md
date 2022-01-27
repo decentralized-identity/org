@@ -54,13 +54,16 @@ Group Approved” status.
 1. Where protocols or interfaces are being specified, a section explicitly
    defining **test vectors for conformance testing** SHALL be written at time of
    approving a draft or earlier.
-2. The WG approval process SHOULD consider adding a "Acknowledgments" section to
-   the specification, particularly if the individuals and organization listed as
-   editors and contributors would like to add information about funding sources
-   or institutional support such as research grants or university labs. If the
-   WG decides by consensus not to include an acknowledgments section, this
-   decision should be recorded in the minutes/issues for the sake of
-   transparency.
+2. The WG approval process is a good time to do a final call for significant
+   contributors to PR into the deliverable any entries to an "Acknowledgments"
+   section of the deliverable.  This is recommended in cases where
+   non-recurring, equity free forms of funding supported the work (i.e. "grants"
+   or other research and public-good support including DIF itself). Each
+   supported contributor is responsible for their own acknowledgement. For a
+   template, see the `[Acknowledgement Template](#Acknowledgement-Template)`
+   section below. If the WG chairs and membership cannot come to consensus about
+   specific acknowledgements, this can be escalated to the Technical Steering
+   Committee by either party.
 3. Approved drafts should be put at a **permanent link** tracked on DIF's
    [spec-tracking
    repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
@@ -110,3 +113,11 @@ work item must be concluded and developed under the
 https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
+
+## Acknowledgement Template
+
+{ENTITY_NAME} received funding from {FUNDING_SOURCE} to contribute to this work
+item. {OPTIONAL DETAILS ABOUT SCOPE, CONTRACT NUMBERS, OVERSIGHT, ETC}. This
+work item does not necessarily reflect the position or the policy of
+{FUNDING_SOURCE} and no official endorsement of the work item or of DIF itself
+should be attributed to {FUNDING_SOURCE} on the basis of this support.
