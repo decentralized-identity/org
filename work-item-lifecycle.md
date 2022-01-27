@@ -50,5 +50,9 @@ standards development organization with Joint Development Foundation Projects, L
 
 ## Work Item 
 
-A work item considered a DIF work item once the status of the item reaches one of the stages mentioned in the Deliverable Development Process (above).
-Each DIF work item must be concluded and developed under the https://github.com/decentralized-identity organization's repository to be considered part of the Deliverable Development Process, making it a DIF work item. 
+A work item is considered a DIF work item once the status of the item reaches
+one of the stages mentioned in the Deliverable Development Process (above). Each
+DIF work item must be concluded and developed under the
+https://github.com/decentralized-identity organization's repository to be
+considered part of the Deliverable Development Process, making it a DIF work
+item. 
