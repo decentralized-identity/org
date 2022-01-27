@@ -62,10 +62,12 @@ Group Approved” status.
    decision should be recorded in the minutes/issues for the sake of
    transparency.
 3. Approved drafts should be put at a **permanent link** tracked on DIF's
-   website or github. See [presentation
-   exchange](https://identity.foundation/presentation-exchange) for an example
+   [spec-tracking
+   repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
+   github. See the entry for [Presentation
+   Exchange](https://identity.foundation/presentation-exchange) for an example
    of how to publish 1 or more "ratified versions" in addition to an ongoing
-   draft.
+   "current draft".
 
 
 ### 7.4. **Final Approval**.
@@ -102,7 +104,7 @@ those submissions.
 
 ## Work Item 
 
-A work item considered a DIF work item once the status of the item reaches one
+A work item is considered a DIF work item once the status of the item reaches one
 of the stages mentioned in the Deliverable Development Process (above). Each DIF
 work item must be concluded and developed under the
 https://github.com/decentralized-identity organization's repository to be
