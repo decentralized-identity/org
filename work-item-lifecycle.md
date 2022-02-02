@@ -64,7 +64,7 @@ Group Approved” status.
    section below. If the WG chairs and membership cannot come to consensus about
    specific acknowledgements, this can be escalated to the Technical Steering
    Committee by either party.
-
+3. Approved drafts should be put at a **permanent link** tracked on DIF's website or github.
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive
@@ -107,6 +107,7 @@ https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
 
+
 ## Acknowledgement Template
 
 {ENTITY_NAME} received funding from {FUNDING_SOURCE} to contribute to this work
@@ -114,3 +115,33 @@ item. {OPTIONAL DETAILS ABOUT SCOPE, CONTRACT NUMBERS, OVERSIGHT, ETC}. This
 work item does not necessarily reflect the position or the policy of
 {FUNDING_SOURCE} and no official endorsement of the work item or of DIF itself
 should be attributed to {FUNDING_SOURCE} on the basis of this support.
+
+## Profiles versus Specifications
+
+A work item that only describes and/or implements a *subset* of one or more 
+existing normative specifications, whether standards-track or DIF-terminal 
+(such as, say, Presentation Exchange or DIDComm) can be called a "profile", not
+a specification, in that all normative and IP-sensitive work is done by an
+existing specification, making this a "derivative work" and not needing IPR
+protection. It is recommended that detailed profiles of a single DIF work item or
+deliverable be donated to the working group that defined that work item to
+simplify IP concerns if the contributors defining the profile need to open an
+"upstream" PR or issue.
+
+## Interoperability Profiles
+
+A common goal for interoperability efforts is to define a profile of multiple
+specifications (protocols and/or data models) that add up to an "end to end"
+profile for use by a certain ecosystem or infrastructure. These can, ideally, be
+defined without any new IPR-sensitive contributions or ideas, whether in a
+non-IPR-protected group like the Interoperability WG or elsewhere and donated to
+DIF. There always exists, however, the possibility that the reality is less tidy
+than the ideal, and such a multi-spec profile finds itself specifying more than
+zero or accepting contributions that seem substantial in retrospect. For this
+reason, all working group chairs should review any such donations critically
+with this very issue in mind, and, if needed, work with donators to open a work
+item in an IPR-protected working group to resolve any ambiguities about the IPR
+status of all inputs to a profile if they are not confident that an interop
+profile is adequately descriptive and non-normative to constitute an IPR-safe
+donation before it goes to the Technical Steering Committee for DIF
+ratification.
