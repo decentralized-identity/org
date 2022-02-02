@@ -61,7 +61,7 @@ Group Approved” status.
    or other research and public-good support including DIF itself). Each
    supported contributor is responsible for their own acknowledgement. For a
    template, see the `[Acknowledgement Template](#Acknowledgement-Template)`
-   section below. If the WG chairs and membership cannot come to consensus about
+   section below. If the WG chairs and membership cannot come to agreement about
    specific acknowledgements, this can be escalated to the Technical Steering
    Committee by either party.
 3. Approved drafts should be put at a **permanent link** tracked on DIF's website or github.
