@@ -99,12 +99,15 @@ item.
 
 ## Profiles versus Specifications
 
-A work that only specifies a *subset* of one or more existing specifications
+A work item that only describes and/or implements a *subset* of one or more 
+existing normative specifications, whether standards-track or DIF-terminal 
 (such as, say, Presentation Exchange or DIDComm) can be called a "profile", not
 a specification, in that all normative and IP-sensitive work is done by an
 existing specification, making this a "derivative work" and not needing IPR
 protection. It is recommended that detailed profiles of a single DIF work item or
-deliverable be donated to the working group that defined that work item.
+deliverable be donated to the working group that defined that work item to
+simplify IP concerns if the contributors defining the profile need to open an
+"upstream" PR or issue.
 
 ## Interoperability Profiles
 
