@@ -21,7 +21,7 @@
 
 
 ### Background
-The Decentralized Identity Foundation organization (also known as DIF) was formed as a Joint Development Foundation (part of the Linux Foundation) project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.
+The Decentralized Identity Foundation organization (also known as DIF) was formed as a [Joint Development Foundation](https://www.jointdevelopment.org/) ([which became part of the Linux Foundation at the end of 2018](https://www.linuxfoundation.org/press-release/jdf-joins-lf-family/)) project in 2017 and has grown to be a major venue for IPR-protected co-development among large and small industry players. It has historically focused on the development of both working open-source code and pre-standard specifications for decentralized identity, but it is starting to branch out into non-technical forms of cooperation for the purposes of market-building and to promote all open decentralized identity technology, whether created in DIF or elsewhere.
 
 
 Currently, DIF has a diverse, international membership, including over 270 member companies, universities, and government agencies that are collaboratively developing the broader space of decentralized identities. 
