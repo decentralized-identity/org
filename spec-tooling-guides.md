@@ -45,12 +45,14 @@ The tools recommended by DIF are:
      fork](https://github.com/decentralized-identity/template-IETF-bound) of the
      `internet-draft-template` by Martin Thomson (a long-time IETF WG chair). It
      contains a dockerized version of `markdown2rfc` and automations for github
-     that can be customized (documentation forthcoming). If these cannot be
-     housed in the DIF org, they need to clearly state in README.md and
-     CONTRIBUTING.md that it is an ongoing DIF work item that only accepts 
-     substantial contributions from DIF members in the WG. Tagging the repo with
-     the appropriate tag (i.e. `wg-cc`) helps them be displayed on the WG's   
-     webpage on the DIF website and generally assists discoverability/visibility.
+     that can be customized (documentation forthcoming). If for IETF acceptance
+     reasons (or for other SDO-target reasons), a repo needs to be housed outside
+     the DIF github org, it should be clearly stated in the README.md and
+     CONTRIBUTING.md at time of inception that the repo contains an ongoing DIF 
+     work item that only accepts substantial contributions from DIF members in 
+     the WG. Tagging the repo with the appropriate tag (i.e. `wg-cc`) helps them 
+     be displayed on the WG's webpage on the DIF website and generally assists 
+     discoverability & visibility.
    - Note: It is also possible to generate IETF RFCs from markdown files using
         [BikeShed](https://tabatkins.github.io/bikeshed/) in situations where
    user-friendlier tools lack flexibility.
