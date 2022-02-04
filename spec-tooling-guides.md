@@ -19,7 +19,7 @@ The tools recommended by DIF are:
 1. **[SpecUp](https://github.com/decentralized-identity/spec-up)** is a
    lightweight markdown generator similar to Jekyll, which is itself hosted and
    maintained as a standing DIF work item. 
-   - Work items intending to use spec-up for their deliverables should request a
+   - Work items intending to use Spec-up for their deliverables should request a
      "spec-up repo" from DIF at time of beginning work, i.e., a repo cloned from
      the [SpecUp repo
      template](https://github.com/decentralized-identity/spec-up)
@@ -45,7 +45,12 @@ The tools recommended by DIF are:
      fork](https://github.com/decentralized-identity/template-IETF-bound) of the
      `internet-draft-template` by Martin Thomson (a long-time IETF WG chair). It
      contains a dockerized version of `markdown2rfc` and automations for github
-     that can be customized (documentation forthcoming). 
+     that can be customized (documentation forthcoming). If these cannot be
+     housed in the DIF org, they need to clearly state in README.md and
+     CONTRIBUTING.md that it is an ongoing DIF work item that only accepts 
+     substantial contributions from DIF members in the WG. Tagging the repo with
+     the appropriate tag (i.e. `wg-cc`) helps them be displayed on the WG's   
+     webpage on the DIF website and generally assists discoverability/visibility.
    - Note: It is also possible to generate IETF RFCs from markdown files using
         [BikeShed](https://tabatkins.github.io/bikeshed/) in situations where
    user-friendlier tools lack flexibility.
