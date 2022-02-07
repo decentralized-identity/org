@@ -40,7 +40,7 @@ The tools recommended by DIF are:
    contains the similar go-based tool, `mmark`, can be a more user-friendly
    experience.
    - Unless editors have prior experience with IETF spec tooling, we recommend
-     work items intended as IETF internet drafts start work in a DIF repo cloned
+     work items intended as IETF internet drafts start work in a repository cloned
      from the [DIF
      fork](https://github.com/decentralized-identity/template-IETF-bound) of the
      `internet-draft-template` by Martin Thomson (a long-time IETF WG chair). It
