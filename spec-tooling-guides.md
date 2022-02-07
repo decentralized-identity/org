@@ -20,8 +20,8 @@ The tools recommended by DIF are:
    lightweight markdown generator similar to Jekyll, which is itself hosted and
    maintained as a standing DIF work item. 
    - Work items intending to use Spec-up for their deliverables should request a
-     "spec-up repo" from DIF at time of beginning work, i.e., a repo cloned from
-     the [SpecUp repo
+     "spec-up repo" from DIF at time of beginning work, i.e., a repo generated 
+     from the [SpecUp repo
      template](https://github.com/decentralized-identity/spec-up)
 2. **[BikeShed](https://tabatkins.github.io/bikeshed/)** is a general-purposes
    specification authoring tool with many features and settings, which may be a
@@ -40,8 +40,8 @@ The tools recommended by DIF are:
    contains the similar go-based tool, `mmark`, can be a more user-friendly
    experience.
    - Unless editors have prior experience with IETF spec tooling, we recommend
-     work items intended as IETF internet drafts start work in a repository cloned
-     from the [DIF
+     work items intended as IETF internet drafts start work in a repository 
+     generated from the [DIF
      fork](https://github.com/decentralized-identity/template-IETF-bound) of the
      `internet-draft-template` by Martin Thomson (a long-time IETF WG chair). It
      contains a dockerized version of `markdown2rfc` and automations for github
