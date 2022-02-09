@@ -12,13 +12,17 @@ item can come to a consensus *up front* about an SDO that it wants to target
 from the beginning, we advise the group to work within the format and tooling
 preferences of that SDO from the begining.  If no clear SDO can be agreed to
 upfront, or if a "DIF-terminal" specification is consensual from the beginning,
-we recommend SpecUp, a markdown-based tool fit-for-purpose and designed by DIF's
-founding executive director.
+we recommend SpecUp, a markdown-based tool maintained as a standing work item of
+the DIF technical steering committee.
 
 The tools recommended by DIF are:
 1. **[SpecUp](https://github.com/decentralized-identity/spec-up)** is a
    lightweight markdown generator similar to Jekyll, which is itself hosted and
    maintained as a standing DIF work item. 
+   - Work items intending to use Spec-up for their deliverables should request a
+     "spec-up repo" from DIF at time of beginning work, i.e., a repo generated 
+     from the [SpecUp repo
+     template](https://github.com/decentralized-identity/spec-up)
 2. **[BikeShed](https://tabatkins.github.io/bikeshed/)** is a general-purposes
    specification authoring tool with many features and settings, which may be a
    bit overwhelming for more junior/inexperienced audiences.
@@ -34,8 +38,23 @@ The tools recommended by DIF are:
    tool for IETF RFCs, but may require a bit of XML familiarity; the dockerized
    version, [`markdown2rfc`](https://github.com/oauthstuff/markdown2rfc), also
    contains the similar go-based tool, `mmark`, can be a more user-friendly
-   experience. It is also possible to generate IETF RFCs from markdown files
-   using [BikeShed](https://tabatkins.github.io/bikeshed/) in situations where
+   experience.
+   - Unless editors have prior experience with IETF spec tooling, we recommend
+     work items intended as IETF internet drafts start work in a repository 
+     generated from the [DIF
+     fork](https://github.com/decentralized-identity/template-IETF-bound) of the
+     `internet-draft-template` by Martin Thomson (a long-time IETF WG chair). It
+     contains a dockerized version of `markdown2rfc` and automations for github
+     that can be customized (documentation forthcoming). If for IETF acceptance
+     reasons (or for other SDO-target reasons), a repo needs to be housed outside
+     the DIF github org, it should be clearly stated in the README.md and
+     CONTRIBUTING.md at time of inception that the repo contains an ongoing DIF 
+     work item that only accepts substantial contributions from DIF members in 
+     the WG. Tagging the repo with the appropriate tag (i.e. `wg-cc`) helps them 
+     be displayed on the WG's webpage on the DIF website and generally assists 
+     discoverability & visibility.
+   - Note: It is also possible to generate IETF RFCs from markdown files using
+        [BikeShed](https://tabatkins.github.io/bikeshed/) in situations where
    user-friendlier tools lack flexibility.
 
 ## Educational materials
