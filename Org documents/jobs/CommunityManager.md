@@ -1,6 +1,6 @@
 ### DIF is hiring! 
 
-We are looking for a motivated and engaged Community Manager (20-30hrs/week, remote) to oversee and facilitate important ongoing work across the open-source pre-standards community at DIF. Help organize, represent and care for DIF members, both prospective and existing, and grow 
+We are looking for a motivated and engaged Community Manager (20+hrs/week, remote) to oversee and facilitate important ongoing work across the open-source pre-standards community at DIF. Help organize, represent and care for DIF members, both prospective and existing, and grow 
 along with the booming digital identity sector and the foundation itself. Is this you, or do you know of someone excited to work on open standards? 
 
 See a detailed job description below and apply directly by sending an email with a cover letter and résumé to jobs@identity.foundation.
@@ -9,7 +9,7 @@ See a detailed job description below and apply directly by sending an email with
 * *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you and your interests.* 
 * *a résumé* 
 
-## Community Manager position (approx 20-30 hrs/wk potential for full time, remote work)
+## Community Manager position (approx. 20-30 hrs/wk, potential for full time, remote work)
 ------------------------------------------------------------------------
 
 This evangelist actively supports the work of groups at DIF, helps create a productive, collaborative environment there, while also being active in partner orgs, external events, and community channels. 
