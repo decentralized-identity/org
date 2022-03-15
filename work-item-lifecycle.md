@@ -54,7 +54,13 @@ Group Approved” status.
 1. Where protocols or interfaces are being specified, a section explicitly
    defining **test vectors for conformance testing** SHALL be written at time of
    approving a draft or earlier.
-2. Approved drafts should be put at a **permanent link** tracked on DIF's website or github.
+2. Approved drafts should be put at a **permanent link** tracked on DIF's
+   [spec-tracking
+   repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
+   github. See the entry for [Presentation
+   Exchange](https://identity.foundation/presentation-exchange) for an example
+   of how to publish 1 or more "ratified versions" in addition to an ongoing
+   "current draft".
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive
@@ -89,7 +95,6 @@ or Approved Deliverable agree to grant the copyright rights necessary to make
 those submissions.
 
 ## Work Item 
-
 A work item considered a DIF work item once the status of the item reaches one
 of the stages mentioned in the Deliverable Development Process (above). Each DIF
 work item must be concluded and developed under the
