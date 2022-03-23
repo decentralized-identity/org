@@ -56,14 +56,14 @@ Group Approved” status.
    approving a draft or earlier.
 2. The WG approval process is a good time to do a final call for significant
    contributors to PR into the deliverable any entries to an "Acknowledgments"
-   section of the deliverable.  This is recommended in cases where
-   non-recurring, equity free forms of funding supported the work (i.e. "grants"
-   or other research and public-good support including DIF itself). Each
-   supported contributor is responsible for their own acknowledgement. For a
-   template, see the `[Acknowledgement Template](#Acknowledgement-Template)`
-   section below. If the WG chairs and membership cannot come to agreement about
-   specific acknowledgements, this can be escalated to the Technical Steering
-   Committee by either party.
+   section of the deliverable (readme.md for code deliverables).  This is
+   recommended in cases where non-recurring, equity free forms of funding
+   supported the work (i.e. "grants" or other research and public-good support
+   including DIF itself). Each supported contributor is responsible for their
+   own acknowledgement. For a template, see the `[Acknowledgement
+   Template](#Acknowledgement-Template)` section below. If the WG chairs and
+   membership cannot come to agreement about specific acknowledgements, this can
+   be escalated to the Technical Steering Committee by either party.
 3. Approved drafts should be put at a **permanent link** tracked on DIF's 
    [spec-tracking
    repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
