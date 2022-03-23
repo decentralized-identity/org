@@ -112,22 +112,27 @@ https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
 
-## Maintained versus Archived Work Items
+### Maintained versus Archived Work Items
 
 Regardless of how far it proceeded through the statuses above, any DIF work item
 is presumed to be an ongoing work item under active management unless explicitly
-marked as "Archived" by the Working Group managing it.  If open issues are
+marked as "Archived" by the Working Group managing it.  
+
+If open issues are
 growing stale or not being handled within a reasonable amount of time, WG chairs
 may contact work item leaders to request more consistent management, and if this
-is not forthcoming, may move to mark the work item as "Archived".
+is not forthcoming, may move to mark the work item as "Archived".  In leiu of active chairs, the technical steering committee could also intervene in that capacity.
 
 The process for archiving is simple: WG chairs request that DIF staff mark the
 repo as archived in github, and that the change be reflected on DIF's website.
+It is recommended that a sentence about the new archival status also be added to
+the rendered/hosted spec and repo "README.md" file. 
+
 Once archived, WG chairs should check their WG's home repo or other informative
 references to ensure that archived work items aren't listed among ongoing work
 items.
 
-## Acknowledgement Template
+### Acknowledgement Template
 
 {ENTITY_NAME} received funding from {FUNDING_SOURCE} to contribute to this work
 item. {OPTIONAL DETAILS ABOUT SCOPE, CONTRACT NUMBERS, OVERSIGHT, ETC}. This
@@ -135,7 +140,7 @@ work item does not necessarily reflect the position or the policy of
 {FUNDING_SOURCE} and no official endorsement of the work item or of DIF itself
 should be attributed to {FUNDING_SOURCE} on the basis of this support.
 
-## Profiles versus Specifications
+### Profiles versus Specifications
 
 A work item that only describes and/or implements a *subset* of one or more 
 existing normative specifications, whether standards-track or DIF-terminal 
@@ -147,7 +152,7 @@ deliverable be donated to the working group that defined that work item to
 simplify IP concerns if the contributors defining the profile need to open an
 "upstream" PR or issue.
 
-## Interoperability Profiles
+### Interoperability Profiles
 
 A common goal for interoperability efforts is to define a profile of multiple
 specifications (protocols and/or data models) that add up to an "end to end"
