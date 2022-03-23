@@ -116,13 +116,18 @@ item.
 
 Regardless of how far it proceeded through the statuses above, any DIF work item
 is presumed to be an ongoing work item under active management unless explicitly
-marked as "Archived" by the Working Group managing it.  If open issues are
+marked as "Archived" by the Working Group managing it.  
+
+If open issues are
 growing stale or not being handled within a reasonable amount of time, WG chairs
 may contact work item leaders to request more consistent management, and if this
-is not forthcoming, may move to mark the work item as "Archived".
+is not forthcoming, may move to mark the work item as "Archived".  In leiu of active chairs, the technical steering committee could also intervene in that capacity.
 
 The process for archiving is simple: WG chairs request that DIF staff mark the
 repo as archived in github, and that the change be reflected on DIF's website.
+It is recommended that a sentence about the new archival status also be added to
+the rendered/hosted spec and repo "README.md" file. 
+
 Once archived, WG chairs should check their WG's home repo or other informative
 references to ensure that archived work items aren't listed among ongoing work
 items.
