@@ -107,6 +107,20 @@ https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
 
+## Maintained versus Archived Work Items
+
+Regardless of how far it proceeded through the statuses above, any DIF work item
+is presumed to be an ongoing work item under active management unless explicitly
+marked as "Archived" by the Working Group managing it.  If open issues are
+growing stale or not being handled within a reasonable amount of time, WG chairs
+may contact work item leaders to request more consistent management, and if this
+is not forthcoming, may move to mark the work item as "Archived".
+
+The process for archiving is simple: WG chairs request that DIF staff mark the
+repo as archived in github, and that the change be reflected on DIF's website.
+Once archived, WG chairs should check their WG's home repo or other informative
+references to ensure that archived work items aren't listed among ongoing work
+items.
 
 ## Acknowledgement Template
 
