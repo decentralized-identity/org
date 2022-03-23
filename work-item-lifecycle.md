@@ -54,7 +54,17 @@ Group Approved” status.
 1. Where protocols or interfaces are being specified, a section explicitly
    defining **test vectors for conformance testing** SHALL be written at time of
    approving a draft or earlier.
-2. Approved drafts should be put at a **permanent link** tracked on DIF's
+2. The WG approval process is a good time to do a final call for significant
+   contributors to PR into the deliverable any entries to an "Acknowledgments"
+   section of the deliverable (readme.md for code deliverables).  This is
+   recommended in cases where non-recurring, equity free forms of funding
+   supported the work (i.e. "grants" or other research and public-good support
+   including DIF itself). Each supported contributor is responsible for their
+   own acknowledgement. For a template, see the `[Acknowledgement
+   Template](#Acknowledgement-Template)` section below. If the WG chairs and
+   membership cannot come to agreement about specific acknowledgements, this can
+   be escalated to the Technical Steering Committee by either party.
+3. Approved drafts should be put at a **permanent link** tracked on DIF's 
    [spec-tracking
    repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
    github. See the entry for [Presentation
@@ -101,6 +111,29 @@ work item must be concluded and developed under the
 https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
+
+## Maintained versus Archived Work Items
+
+Regardless of how far it proceeded through the statuses above, any DIF work item
+is presumed to be an ongoing work item under active management unless explicitly
+marked as "Archived" by the Working Group managing it.  If open issues are
+growing stale or not being handled within a reasonable amount of time, WG chairs
+may contact work item leaders to request more consistent management, and if this
+is not forthcoming, may move to mark the work item as "Archived".
+
+The process for archiving is simple: WG chairs request that DIF staff mark the
+repo as archived in github, and that the change be reflected on DIF's website.
+Once archived, WG chairs should check their WG's home repo or other informative
+references to ensure that archived work items aren't listed among ongoing work
+items.
+
+## Acknowledgement Template
+
+{ENTITY_NAME} received funding from {FUNDING_SOURCE} to contribute to this work
+item. {OPTIONAL DETAILS ABOUT SCOPE, CONTRACT NUMBERS, OVERSIGHT, ETC}. This
+work item does not necessarily reflect the position or the policy of
+{FUNDING_SOURCE} and no official endorsement of the work item or of DIF itself
+should be attributed to {FUNDING_SOURCE} on the basis of this support.
 
 ## Profiles versus Specifications
 
