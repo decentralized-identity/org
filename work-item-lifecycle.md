@@ -90,14 +90,22 @@ those submissions.
 
 ## Work Item 
 
-A work item considered a DIF work item once the status of the item reaches one
+A work item can be considered a DIF work item once the status of the item reaches one
 of the stages mentioned in the Deliverable Development Process (above). Each DIF
 work item must be concluded and developed under the
 https://github.com/decentralized-identity organization's repository to be
 considered part of the Deliverable Development Process, making it a DIF work
 item. 
 
-## Profiles versus Specifications
+Types of Work Item:
+
+### Specification
+
+The most common output of working groups at DIF are specifications, which
+unambiguously define and specify distinct protocols, data models, and/or
+functional software modules. 
+
+### Profile
 
 A work item that only describes and/or implements a *subset* of one or more 
 existing normative specifications, whether standards-track or DIF-terminal 
@@ -107,9 +115,9 @@ existing specification, making this a "derivative work" and not needing IPR
 protection. It is recommended that detailed profiles of a single DIF work item or
 deliverable be donated to the working group that defined that work item to
 simplify IP concerns if the contributors defining the profile need to open an
-"upstream" PR or issue.
+"upstream" PR or issue.  See the profile template [here](https://github.com/decentralized-identity/template-for-profile-workitems/blob/main/single-file-test/spec.md)
 
-## Interoperability Profiles
+#### Interoperability Profiles
 
 A common goal for interoperability efforts is to define a profile of multiple
 specifications (protocols and/or data models) that add up to an "end to end"
@@ -126,3 +134,17 @@ status of all inputs to a profile if they are not confident that an interop
 profile is adequately descriptive and non-normative to constitute an IPR-safe
 donation before it goes to the Technical Steering Committee for DIF
 ratification.
+
+### Registry
+
+In some cases, an ongoing work item can created that collects inputs from
+outside DIF, such as a directory or registry of links to downstream projects or
+governance authorities. To minimize reputational risk or market confusion that
+could occur from such open-ended registries bearing an implicit DIF seal of
+approval, registry work items should be approved by working group chairs (and at
+discretion of same, the DIF steering committee) before being opened up to
+outside PRs.  Once approved, editors (i.e. code owners) of a given registry are
+encouraged to merge PRs and grow their registry indefinitely within guidance at
+time of approval, but to reach out to working group chairs in case of
+uncertainty about incoming registrations and, of course, to ensure continuity of
+maintenance. See the registry template [here](https://github.com/decentralized-identity/template-for-registry-workitems/blob/main/single-file-test/spec.md)
