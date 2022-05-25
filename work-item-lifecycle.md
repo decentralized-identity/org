@@ -105,6 +105,8 @@ The most common output of working groups at DIF are specifications, which
 unambiguously define and specify distinct protocols, data models, and/or
 functional software modules. 
 
+Specifications may also be versioned updates of previously published specifications.
+
 ### Profile
 
 A work item that only describes and/or implements a *subset* of one or more 
