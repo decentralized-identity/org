@@ -143,7 +143,8 @@ In some cases, an ongoing work item can be created that collects inputs,
 such as a directory or registry of links to downstream projects or
 governance authorities. To minimize reputational risk or market confusion that
 could occur from such open-ended registries bearing an implicit DIF seal of
-approval, registry work items should be approved by working group chairs (and at
+approval, registry work items must define the process for registering items,
+this process should be approved by working group chairs (and at
 discretion of same, the DIF steering committee) before being opened up to
 outside PRs.  Once approved, editors (i.e. code owners) of a given registry are
 encouraged to merge PRs and grow their registry indefinitely within the
