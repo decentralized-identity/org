@@ -139,8 +139,8 @@ ratification.
 
 ### Registry
 
-In some cases, an ongoing work item can created that collects inputs from
-outside DIF, such as a directory or registry of links to downstream projects or
+In some cases, an ongoing work item can be created that collects inputs,
+such as a directory or registry of links to downstream projects or
 governance authorities. To minimize reputational risk or market confusion that
 could occur from such open-ended registries bearing an implicit DIF seal of
 approval, registry work items should be approved by working group chairs (and at
