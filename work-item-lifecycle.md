@@ -146,7 +146,7 @@ could occur from such open-ended registries bearing an implicit DIF seal of
 approval, registry work items should be approved by working group chairs (and at
 discretion of same, the DIF steering committee) before being opened up to
 outside PRs.  Once approved, editors (i.e. code owners) of a given registry are
-encouraged to merge PRs and grow their registry indefinitely within guidance at
-time of approval, but to reach out to working group chairs in case of
+encouraged to merge PRs and grow their registry indefinitely within the
+guidelines of the approved process, while relying on working group chairs in case of
 uncertainty about incoming registrations and, of course, to ensure continuity of
 maintenance. See the registry template [here](https://github.com/decentralized-identity/template-for-registry-workitems/blob/main/single-file-test/spec.md)
