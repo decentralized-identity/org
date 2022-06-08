@@ -5,8 +5,8 @@ New members and organizations considering joining DIF are recommended to peruse 
 
 ## Member Knowledge-Base
 
-* Organizational FAQ (coming soon)
-* Technical knowledge base
+* [DIF Organizational FAQ]([url](https://github.com/decentralized-identity/org/blob/master/dif_org_faq.md))
+* [Technical knowledge base]([url](https://identity.foundation/faq/))
 
 ## Legal documents
 
