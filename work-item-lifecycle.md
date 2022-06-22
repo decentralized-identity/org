@@ -78,9 +78,16 @@ Director or his/her designee will present that Working Group Approved Draft
 Deliverable to the Steering Committee for Approval. Upon Approval by the
 Steering Committee, that Draft Deliverable will be designated an “Approved
 Deliverable.”
-1. Final approval by DIF is referred to as “DIF Ratified Deliverable" or "DIF
-   Ratified Specification” internally
-2. The steering committee *MAY* invite **external review** of test vectors and
+1. Once WG Approval has been achieved, the chairs should use the Technical 
+   Steering Committee email list to notify it that SC approval will soon be
+   sought; a one-week response time is customary for this review request.
+   If the Technical Steering Committee believes there may be cause for the 
+   Steering Committee to withhold approval, they should formulate clear and 
+   actionable change requests for the group; delaying SC approval to address
+   such requests is advised in such cases.
+2. Final approval by DIF is referred to as “DIF Ratified Deliverable" or "DIF
+   Ratified Specification” internally.
+3. The steering committee *MAY* invite **external review** of test vectors and
    normative statements at this point, regardless of whether the Draft will
    proceed to step 7.6 or only to step 7.5
 
