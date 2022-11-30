@@ -1,67 +1,59 @@
-### DIF is hiring! 
+# DIF is hiring
 
-We are looking for a motivated and engaged  Program Manager (full-time, remote) to oversee and facilitate important ongoing work across 
-the open-source pre-standards community at DIF. Help organize, represent and care for DIF members, both prospective and existing, and grow 
-along with the booming digital identity sector and the foundation itself. Is this you, or do you know of someone excited to work on open standards? 
+We are looking for an experienced, motivated and engaged Executive Director (full-time, remote) to oversee and facilitate important ongoing work across
+the open-source pre-standards community at DIF. Help organize, represent and care for DIF members, both prospective and existing, and grow
+along with the booming digital identity sector and the foundation itself. Is this you, or do you know of someone excited to work on open standards?
 
-See a detailed job description below and apply directly by sending an email to jobs@identity.foundation.
-
-*Please send the following two documents:*
-* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.* 
-* *a résumé* 
-
-
-## **Program Manager - Full-time**
-**_Core Responsibilities_**
-
-* Actively oversee and facilitate the foundation's work, both on recorded public calls, sync calls between chairs and members, and in direct correspondence with multiple contacts within member organizations 
-
-* In collaboration with the Executive Director (ED) and the SC, manage the team working at DIF, including hiring. Ensure that all DIF team members have the necessary training and access to perform their duties and support the foundation. 
-
-* Ensure that the DIF team is continuously improving the foundation and make plans based on the strategic targets set by the SC & ED. Develop an evaluation method to assess program strengths and identify areas for improvement, in consultation with the SC & membership. 
- 
-* Oversee the organization of the DIF F2F event. Collaborate in the development of potential new events (live and online), networking opportunities, etc. 
-
-
-* Work directly and indirectly with member organizations to establish relationships and coordinate member requests across the foundation  
-
-* Proactively engage with new companies, with a goal to onboard them as members 
-    * **Identify and convert leads** for associate enterprise membership
-    * Own all internal documentation supporting the Associate Member sales cycle:
-        * Keep internal records on membership to facilitate "matchmaking" (i.e.,  picking **a member org** to join on calls with associate members on 2nd membership call (as is common practice in trade orgs)
-        * Associate Talking Points document and script for 1st calls 
-    * Coordinate marketing and outreach efforts with the Communications Manager and JDF
-    
-* Establish and maintain healthy relationships with all adjacent organizations working in the space of decentralized identity 
-* Engage with members, member projects, and issues members (individual/WG) might face and commit to finding a solution for DIF-related questions. 
-* Ensure that IPR is maintained across platforms and informs members and prospective members about IP requirements. 
-* Collaborate with other DIF team members to ensure the smooth onboarding of new DIF member partners. Inform members about DIF work items and upcoming developments that might interest the new member.
-* Keep members informed, engaged, and updated on all things related to DIF, and collaborate with the ED in making sure that members' best interests are being served.
-* Pro-actively foster regular communications with multiple contacts within enterprise members.
-
-
-**_The ideal candidate for this position:_**
-* Has experience with global collaboration across timezones, continents, markets, and ecosystems, using remote-working tools and platforms 
-* Values community work as an end unto itself, aligned with DIF's mission, goals, and code of conduct. 
-* Has an interest in new forms of collaboration, governance, and remuneration of work in the public good and infrastructure development 
-* Is familiar with any 2 of the following subject areas: 
-    1. Open Source Software 
-    2. Software Infrastructure
-    3. Standardization & co-development of specifications 
-    4. issues around Intellectual Property Rights
-    5. Self-Sovereign Identity and Privacy-maximizing approaches
-* Can commit to this role for a period of at least one year
-
-
-**_Additional Considerations_**
-* **Working Hours:**  This is a full-time role with no fixed working hours, however, the candidate should be able to be available to solve problems and attend calls/meetings in different time zones, particularly internal staff calls, steering committee calls, and public WG calls. Almost all of these take place during business hours in American Eastern Standard Time, with few exceptions.
-* **Contractual Basis**: After a probationary on-boarding period during which the candidate would invoice monthly as a contractor/freelancer, the candidate would be employed by the California-based Linux Foundation. Candidates residing outside the United States are warmly invited to apply, however.
-
-* **Start Date**: 1st Jan. preferred, but later, or a gradual "ramp-up" to full time are both feasible options to consider.
-
-Send applications to jobs@identity.foundation
-
+See a detailed job description below and apply directly via [LinkedIn](https://www.linkedin.com/jobs/view/3380750986) or by sending an email to jobs@identity.foundation.
 
 *Please send the following two documents:*
-* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.* 
-* *a resume* 
+
+* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.*
+* *a résumé*
+
+## Executive Director - Full-time
+
+The Decentralized Identity Foundation (DIF) is seeking an experienced professional to fulfill the role of Executive Director to advance the foundation’s core objectives and grow membership. The candidate must have the relevant skill set, vision, commitment, and proven track record of delivering outcomes for similar organizations.
+
+This is a primarily outward-facing role representing DIF, a well-respected, member-driven open standards development and technical community. The position will report to the Steering Committee with interactions across all members, partners, operations staff, and peer organizations involved in the decentralized identity ecosystem globally. The Executive Director also has primary responsibility for oversight and management of business functions of the foundation, with a key focus on developing and delivering strategic initiatives aimed at growth, engagement, and vitality of the DIF community. Additionally, the Executive Director will be the primary brand ambassador with extensive representation duties at relevant events with key stakeholders, promoting DIFs vision and mission objectives.
+
+### *Responsibilities*
+
+* Promote growth, engagement, coordination and involvement in the decentralized identity development community
+
+* Provide strategic vision to build, update and action Steering Committee approved strategic roadmaps
+
+* Maintain a high visibility profile at key industry events and engagements as brand ambassador and speaker
+
+* Develop and maintain relationships within the membership, partner groups and service providers of the Foundation
+
+* Establish and leverage relationships with standards bodies and Innovation programs globally to promote and raise awareness of work undertaken within the foundation
+* Work closely with the Steering Committee and Chairperson to manage, coordinate, and oversee DIF staff’s organizational and operational functions, including annual budget planning and ensuring measurement and reporting on DIF OKRs
+
+* Ensure an open, equitable and inclusive environment for the DIF community, facilitating active ongoing adoption of Decentralized Identity specifications and standards that have emerged out of work group outputs.
+
+* Perform necessary administration functions as required for the operational efficiency of the organization
+
+### *Qualifications*
+
+An ideal candidate will possess 5+ years of Executive Director or C-Level executive management experience with demonstrated experience with technology ecosystem development and catalysing standards adoption. Key attributes would include direct knowledge and experience working with industry to communicate business value of the standards with key decision makers in business and government.
+
+The Foundation is US-based with the candidate to be located between the US Central to CET time zones to accommodate required activity and engagements. Knowledge and experience with startups, global companies and governments is advantageous.
+
+Possessing strong business and communication skills is essential for this role. Demonstrated skill in public speaking and delivering industry event presentations is strongly preferred as the primary spokesperson and brand ambassador of the foundation.
+
+Experience working in a member-driven, not-for-profit organization is a positive, along with the ability to work relatively autonomously and with delegated authority to deliver on DIF’s vision and mission.
+
+This is a full time contractor role in a global team and will involve business travel and event participation.
+
+DIF values transparency, integrity, and a high degree of diversity in its member constitution and actively encourages a wide range of applicants for the role of Executive Director.
+
+**Start Date**: January 2023
+
+Apply via [LinkedIn](https://www.linkedin.com/jobs/view/3380750986) or email jobs@identity.foundation.
+
+#### *Please send the following two documents:*
+
+* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.*
+
+* *a resume*
