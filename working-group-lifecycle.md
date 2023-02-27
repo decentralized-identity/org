@@ -34,21 +34,23 @@ finalize the WG Charter. While it can be challenging to do so in a
 non-IPR-protected context, it is essential that the group define a scope for the
 group and itemize both the "in-scope" and "out-of-scope" sections of the charter
 first. To avoid duplication of effort, it is advised to approach existing WG's
-to confirm there is no conflict on charter. One useful input to these meetings
-could be a review (by one or more parties who report out to the rest of the
-group) the
+to confirm there is no overlap or conflict between the scopes of bith charters.
+One useful input to these meetings could be a review (by one or more parties who
+report out to the rest of the group) the
 [charters](https://github.com/decentralized-identity/org/tree/master/Org%20documents/WG%20documents)
-of DIF's existing WG.
+of DIF's existing WG, particularly the more adjacent ones.
 
 3.**Chair Selection**. Secondly, the initial participants should "elect" at
-least two WG Chairs, these chairs should be from seperate organizations with no
-affiliation (subject to approval by the Steering Committee). If  elections or
-processes other than election by the current chairs and "soft-consensus"
-approval by the group are required for electing new chairs later on, these
-processes should be described in the group's initial Operating addendum. Such
-addenda can be added later, but chairship (and editorship or other roles) can be
-a consequential decision and it is recommended such decisions be made in
-advance.    
+least two WG Chairs willing to commit to the work for at least the first year,
+including initial maintenance if the working group's primary work item will be
+finished within a year. These chairs should be from separate organizations with
+no explicit or implicit affiliation (subject to approval by the Steering
+Committee). If elections or processes other than election by the current chairs
+and "soft-consensus" approval by the group are required for electing new chairs
+later on, these processes should be described in the group's initial Operating
+addendum. Such addenda can be added later, but chairship (and editorship or
+other roles) can be a consequential decision and it is recommended such
+decisions be made in advance.    
 
 4.**Approval by Steering Committee**. Upon consensus agreement by the founding
 participants on charter language and initial chairs, the WG Charter can be
@@ -74,10 +76,11 @@ agreement with DIF when participating in a call.
 
 In case of a possible discrepancy, substantial contribution from non-member, or
 lapse in coverage due to changing employment status, Chairs should request any
-new or ongoing participant sign a legal document. In the case that the
-participant refuses to do so, the WG chair should consider removing the person
-from the call to minimize risk to attempt to challenge the IPR coverage of the
-group, sometimes referred to casually as "trolling". 
+new or ongoing participant sign a legal document making explicit that IPR is
+being honored. In the case that the participant refuses to do so, the WG chair
+should consider removing the person from the call to minimize risk to attempt to
+challenge the IPR coverage of the group, sometimes referred to casually as
+"trolling". 
 
 7.**Feedback Agreement**: Participants in a WG currently employed by DIF member
 org that are covered by the Feedback Agreement rather then by the IPR terms of
