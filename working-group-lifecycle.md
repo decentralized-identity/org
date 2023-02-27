@@ -53,9 +53,13 @@ other roles) can be a consequential decision and it is recommended such
 decisions be made in advance.    
 
 4.**Approval by Steering Committee**. Upon consensus agreement by the founding
-participants on charter language and initial chairs, the WG Charter can be
-ratified by DIF's steering committee and agreed by JDF counsel (in regards to
-language clarity). 
+participants on charter language and initial chairs, the WG Charter can be sent
+to DIF's steering committe for ratification. DIF's steering committee may call
+on the Technical Steering Committee and/or JDF counsel to clarify the value and
+IP risks of the proposed working group scope, in particular its relation to
+prior art to which WG participants or chairs hold IP rights. If such risks are
+identified, the Steering Committee MAY request additional legal documentation
+and/or donation of such prior art to DIF stewardship before ratification.
 
 At this point, the WG is legally established. The WG charter then becomes part
 of DIF's legal documents managed by LF, through their DocuSign processes. Once
