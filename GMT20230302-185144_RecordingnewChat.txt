@@ -1,0 +1,31 @@
+00:13:04	Mehran Shakeri: Hi there, I think I have some audio issue but joining the call via eventbrite was smooth.
+00:14:43	Paul (DIF): Reacted to "Hi there, I think I ..." with 👍
+00:17:11	Limari Navarrete (DIF): https://www.eventbrite.com/o/decentralized-identity-foundation-26691849135
+00:17:35	Limari Navarrete (DIF): Join Page: https://identity.foundation/join/
+00:18:50	Drummond Reed: Thanks to Paul for sending out the link. The Eventbrite process to get into this webinar was rather convoluted ;-)
+00:19:20	Paul (DIF): Replying to "Thanks to Paul for s..."
+
+Thanks for the feedback Drummond
+00:19:39	Paul (DIF): https://us02web.zoom.us/j/88411129510?pwd=MkZuaXFPTGtQWURNN1U2R1YrMWUzUT09
+00:24:19	Sid: Can someone post some reference links to dweb nodes?
+00:24:54	Salustiano Zavalía: https://identity.foundation/decentralized-web-node/spec/
+00:25:05	Steve Magennis: https://developer.tbd.website/projects/dwn-sdk-js/readme/
+00:25:29	Steve Magennis: https://tbd54566975.github.io/dwn-sdk-js/
+00:26:58	Sid: Reacted to "https://identity.fou…" with ❤️
+00:27:06	Sid: Reacted to "https://developer.tb…" with ❤️
+00:27:55	Prashant Mittal: Are there Data Privacy Considerations like GDPR. And how are they taken care of in this kins of a paradigm
+00:28:40	Stephan Baur (Kaiser Permanente): Can we hear more about the bottom layer: IPLD Multiformats? It used to say IPFS…
+00:31:16	Maria Teresa Aarao: How do you compare WebNode and Tim Berners Lee PODS/SOLID ?
+00:31:37	Drummond Reed: So in terms of short-form pronunciation, what I’m hearing is “D-web nodes”. Sounds good.
+00:33:02	Paul (DIF): https://ipld.io/
+00:34:42	Mehran Shakeri: Does DWN allows or foresees applications that need cross user/company synchronisation? E.g., DeFi applications that pose double-spend risks or supply chain applications including international participants to be synced
+00:37:33	Daniel Buchner: https://gist.github.com/csuwildcat/0d1b1da0d9ced0555b15c4b61b306c19
+00:41:03	Prashant Mittal: capability objects
+00:43:50	Moises Jaramillo: Memory blocks that are chained in a DAG
+00:44:00	Moises Jaramillo: But don’t get persisted to the IPFS network
+00:45:54	Kabir Maiga: What is the best way to ensure that recipients of PII access via DWN are not persistently storing the information using their own digital agent?
+00:49:38	Moises Jaramillo: A follow up question to what Henry just said: The in-browser embedded DWN does have storage restrictions. Let’s say I have a second DWN hosted by some provider, can the second DWN use a different store, and have both DID’s DWNs be in sync?
+01:05:37	Gene Quinn: Thanks, Daniel and all, for this DWN session. I’ve got to hop to another meeting. Cheers!
+01:06:20	Stephan Baur (Kaiser Permanente): Would a DWN support the notion of a computational enclave that allows to securely execute someone else’s code to access the DWN’s data, e.g., a federated ML model that then the user can control what it sends back out to the sender of the model?
+01:11:27	Limari Navarrete (DIF): If anyone has any follow up questions after the call please email me at limari@identity.foundation
+01:11:32	Daniel Buchner: https://github.com/google/fully-homomorphic-encryption
