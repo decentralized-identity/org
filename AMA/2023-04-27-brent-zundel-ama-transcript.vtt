@@ -1,0 +1,1398 @@
+WEBVTT
+
+1
+00:00:04.140 --> 00:00:09.310
+Limari Navarrete: Okay, perfect. So i'm gonna give a little bit of an introduction, and then i'll hand it over to Brent.
+
+2
+00:00:09.500 --> 00:00:18.750
+Limari Navarrete: So I want to welcome everyone to the third in our series of Amas here at the decentralized identity foundation.
+
+3
+00:00:19.010 --> 00:00:20.140
+Limari Navarrete: So
+
+4
+00:00:20.670 --> 00:00:30.580
+Limari Navarrete: today we are joined by Brent Zoom Dell, who is the principal cryptography engineer at Jen, and who is also a very active member at Diff.
+
+5
+00:00:30.860 --> 00:00:46.560
+Limari Navarrete: A couple of things to note before we get started today is that if you are interested in joining diff. If you're new to the community, please check out our membership page or our membership options, i'm happy to go over them with you.
+
+6
+00:00:47.130 --> 00:01:01.990
+Limari Navarrete: and also, if you are a little bit lost at this, we are having a new member orientation next week, so I am the senior director of community engagement. So if you're ever lost around our community, i'm happy to help you find your way.
+
+7
+00:01:02.240 --> 00:01:12.450
+Limari Navarrete: I'm going to be dropping that in the zoom chat as well. So if you want to join me next week, you're welcome to hop on there as well.
+
+8
+00:01:12.750 --> 00:01:28.100
+Limari Navarrete: So the way the way we're going to do this is Brent gonna give a little bit of an overview on President Presentation Exchange, and then after that we're going to field questions so you can ask absolutely anything about presentation exchange. You can do so in the chat.
+
+9
+00:01:28.100 --> 00:01:40.260
+Limari Navarrete: I will read the questions from the chat, but also you can ask questions from the room. You can go ahead and raise your hand, and you can find that under and the toolbar under reactions. You'll be able to do that there.
+
+10
+00:01:40.530 --> 00:01:50.510
+Limari Navarrete: So with that, said I'm going to go ahead and hand it over to Brent to give us an introduction, and then we'll field questions. So take it away, Brent.
+
+11
+00:01:50.980 --> 00:01:58.700
+Brent Zundel: Thank you, Lamari. I'll go ahead and share my screen hopefully where you can see that
+
+12
+00:02:00.910 --> 00:02:04.520
+Brent Zundel: this is just a basic introduction to a presentation exchange
+
+13
+00:02:05.730 --> 00:02:13.080
+Brent Zundel: for anybody who wants to know anything about it. As Lamari said, my name is Brendan Dell. I work for Jen
+
+14
+00:02:13.140 --> 00:02:19.870
+Brent Zundel: Jen. It was recently renamed, so people might not recognize it, but they are the company who
+
+15
+00:02:21.410 --> 00:02:26.340
+Brent Zundel: produces the vast antivirus software as well as Norton life, Lock
+
+16
+00:02:26.460 --> 00:02:32.030
+Brent Zundel: a vera avg that whole family of things.
+
+17
+00:02:33.790 --> 00:02:43.320
+Brent Zundel: I'm here talking because I helped to edit the presentation Exchange specs. I also chair the applied working group at Diff.
+
+18
+00:02:43.510 --> 00:02:47.740
+Brent Zundel: I guess i'm also on the steering committee. I probably should have put that on this on this slide
+
+19
+00:02:47.750 --> 00:03:04.560
+Brent Zundel: elsewhere in the ecosystem. I'm. Also pretty involved with verifiable credentials decentralized identifiers over at W. 3, C. And I'm. Starting to work on Jason webproofs, bbs, and selective disclosure jots at Itf.
+
+20
+00:03:04.930 --> 00:03:08.040
+Brent Zundel: So a little bit of everything everywhere.
+
+21
+00:03:09.920 --> 00:03:13.120
+Brent Zundel: just some brief introduction to Presentation Exchange.
+
+22
+00:03:13.360 --> 00:03:19.770
+Brent Zundel: Presentation Exchange is intended to be a claim, format and transport, agnostic
+
+23
+00:03:20.000 --> 00:03:24.220
+Brent Zundel: request and response protocol for claims made in Json.
+
+24
+00:03:24.740 --> 00:03:34.450
+Brent Zundel: so it should be able to be used with any Jason claim format whether that's a jot. The Vc. Jason L. The Sd. Jot any any Json formatted claim.
+
+25
+00:03:34.840 --> 00:03:41.660
+Brent Zundel: and Additionally, it can be used with O Itc. Didcom credential handler Api
+
+26
+00:03:41.840 --> 00:03:56.320
+Brent Zundel: The it's really agnostic to that the basic design there's 2 parts. There's a presentation. Definition this is the thing the verifier sends to a holder to ask for stuff.
+
+27
+00:03:57.470 --> 00:04:07.140
+Brent Zundel: The presentation submission is returned along with the stuff by the holder to explain how it maps back to the definition
+
+28
+00:04:07.850 --> 00:04:15.720
+Brent Zundel: it's designed to be pretty powerful, and enable a lot of flexibility for the verifier in requesting things.
+
+29
+00:04:17.649 --> 00:04:25.710
+Brent Zundel: But it's pretty straightforward and it's hard. A presentation is a set of requested inputs.
+
+30
+00:04:26.120 --> 00:04:30.430
+Brent Zundel: Each input, has an Id. and it has a constraints object.
+
+31
+00:04:31.980 --> 00:04:41.010
+Brent Zundel: The inputs can also have names purposes, the format descriptions. To say this is the format of the thing that i'm. Looking for
+
+32
+00:04:41.520 --> 00:04:54.130
+Brent Zundel: the constraints. Object is where the presentation definition describes the requested fields. So these are the inputs that the verifier is seeking from the holder.
+
+33
+00:04:55.090 --> 00:05:01.200
+Brent Zundel: The only other thing that the constraints might have in it is a flag to indicate that
+
+34
+00:05:01.230 --> 00:05:09.630
+Brent Zundel: the verifier wants to limit the disclosure of of things. So they don't want the holder to return anything they're not explicitly asking for.
+
+35
+00:05:10.160 --> 00:05:23.040
+Brent Zundel: And that's it. That's a presentation definition that it's at its simplest. There are some additional features that allow for greater flexibility. The first of these is called the submission requirements.
+
+36
+00:05:23.390 --> 00:05:28.130
+Brent Zundel: the submission requirements as a group object.
+
+37
+00:05:28.380 --> 00:05:31.100
+Brent Zundel: our yeah group property rather
+
+38
+00:05:31.140 --> 00:05:32.680
+Brent Zundel: to the.
+
+39
+00:05:32.850 --> 00:05:37.780
+Brent Zundel: to the, input, to Scriptures, so that different logical statements can be made
+
+40
+00:05:38.200 --> 00:05:40.080
+Brent Zundel: by the verifier.
+
+41
+00:05:40.240 --> 00:05:55.870
+Brent Zundel: you know. Give me one thing from group a. Give me everything from Group B, and give me 2 things from group, c. Or in you know, plain English. I want to see your full name, but it can come from either your birth certificate, or your driver's license.
+
+42
+00:05:56.930 --> 00:06:07.580
+Brent Zundel: One addition like this feature changes it so that instead of requiring that all input descriptors be fulfilled now, all submission requirements would need to be fulfilled.
+
+43
+00:06:08.440 --> 00:06:16.120
+Brent Zundel: Another feature that can be added on time to the on top of the core. Presentation definition is the idea of a predicate. The predicate
+
+44
+00:06:16.270 --> 00:06:27.860
+Brent Zundel: format it. It's kind of experimental at this point, but it allows for Json schema filters to be used to compute Boolean values, so that those can be returned
+
+45
+00:06:27.930 --> 00:06:31.390
+Brent Zundel: rather than the actual values that are held in the claims.
+
+46
+00:06:34.310 --> 00:06:36.620
+Brent Zundel: 4 more features that are defined
+
+47
+00:06:36.700 --> 00:06:42.320
+Brent Zundel: for presentation definitions. One is what we call relational constraints.
+
+48
+00:06:42.330 --> 00:06:44.560
+Brent Zundel: so each of the fields
+
+49
+00:06:44.600 --> 00:06:47.110
+Brent Zundel: in you know, claim
+
+50
+00:06:48.630 --> 00:06:57.400
+Brent Zundel: can the thing that gets returned? There's subject is issue, or that means as a verifier want to see something that has been attested by the
+
+51
+00:06:58.120 --> 00:07:04.000
+Brent Zundel: the issuer i'm. With the subject of the thing that is claimed to be the same as the holder.
+
+52
+00:07:04.830 --> 00:07:09.020
+Brent Zundel: which is different than his holder in some way. And so i'm explaining this badly.
+
+53
+00:07:09.120 --> 00:07:13.670
+Brent Zundel: It's basically an imagine you are submitting.
+
+54
+00:07:13.760 --> 00:07:29.460
+Brent Zundel: The verifier is a university, and they want you to with your application, include your transcript which has been issued to you, and they also want an essay, and they want to make sure that essay was written by you, and so they would indicate that the
+
+55
+00:07:29.590 --> 00:07:36.190
+Brent Zundel: subject of the essay must be the issuer of the essay, which is you so
+
+56
+00:07:36.860 --> 00:07:40.860
+Brent Zundel: hopefully that's not too confusing. The is holder. Constraint
+
+57
+00:07:41.040 --> 00:07:53.130
+Brent Zundel: is away from the verifier to say, okay, I want these 5 fields. But these 2, the person who's submitting them to me needs to be the subject of those fields.
+
+58
+00:07:54.040 --> 00:08:03.820
+Brent Zundel: For example, if you're submitting name from a birth certificate, the whole, the the verifier could say All right.
+
+59
+00:08:04.140 --> 00:08:06.440
+Brent Zundel: In addition to give me the name from this
+
+60
+00:08:06.600 --> 00:08:14.010
+Brent Zundel: birth certificate. I also want you to be the subject of the birth certificate. The person holding and submitting needs to also be the subject
+
+61
+00:08:14.510 --> 00:08:22.960
+Brent Zundel: similar to that the same subject, relational constraint allows for any 2 fields from any
+
+62
+00:08:23.440 --> 00:08:29.020
+Brent Zundel: collection of of claims to be required to be the same subject.
+
+63
+00:08:29.110 --> 00:08:37.620
+Brent Zundel: For example, if you were, if the verifier was requesting information about a vehicle, they could say, All right. I want to know the
+
+64
+00:08:38.179 --> 00:08:44.370
+Brent Zundel: the payoff value and the current mileage of the you know.
+
+65
+00:08:44.610 --> 00:09:00.320
+Brent Zundel: 1965 link and continental, and that information could come from a variety of different claims. But the subjects all has to be that same car, so you wouldn't be able to take the mileage from your, you know 2,020
+
+66
+00:09:00.530 --> 00:09:07.370
+Brent Zundel: subaru, and attach it to your claim of ownership for your 1,965 linkedin continent.
+
+67
+00:09:08.470 --> 00:09:19.090
+Brent Zundel: so that's the relational constraints. Other features are a a status so the verifier can require that credentials be active and not revoked
+
+68
+00:09:19.150 --> 00:09:30.300
+Brent Zundel: There we threw in the ability to add a framing object. The framing objects are handy when dealing with Jason Ld. Credentials that support selective disclosure.
+
+69
+00:09:30.570 --> 00:09:41.890
+Brent Zundel: And then the retention feature is something that we added in order to be more compatible with the mobile drivers licenses. This allows the verifier to say
+
+70
+00:09:42.170 --> 00:09:48.520
+Brent Zundel: of these fields that I'm. Requesting this one is one I plan to keep, and here's my you know.
+
+71
+00:09:48.650 --> 00:09:50.340
+Brent Zundel: Here's what I plan to do with it.
+
+72
+00:09:51.160 --> 00:10:00.340
+Brent Zundel: And that's presentation definition. You can see it starts off simple, but then grows in potential complexity according to the needs of the verifier.
+
+73
+00:10:01.410 --> 00:10:08.330
+Brent Zundel: contrasting to that, the presentation submission is really simple. The presentation definition
+
+74
+00:10:08.690 --> 00:10:15.340
+Brent Zundel: points to the definition of the idea of the presentation definition that it's related to.
+
+75
+00:10:15.600 --> 00:10:19.960
+Brent Zundel: and then says, okay for each input that you've requested from me.
+
+76
+00:10:20.260 --> 00:10:24.890
+Brent Zundel: Here's what I gave you. Here's how it maps to the actual claims that i'm submitting.
+
+77
+00:10:25.600 --> 00:10:35.510
+Brent Zundel: And the presentation. and that's it for a presentation submission. So that's that's the basics of what presentation Exchange contains. Happy to
+
+78
+00:10:35.580 --> 00:10:38.660
+Brent Zundel: field questions and and
+
+79
+00:10:39.280 --> 00:10:41.290
+Brent Zundel: chat about whatever you guys want to chat about
+
+80
+00:10:44.310 --> 00:10:49.100
+Limari Navarrete: So it does look like. There was one question that came through the chat.
+
+81
+00:10:51.430 --> 00:10:52.790
+Limari Navarrete: which is, can
+
+82
+00:10:53.790 --> 00:11:01.510
+Limari Navarrete: so verifiable presentation can be used among other decentralized identity wallet platforms. It's question work.
+
+83
+00:11:02.200 --> 00:11:10.700
+Brent Zundel: so i'm taking that to be, can Presentation Exchange be used regardless of the wallet or the platform
+
+84
+00:11:10.830 --> 00:11:14.940
+Brent Zundel: right now, as long as the claims are
+
+85
+00:11:15.150 --> 00:11:19.120
+Brent Zundel: format, it is Jason then. Yes.
+
+86
+00:11:19.760 --> 00:11:37.220
+Brent Zundel: so there's that's the the only constraint, because we've built Presentation exchange on top of Jason's schema, and on top of Jason path we're deliberately building on a platform of Json formatted claims and credentials. So as long as the credentials
+
+87
+00:11:37.220 --> 00:11:42.200
+Brent Zundel: are written in Json. Then a verifier should be able to use presentation exchange
+
+88
+00:11:42.270 --> 00:11:43.560
+Brent Zundel: to
+
+89
+00:11:43.590 --> 00:11:46.350
+Brent Zundel: interact with the holder and request them.
+
+90
+00:11:47.590 --> 00:11:52.220
+Limari Navarrete: Okay, did that answer your question, Benny? That was from Benny Benny Jung.
+
+91
+00:11:59.650 --> 00:12:09.080
+Limari Navarrete: he said. No. any. Do you want? Do you want to unmute yourself and go ahead and ask the question verbally?
+
+92
+00:12:20.930 --> 00:12:22.970
+Limari Navarrete: Okay, i'm not hearing anything.
+
+93
+00:12:23.390 --> 00:12:27.620
+Limari Navarrete: Well, we can circle. We can circle back around if you.
+
+94
+00:12:27.910 --> 00:12:35.030
+Limari Navarrete: We can circle back around to you in just a moment. But if anybody else wants to ask a question. Go ahead and drop it in the chat.
+
+95
+00:12:35.240 --> 00:12:41.290
+Limari Navarrete: or you can raise your hand in the room. Any other questions on Presentation Exchange.
+
+96
+00:12:49.300 --> 00:12:53.610
+Tom Jones: I don't actually see how to raise my hand. I'm sorry
+
+97
+00:12:54.340 --> 00:13:08.180
+Limari Navarrete: it's it's fine that's Tom right. It's down in reactions. It should be. I don't know if you're on a desktop, but it's at the bottom of the screen in the toolbar. It says reactions. If you press reactions, you should see a raised hand button.
+
+98
+00:13:08.620 --> 00:13:15.440
+Limari Navarrete: But but right now we have Steve in the queue. So i'm gonna go ahead and and let Steve ask his question first.
+
+99
+00:13:16.010 --> 00:13:27.280
+Steve Magennis: Thanks, Lori. Just quick question. Help me understand the the the mapping a little bit better. So, as I understand it, you you essentially have this request, and the verifier will say.
+
+100
+00:13:27.400 --> 00:13:46.560
+Steve Magennis: You know, here are the data elements I want here the conditions of partners you want that I want in the conditions problems that come from. And then, as the the the holder, my job, or my agent Job, is to assemble these things from various credentials and put them forward along with this mapping to the request. Do I have that right so far.
+
+101
+00:13:46.800 --> 00:13:54.990
+Brent Zundel: And in this this is a request. There you you identify these individual things as Id so how do I tie these ids
+
+102
+00:13:55.200 --> 00:14:09.310
+Steve Magennis: to the, to the various and sundry credentials that I might contain in my walls that have been issued by various organizations, and might be of of different credential formats. Can you help me understand? A little bit better? So on the
+
+103
+00:14:09.950 --> 00:14:12.040
+Brent Zundel: for the presentation submission?
+
+104
+00:14:12.080 --> 00:14:20.050
+Brent Zundel: First, there's the Id for the definition, saying, I am submitting this information as a response to this particular definition.
+
+105
+00:14:20.380 --> 00:14:23.500
+Brent Zundel: And then in the descriptor map array.
+
+106
+00:14:23.700 --> 00:14:25.690
+Brent Zundel: you have.
+
+107
+00:14:26.060 --> 00:14:32.920
+Brent Zundel: you say, okay, Here's the input descriptor that i'm fulfilling. There's an Id for that. and then the
+
+108
+00:14:33.130 --> 00:14:37.640
+Brent Zundel: the holder submits the path of the claim
+
+109
+00:14:39.450 --> 00:14:42.300
+Brent Zundel: that fulfills it. So if the
+
+110
+00:14:42.310 --> 00:14:44.310
+Brent Zundel: If the holder is submitting.
+
+111
+00:14:44.330 --> 00:14:53.120
+Brent Zundel: you know, for the input descriptor name, they're submitting the first name from the driver's license credential. They would actually produce the Json Path
+
+112
+00:14:53.180 --> 00:15:00.180
+Brent Zundel: Description of how to find that value inside of their Driver's license credential that they're submitting.
+
+113
+00:15:00.380 --> 00:15:02.190
+Steve Magennis: Got it. Okay. It's
+
+114
+00:15:04.280 --> 00:15:06.280
+Limari Navarrete: okay. Go ahead, Tom.
+
+115
+00:15:08.460 --> 00:15:16.740
+Tom Jones: Okay. I had 2 questions. I didn't read this spec. I've mounted beforehand. But is it possible when you're
+
+116
+00:15:16.890 --> 00:15:23.540
+Tom Jones: asking for requests whether you can indicate whether it's mandatory that the user respond or optional.
+
+117
+00:15:27.160 --> 00:15:28.190
+Brent Zundel: So
+
+118
+00:15:31.630 --> 00:15:34.910
+Tom Jones: this is required, by the way, by California State law.
+
+119
+00:15:35.110 --> 00:15:37.520
+Brent Zundel: I think the
+
+120
+00:15:41.310 --> 00:15:52.980
+Brent Zundel: in in i'm gonna try to speak for the group of us that that created this thing, and it was our intention that presentation definitions be
+
+121
+00:15:53.770 --> 00:15:56.250
+Brent Zundel: usable as part of a conversation.
+
+122
+00:15:56.580 --> 00:15:58.420
+Brent Zundel: and
+
+123
+00:15:58.510 --> 00:15:59.330
+Brent Zundel: you know
+
+124
+00:16:00.290 --> 00:16:19.200
+Brent Zundel: the verifier would present would give a presentation definition to a holder. When that holders wanting to access a service or get some benefit from the from the verify, they want to authorize themselves in some way, or provide information in return for receiving a credential and so built into
+
+125
+00:16:19.200 --> 00:16:31.380
+Brent Zundel: using presentation exchange is the assumption that if the holder doesn't respond. Then there are verifiers obviously not going to give them what they're what they're looking for.
+
+126
+00:16:31.630 --> 00:16:34.320
+Brent Zundel: but I don't think that quite gets at what you're asking?
+
+127
+00:16:35.810 --> 00:16:41.220
+Brent Zundel: Are you asking about particular fields that are being requested, or the response as a whole
+
+128
+00:16:41.860 --> 00:16:43.310
+Tom Jones: particular fields?
+
+129
+00:16:44.020 --> 00:16:54.210
+Brent Zundel: So it's written into the spec that every field that is being requested is expected to be returned. Oh.
+
+130
+00:16:54.460 --> 00:16:57.080
+Tom Jones: so there's a way to ask for optional fields.
+
+131
+00:16:59.180 --> 00:17:00.050
+Brent Zundel: There.
+
+132
+00:17:05.079 --> 00:17:06.260
+Brent Zundel: There
+
+133
+00:17:06.950 --> 00:17:19.450
+Brent Zundel: is a way to provide optionality to the holder, using submission requirements. You can say you can optionally give me Field a from this credential or field B from this other credential.
+
+134
+00:17:20.790 --> 00:17:24.170
+Brent Zundel: But one of those would need to be returned.
+
+135
+00:17:24.349 --> 00:17:31.590
+Brent Zundel: I we explored optionality for a bit, but didn't have a solid use case to draw from it, so we didn't want to.
+
+136
+00:17:31.840 --> 00:17:35.710
+Brent Zundel: We didn't want to specify something that didn't match how people were actually using it.
+
+137
+00:17:37.700 --> 00:17:44.660
+Tom Jones: Okay, there was. There was a use case that came up. I don't know if you're interested in use cases. But
+
+138
+00:17:44.920 --> 00:17:51.540
+Tom Jones: so the question is that if you go to a bar and you have to be over 21, and they have a
+
+139
+00:17:52.110 --> 00:17:56.420
+Tom Jones: They have a discount rate. I know it's Ladies night you get 50% off
+
+140
+00:17:56.530 --> 00:18:07.150
+Tom Jones: so the question is it's required that they that they They tell you that they're over 21, but it isn't required obviously that you indicate what your gender is
+
+141
+00:18:07.850 --> 00:18:09.680
+Tom Jones: was the one that came up.
+
+142
+00:18:10.210 --> 00:18:15.320
+Tom Jones: I don't mean that you have to respond to it. I just said that that's one of the options that was
+
+143
+00:18:15.430 --> 00:18:16.220
+Tom Jones: right up
+
+144
+00:18:16.240 --> 00:18:24.760
+Tom Jones: My other question, though it relates more in terms of this. All sounds like it's very verifier oriented, not user oriented or holder oriented.
+
+145
+00:18:24.870 --> 00:18:25.730
+Tom Jones: It is.
+
+146
+00:18:25.960 --> 00:18:33.800
+Tom Jones: How is how is it possible, given the complexity of this thing that you describe to actually ask for user consent
+
+147
+00:18:33.820 --> 00:18:40.460
+Tom Jones: to provide the data. What does it have to be? Field by field display to the user too.
+
+148
+00:18:42.410 --> 00:18:44.580
+Brent Zundel: the way that the wallet
+
+149
+00:18:45.220 --> 00:19:00.440
+Brent Zundel: software interacts with the presentation definition object obviously is going to be up to that. The developers of that wallet software. My expectation is that each field that's being requested would be.
+
+150
+00:19:00.640 --> 00:19:03.180
+Brent Zundel: you know, very clear to the holder
+
+151
+00:19:03.250 --> 00:19:04.970
+Brent Zundel: what they're sharing.
+
+152
+00:19:06.570 --> 00:19:09.320
+Tom Jones: It Doesn't work very well for medical information.
+
+153
+00:19:10.640 --> 00:19:12.200
+Tom Jones: Okay, thanks.
+
+154
+00:19:14.090 --> 00:19:20.580
+Limari Navarrete: Okay. All right. So we do have a follow up from Benny. Further clarification.
+
+155
+00:19:20.960 --> 00:19:32.200
+Limari Navarrete: He was saying. That verifiable presentation exchange, among other ones is a super big problem for ultimate interoperability beyond territories.
+
+156
+00:19:32.390 --> 00:19:35.600
+Limari Navarrete: He wants to know if you know any efforts
+
+157
+00:19:36.740 --> 00:19:43.410
+Limari Navarrete: in the SSI world for this to please, let us know, especially in any standard bodies.
+
+158
+00:19:44.420 --> 00:19:45.620
+Limari Navarrete: Is that clear?
+
+159
+00:19:45.690 --> 00:20:00.140
+Brent Zundel: I'll try. He's having a problem with his Mike. So presentation exchange is currently included as part of the Id. For Vc. Specs
+
+160
+00:20:00.380 --> 00:20:12.490
+Brent Zundel: that are being produced out of the Idf. It's currently incorporated into the Ares profile version 2 as an option for
+
+161
+00:20:13.150 --> 00:20:16.640
+Brent Zundel: requesting the presentation requests in that ecosystem.
+
+162
+00:20:19.010 --> 00:20:20.330
+Brent Zundel: So there
+
+163
+00:20:20.700 --> 00:20:28.460
+Brent Zundel: it it is, being. Presentation Exchange is being incorporated as a way to do these things. My understanding is that
+
+164
+00:20:28.720 --> 00:20:37.040
+Brent Zundel: because it's part of Id for Vcs. Then it's also being included in the Iso. Specs for mobile document sharing.
+
+165
+00:20:38.720 --> 00:20:39.540
+Brent Zundel: So I
+
+166
+00:20:40.200 --> 00:20:47.560
+Brent Zundel: I think the answer is, is, Yes, but i'm still not totally sure what it is. You're asking apologies for that.
+
+167
+00:20:49.460 --> 00:20:57.850
+Limari Navarrete: Okay, Benny, feel free to clarify more if you like, in the chat. But we're gonna move on to the next question.
+
+168
+00:20:58.100 --> 00:21:01.570
+Limari Navarrete: I have another question in the chat from
+
+169
+00:21:03.760 --> 00:21:06.780
+Limari Navarrete: Alexander. who is saying.
+
+170
+00:21:08.600 --> 00:21:11.720
+Limari Navarrete: Let's see it's Alex from a port top of
+
+171
+00:21:11.900 --> 00:21:20.800
+alexanderyenkalov: Sorry. I don't know what it portable portable for. We all you're here here. Why, don't you go ahead? And yeah, sure, yeah, cause
+
+172
+00:21:21.130 --> 00:21:24.710
+alexanderyenkalov: oh, yeah, sure I can just do that.
+
+173
+00:21:24.760 --> 00:21:36.420
+alexanderyenkalov: Yeah. The question is about the logic for matching presentation definition to your selected with your credentials basically to select some of those
+
+174
+00:21:36.440 --> 00:21:52.140
+alexanderyenkalov: so far it's not the part of a specification, at least I didn't see any. Maybe I missed some recent updates, but at least there were no like that before. Like to guide how this matching should happen, and what could be the outcome of such a
+
+175
+00:21:52.210 --> 00:21:56.620
+alexanderyenkalov: evaluation of presentation definition, considering the set of your coins.
+
+176
+00:21:56.770 --> 00:22:04.520
+alexanderyenkalov: Yeah. So pretty much. Everyone who who does that, who whoever you spec like, uses a library from?
+
+177
+00:22:04.880 --> 00:22:10.800
+alexanderyenkalov: And there is approach to that question there. But questions like from my end is like.
+
+178
+00:22:11.100 --> 00:22:20.450
+alexanderyenkalov: Are there any expectation to standardize that logic? And so the ties in particular, the output of that logic, so that, the goal basically being that
+
+179
+00:22:20.620 --> 00:22:24.580
+alexanderyenkalov: we, asking the consumer to present some documents
+
+180
+00:22:24.800 --> 00:22:29.800
+alexanderyenkalov: and business allows for options like one or another.
+
+181
+00:22:30.000 --> 00:22:48.430
+alexanderyenkalov: and we need to build up eventually for a consumer. Yeah, some menu like choose one or another, and to make that convenient, it will be awesome to have some standard approach to evaluation. Just more, I would say, gradular compared to what exist so far in open source.
+
+182
+00:22:49.440 --> 00:22:50.100
+Brent Zundel: Okay.
+
+183
+00:22:50.150 --> 00:23:02.380
+Brent Zundel: the the limit to which the presentation exchange spec deals with this is that it defines processing rules for the presentation, definitions and submissions.
+
+184
+00:23:02.740 --> 00:23:12.820
+Brent Zundel: Anything beyond that would be more related to. You know the ux and the rendering of things for the consumers. There
+
+185
+00:23:13.100 --> 00:23:16.910
+Brent Zundel: is an effort at diff called wallet rendering.
+
+186
+00:23:17.050 --> 00:23:28.020
+Brent Zundel: It's primary focus at this point is from the issuer side, you know, as an issue, or I want to have opinions about how my credential that I've issued is it displayed?
+
+187
+00:23:28.040 --> 00:23:34.740
+Brent Zundel: But I think a natural extension of that would be on the on, the you know this presentation exchange side?
+
+188
+00:23:34.870 --> 00:23:41.090
+Brent Zundel: I. The short answer is, unfortunately, I don't know of any efforts that are
+
+189
+00:23:41.880 --> 00:23:46.320
+Brent Zundel: being made to standardize that aspect of the exchange.
+
+190
+00:23:46.940 --> 00:23:52.960
+alexanderyenkalov: So basically, so far, like every implementer, does it their own job to to to solve that. Basically.
+
+191
+00:23:52.970 --> 00:23:53.860
+Brent Zundel: Yes.
+
+192
+00:23:55.910 --> 00:23:57.710
+alexanderyenkalov: Okay, good. So far, Thank you.
+
+193
+00:23:59.930 --> 00:24:05.240
+Limari Navarrete: Okay, Great. Thank you. So we are going to move on to a question from David.
+
+194
+00:24:06.070 --> 00:24:22.440
+David Chadwick: Yeah. Th: this is not actually a a question. Well, it. It's sort of a question, but it's it's also answering what Tam Tom asked about the optionality I haven't looked at the disspect for a few months, but when I, when I did look at it, work on it, Brent, the in terms of selective disclosure.
+
+195
+00:24:22.540 --> 00:24:39.390
+David Chadwick: They used to be a field that it may still be there, which was mandatory to select. This goes all, or you may select. This goes, or you you can ignore it. Is it is that still there, because that would actually provide the optionality. Wouldn't it that Tom was looking for. So you could say, Give your age
+
+196
+00:24:39.390 --> 00:24:47.080
+David Chadwick: selectively, disclose it, but but optionally selective disclosure, and then the user could could present the other details as well if they wanted to.
+
+197
+00:24:47.140 --> 00:24:48.720
+Brent Zundel: It's
+
+198
+00:24:48.930 --> 00:24:55.960
+Brent Zundel: it. It flips it around a little bit. The flag that i'm aware of. That's related to. That is the limit. Disclosure, flag.
+
+199
+00:24:56.410 --> 00:25:02.550
+Brent Zundel: and with limit disclosure. The verifier would say, Give me this information, and nothing more.
+
+200
+00:25:03.560 --> 00:25:05.190
+Brent Zundel: But
+
+201
+00:25:05.210 --> 00:25:11.600
+Brent Zundel: there's no way to say that I there's no way that I know of for the issue, or to say this field
+
+202
+00:25:11.880 --> 00:25:15.630
+Brent Zundel: I want You can answer it if you want to. But you don't have to.
+
+203
+00:25:17.220 --> 00:25:20.160
+Brent Zundel: which is a slightly different.
+
+204
+00:25:20.610 --> 00:25:36.740
+David Chadwick: Yeah, I agree. Yeah, it's it's it's slightly different. It's it's you you're not. The Verifi is not specifically saying which field is optional. It's, say, this one, you must return, and everything else is optional. Yeah, anything else that you could give me. Go ahead and give it to me or don't.
+
+205
+00:25:37.240 --> 00:25:46.100
+Brent Zundel: But I'm: yeah, I mean, I've taken note of of Tom's use case, and I've always an issue on Presentation Exchange, and we'll have that conversation. See what we can do about that?
+
+206
+00:25:48.480 --> 00:25:52.240
+Limari Navarrete: Okay, so we're gonna go ahead and take a question from Claire.
+
+207
+00:25:55.690 --> 00:26:02.180
+Clare Nelson: Sure, Thank you, Lamari. Thank you. Print this is very informative. So i'm gonna ask a Newbie question
+
+208
+00:26:02.280 --> 00:26:09.870
+Clare Nelson: because I have not read the Exchange definition. So Tom mentioned something about a medical
+
+209
+00:26:10.040 --> 00:26:17.530
+Clare Nelson: use case, and I'm very interested in use cases. Can you give me an example, Brand of a use case in the medical field
+
+210
+00:26:19.070 --> 00:26:26.430
+Brent Zundel: a used case in the medical field, I'm. Assuming incorporating presentation, exchange, and definitions.
+
+211
+00:26:27.230 --> 00:26:31.400
+Brent Zundel: Most of most of this would be hypothetical.
+
+212
+00:26:33.090 --> 00:26:37.700
+Brent Zundel: but 1 one option would be.
+
+213
+00:26:37.830 --> 00:26:46.590
+Brent Zundel: The pharmacy is submitting a presentation definition that says, we have to have a properly signed
+
+214
+00:26:48.490 --> 00:26:49.750
+Brent Zundel: prescription.
+
+215
+00:26:49.770 --> 00:27:01.770
+Brent Zundel: You need to provide us the name of the drug, whether it can be a generic, the dosage requirements and the you know, the number of days that need to be filled.
+
+216
+00:27:02.970 --> 00:27:10.960
+Brent Zundel: expecting that those that prescription essentially have been issued to the holder from their doctor.
+
+217
+00:27:11.570 --> 00:27:13.220
+Brent Zundel: But, like I said, that's
+
+218
+00:27:13.300 --> 00:27:17.540
+Brent Zundel: a somewhat contrived on the spot. Example.
+
+219
+00:27:17.550 --> 00:27:24.920
+Brent Zundel: another. Another possibility is using the holder as it means for exchanging medical records between practices.
+
+220
+00:27:25.060 --> 00:27:30.770
+Brent Zundel: You know, if the doctor's office could issue those
+
+221
+00:27:31.060 --> 00:27:41.850
+Brent Zundel: medical credit medical, that medical information in forms of in form of verifiable credentials. Then the holder would be able to then take those and present that data to any doctor's office that their
+
+222
+00:27:43.290 --> 00:27:44.800
+Brent Zundel: that they're moving to
+
+223
+00:27:46.320 --> 00:27:48.120
+Brent Zundel: so hopefully that
+
+224
+00:27:48.620 --> 00:27:53.350
+Brent Zundel: and and and presentation exchange would be useful in all of those, because.
+
+225
+00:27:53.400 --> 00:27:55.310
+Brent Zundel: especially with
+
+226
+00:27:55.520 --> 00:27:57.950
+Brent Zundel: medical information.
+
+227
+00:27:58.610 --> 00:28:11.030
+Brent Zundel: right now, right now, to my understanding. One of the best practices for exchanging data is to encrypt a Pdf. Of everything, and that Pdf. Just gets emailed to the new Doctor's office.
+
+228
+00:28:11.600 --> 00:28:27.110
+Brent Zundel: Presentation exchange would allow for a much more granular level of disclosure. It would allow the receiving Doctor's office to indicate they they don't want to see everything. They only want to see things that pertain to what they're dealing with. Now.
+
+229
+00:28:28.020 --> 00:28:29.240
+Brent Zundel: just a
+
+230
+00:28:30.070 --> 00:28:36.880
+Brent Zundel: potentially more privacy preserving way of sharing health data. It's at least compatible with that as an ocean.
+
+231
+00:28:39.790 --> 00:28:47.240
+Clare Nelson: Thank you, Brent. That helps give me and my beginner's mind more insight into the power and flexibility of presentation exchange.
+
+232
+00:28:49.600 --> 00:28:50.230
+Brent Zundel: Thank you.
+
+233
+00:28:50.970 --> 00:28:59.390
+Limari Navarrete: hey? Awesome! So there was a follow up from Benny asking. So i'm let me see if I can
+
+234
+00:28:59.800 --> 00:29:03.530
+Limari Navarrete: phrase this in a way that's clear. It's
+
+235
+00:29:04.480 --> 00:29:15.930
+Limari Navarrete: so. I believe he's asking, When When will there be some presence of presentation? Exchange standards, and the W. 3, C. Such as it did Core Standard.
+
+236
+00:29:17.800 --> 00:29:24.890
+Brent Zundel: Right now? There's no plan to move presentation exchange into W. Threec.
+
+237
+00:29:26.280 --> 00:29:35.650
+Brent Zundel: I. A kind of natural place for it To end up would be as part of the family of specs that are being worked on by the verifiable credentials working group.
+
+238
+00:29:36.940 --> 00:29:39.310
+Brent Zundel: Currently, that working group is.
+
+239
+00:29:39.320 --> 00:29:47.220
+Brent Zundel: how do I say? Completely slammed? We? We we have a lot on our plates, and may not even get done what we have
+
+240
+00:29:47.250 --> 00:29:49.720
+Brent Zundel: planned currently.
+
+241
+00:29:50.410 --> 00:29:55.730
+Brent Zundel: And so the a a natural next step of that work is to say.
+
+242
+00:29:56.170 --> 00:29:59.100
+Brent Zundel: in addition to the data formats that we're producing.
+
+243
+00:29:59.640 --> 00:30:11.170
+Brent Zundel: Here's a protocol essentially, or the meanings of protocol for a verifier to request and a holder to submit that data, and I think that presentation exchange
+
+244
+00:30:11.320 --> 00:30:15.270
+Brent Zundel: works very well to answer that problem
+
+245
+00:30:15.280 --> 00:30:23.150
+Brent Zundel: when it's going to be officially recognized by the W. 3, c. I wouldn't anticipate that before.
+
+246
+00:30:24.000 --> 00:30:28.250
+Brent Zundel: you know. Sometime within the next 5 years is certainly possible. It will.
+
+247
+00:30:28.270 --> 00:30:31.310
+It won't happen with the next one or 2. That's for sure.
+
+248
+00:30:31.410 --> 00:30:34.500
+Brent Zundel: In the meantime presentation exchange
+
+249
+00:30:34.540 --> 00:30:39.970
+Brent Zundel: continues to be adopted by these other specifications like Id for Vc.
+
+250
+00:30:41.110 --> 00:30:42.430
+Brent Zundel: And so it's
+
+251
+00:30:42.540 --> 00:30:47.940
+Brent Zundel: it's seeing real world use. It, seeing really widespread real world use.
+
+252
+00:30:47.970 --> 00:30:53.910
+Brent Zundel: I would go so far as to a certain that it's one of the most successful. You know
+
+253
+00:30:54.130 --> 00:30:56.720
+Brent Zundel: descriptions of of
+
+254
+00:30:56.820 --> 00:30:58.890
+Brent Zundel: how to do something that's come out of diff.
+
+255
+00:31:00.950 --> 00:31:12.020
+Brent Zundel: But it's, you know, as far as being adopted by an International Standards Development organization that hasn't happened yet, though I
+
+256
+00:31:12.140 --> 00:31:18.010
+Brent Zundel: I would expect it to be incorporated into some W. 3 C. Spec. Sometime in the future.
+
+257
+00:31:20.770 --> 00:31:32.850
+Limari Navarrete: Okay, great. Thank you. All right. So there was a comment from Justin. I think it was based off some of the early earlier discussion. Did you want to follow up Justin with any comments?
+
+258
+00:31:38.440 --> 00:31:40.530
+Limari Navarrete: See if he said it, responded.
+
+259
+00:31:42.260 --> 00:31:50.770
+Limari Navarrete: He just made a comment. That optional disclosure is impractical in most cases. Once you go to implement it. So I think that was based off of an earlier discussion.
+
+260
+00:31:53.410 --> 00:31:56.200
+Limari Navarrete: Let me see, and I have something from Kalia.
+
+261
+00:31:56.600 --> 00:32:05.560
+Tom Jones: Could I add to that comment whether it's practical or not? It's required by law in California, so you can take that or leave it if you will.
+
+262
+00:32:07.840 --> 00:32:12.780
+Limari Navarrete: Okay, all right. And so let's see when we have something from Kalia.
+
+263
+00:32:13.330 --> 00:32:16.970
+Limari Navarrete: Did you want to ask any questions or make any comments, Kalia?
+
+264
+00:32:18.940 --> 00:32:20.210
+Limari Navarrete: She's still in the room.
+
+265
+00:32:25.640 --> 00:32:36.490
+Limari Navarrete: Okay. I guess not. So. We're down to the end of the questions in the chat. I don't see anyone with their hand up in the room. Are there any other questions.
+
+266
+00:32:37.240 --> 00:32:41.340
+Limari Navarrete: or follow ups to anything that you asked if you wanted to get more details on.
+
+267
+00:32:43.730 --> 00:32:57.100
+alexanderyenkalov: maybe just one more from my end. Yeah. Question is about the evidence. Yeah, in case well, whether there were already discussions in the group
+
+268
+00:32:57.120 --> 00:33:06.250
+alexanderyenkalov: or wrong position, change for the evidence. and like, yeah, any feedback so far about how to handle requests and evidence as optional or required thing
+
+269
+00:33:06.460 --> 00:33:09.200
+alexanderyenkalov: along the way, like well, requesting credentials.
+
+270
+00:33:12.830 --> 00:33:13.570
+Brent Zundel: I'm.
+
+271
+00:33:14.760 --> 00:33:25.890
+alexanderyenkalov: i'm not sure exactly what you're asking. I'm: sorry.
+
+272
+00:33:26.070 --> 00:33:38.260
+alexanderyenkalov: Yeah, that Field is not to explore in the standards so far, I believe that it just hidden in our individual use cases like people just not trying to put it back to the standard group so far.
+
+273
+00:33:38.360 --> 00:33:53.630
+alexanderyenkalov: But I wonder if there were any discussions right now? Well, in the past year, in the position, shade, group around like how we could standardize requesting evidence like I want to get like, say, passport credential, and I want to get some evidence attached to it.
+
+274
+00:33:53.690 --> 00:33:56.410
+alexanderyenkalov: Let's say without evidence. I would not accept that
+
+275
+00:33:58.190 --> 00:34:16.929
+Brent Zundel: the the short answer is Yes, presentation, exchange, presentation, definitions, can can be used for that. Whether the evidence exists as a property inside the verifiable credential, or whether the verifier is seeking for additional evidence from a separate credential. The presentation definition can
+
+276
+00:34:16.929 --> 00:34:18.360
+Brent Zundel: can certainly do that.
+
+277
+00:34:20.000 --> 00:34:34.670
+alexanderyenkalov: Do? Oh, and then other question. It's more like logistics and priority. Do you think? Bring that question to the group right now would find the time slot to do so, or it will be quite busy right now to get priority on such thing right now.
+
+278
+00:34:35.060 --> 00:34:36.170
+alexanderyenkalov: like
+
+279
+00:34:36.239 --> 00:34:40.980
+Brent Zundel: in the verifiable credentials working group for the Vc. Spec.
+
+280
+00:34:41.560 --> 00:34:46.670
+alexanderyenkalov: In the pack, specifically to standardize, for instance, the format to request such thing.
+
+281
+00:34:47.510 --> 00:34:49.690
+Brent Zundel: Well, so
+
+282
+00:34:49.730 --> 00:34:54.960
+Brent Zundel: right now, Presentation Exchange, the definition is.
+
+283
+00:34:56.239 --> 00:35:04.690
+alexanderyenkalov: basically i'm. Speaking of potential to well, to to grow a new version basically of presentation exchange, because I believe, like the lost version is walked, and
+
+284
+00:35:04.870 --> 00:35:10.280
+alexanderyenkalov: maybe I'm: i'm wrong here. But I guess like it's it's a basically a proposal for the next version. It would be
+
+285
+00:35:11.140 --> 00:35:12.290
+Brent Zundel: right.
+
+286
+00:35:12.340 --> 00:35:25.710
+Brent Zundel: So there currently is interest in allowing presentation exchange version to to exist for a while before we, you know, begin actively working on a version. 3:
+
+287
+00:35:25.780 --> 00:35:35.900
+Brent Zundel: Yeah. The repository is still active, and so issues can still be raised whether or not, there would be interest in
+
+288
+00:35:35.930 --> 00:35:48.300
+Brent Zundel: specifically including a means of asking about evidence as opposed to using the general structures to allow the verifier to seek the evidence.
+
+289
+00:35:50.160 --> 00:35:55.010
+Brent Zundel: you know, having had a lot of conversations around similar proposals in the past.
+
+290
+00:35:55.120 --> 00:36:09.160
+Brent Zundel: My guess is that there there probably wouldn't be interest in the group to add something specific for evidence, because there's nothing that would stop a verifier from using presentation exchange, as it currently exists to do that.
+
+291
+00:36:09.250 --> 00:36:13.060
+Brent Zundel: using just the general tools that are available with the
+
+292
+00:36:15.430 --> 00:36:18.050
+alexanderyenkalov: So you mean to ask for some another credential base.
+
+293
+00:36:18.580 --> 00:36:29.970
+Brent Zundel: Right? So so presentation exchange. You can either ask for whatever field you want from a single credential, or you can ask for whatever field you want from any set of credentials in the same definition.
+
+294
+00:36:30.000 --> 00:36:47.670
+alexanderyenkalov: along with indicating relationships between those fields. Yeah, I I I get what you mean. So basically we can request, not just data from credential subject, but we also can require to have the field evidence and have some stuff inside. Yeah, thank you that that's extremely available.
+
+295
+00:36:47.670 --> 00:36:50.180
+alexanderyenkalov: It's. It's very simple. But they're available.
+
+296
+00:36:50.250 --> 00:37:08.290
+Brent Zundel: Yeah, so like that that's exactly it. You, the the verifier, can say. Give me your verifiable credential. It has to have this information on the credentials subject, but it also has to have an evidence property, and in that evidence property I better see that the passport agency actually checked your biometrics or something. For example.
+
+297
+00:37:09.190 --> 00:37:12.180
+Brent Zundel: it's all possible.
+
+298
+00:37:18.500 --> 00:37:25.030
+Limari Navarrete: Okay, I don't see any other questions in the chat. Do? Are there any other questions
+
+299
+00:37:25.270 --> 00:37:28.770
+Limari Navarrete: in the room? I'll give you guys a second to maybe
+
+300
+00:37:29.210 --> 00:37:33.580
+Limari Navarrete: think about that. And i'm sure there's something stirring.
+
+301
+00:37:40.760 --> 00:37:42.880
+alexanderyenkalov: I will say that. Yeah, just
+
+302
+00:37:42.960 --> 00:37:55.730
+alexanderyenkalov: I would say the case with selective disclosure plus some optional. If user whales to share it. It's something also available for us in our use cases. So
+
+303
+00:37:55.800 --> 00:38:14.300
+alexanderyenkalov: yeah, do you think, Brand, there are chances to this have that stuff discussed in the group right now, while why? Because you said version 2 is still open for suggestions like. Could there Could there be interesting to discuss that potentially in the group already Like because I I believe in this group. We already have like 3 people saying about that.
+
+304
+00:38:15.010 --> 00:38:17.800
+Brent Zundel: I mean it definitely
+
+305
+00:38:19.550 --> 00:38:24.650
+Brent Zundel: definitely could be actually I'm. So i'm looking at the spec now.
+
+306
+00:38:25.180 --> 00:38:31.890
+Brent Zundel: because I remembered us talking about optional fields. and we actually
+
+307
+00:38:32.180 --> 00:38:34.520
+Brent Zundel: merged that capability
+
+308
+00:38:35.320 --> 00:38:40.450
+Brent Zundel: to have optional fields and October of last year.
+
+309
+00:38:41.500 --> 00:38:51.110
+Brent Zundel: So one of the when basically give me one of these things, and whether you submit it is optional, is
+
+310
+00:38:51.540 --> 00:38:53.170
+Brent Zundel: It's in the spec. You can do it.
+
+311
+00:38:54.350 --> 00:38:56.030
+alexanderyenkalov: So basically it
+
+312
+00:38:56.560 --> 00:39:14.270
+alexanderyenkalov: Yeah, yeah, because I just like when you just first touch the topic today, I just got that. Basically there is some crash between these requirements, like limited disclosure and optional like, and may maybe like, depends how you treat that right? So may may be the case that limited this closure just from priority perspective
+
+313
+00:39:14.340 --> 00:39:20.620
+alexanderyenkalov: like higher, so that we just request this and none else. But in case we treat that like.
+
+314
+00:39:21.000 --> 00:39:25.460
+alexanderyenkalov: limit the discussion for these things, and you could still do that.
+
+315
+00:39:25.760 --> 00:39:30.600
+alexanderyenkalov: That is different story, then, that it is the the the, the the scenario nicely.
+
+316
+00:39:31.160 --> 00:39:44.400
+alexanderyenkalov: So it's. It's a question of perspective, how how it's okay, to treat that from the standard perspective, I think maybe maybe it would be good to just yeah, just like to discuss that question in the group and add some more clarification to spec, so that it's
+
+317
+00:39:44.420 --> 00:39:46.990
+alexanderyenkalov: like can be used this way and this normal.
+
+318
+00:39:48.920 --> 00:39:57.260
+Brent Zundel: Yeah, I I should apologize for earlier, indicating that optional was something that we hadn't considered because an input descriptor object.
+
+319
+00:39:57.510 --> 00:40:05.200
+Brent Zundel: you know, we'll have a field, and that field can indicate whether or not the property is optional to this close or not. So it's in there.
+
+320
+00:40:09.220 --> 00:40:10.350
+alexanderyenkalov: Awesome. Thank you.
+
+321
+00:40:10.650 --> 00:40:11.220
+Yeah.
+
+322
+00:40:14.580 --> 00:40:16.420
+Tom Jones: thanks. What section is that?
+
+323
+00:40:16.830 --> 00:40:19.870
+Brent Zundel: It is in the
+
+324
+00:40:21.020 --> 00:40:26.340
+Brent Zundel: Input Descriptor Object section I can drop a link directly to that in the chat.
+
+325
+00:40:26.630 --> 00:40:34.430
+Brent Zundel: That would be great. Yeah, so it's in this section. If you scroll down a bit you'll see
+
+326
+00:40:35.920 --> 00:40:39.410
+Brent Zundel: the optional property I described there.
+
+327
+00:40:48.890 --> 00:40:52.520
+Limari Navarrete: Okay, anyone else any other questions today?
+
+328
+00:40:56.150 --> 00:41:02.240
+Limari Navarrete: Also, i'm going to drop my email in the chat. So if there are any, follow up questions.
+
+329
+00:41:02.910 --> 00:41:05.350
+Limari Navarrete: I can go ahead and forward those to Brent.
+
+330
+00:41:06.760 --> 00:41:11.430
+Limari Navarrete: So there's my email. So Marietta identity foundation.
+
+331
+00:41:15.510 --> 00:41:25.400
+Limari Navarrete: And so if there are no other questions, I can give you 15 min back of your time. I just want to give a couple more seconds to see if anybody else
+
+332
+00:41:26.340 --> 00:41:32.300
+Limari Navarrete: has somebody there, something they're doing, or anything you want to add, Brent.
+
+333
+00:41:32.540 --> 00:41:34.960
+Brent Zundel: I'll note that
+
+334
+00:41:35.710 --> 00:41:39.440
+Brent Zundel: immediately. Prior to this meeting is the weekly scheduled
+
+335
+00:41:39.490 --> 00:41:52.420
+Brent Zundel: meeting to discuss presentation exchange along with credential manifest, which is a related specification and occasionally wallet rendering. If folks show up and are interested in talking about that.
+
+336
+00:41:52.700 --> 00:41:55.440
+Brent Zundel: And so Thursdays
+
+337
+00:41:55.670 --> 00:41:58.950
+Brent Zundel: the hour before the this meeting time.
+
+338
+00:41:59.450 --> 00:42:04.320
+Brent Zundel: Welcome, folks to attend and have that conversation, and bring up whatever you want to bring up.
+
+339
+00:42:06.830 --> 00:42:11.110
+Limari Navarrete: It looks like there was one more question from Tom. Do you want to ask that directly, Tom?
+
+340
+00:42:13.700 --> 00:42:20.350
+Tom Jones: No, that wasn't a question I just pasted in the section that Brent was talking about, so anybody else could see it.
+
+341
+00:42:20.470 --> 00:42:21.790
+Limari Navarrete: Okay, Gotcha.
+
+342
+00:42:22.130 --> 00:42:26.090
+Tom Jones: And it seems to agree that yes, optional is possible.
+
+343
+00:42:27.830 --> 00:42:30.500
+Limari Navarrete: Okay, Thank you very much, Tom, appreciate that.
+
+344
+00:42:36.040 --> 00:42:49.080
+Limari Navarrete: Okay. So if there are no other questions, we can go ahead and wrap it up today. I just want to thank everyone for joining us, feel free to reach out for any. Follow up questions. We will be having
+
+345
+00:42:49.080 --> 00:43:04.190
+Limari Navarrete: future events with our engineering community. So keep on top of our event bright because they will drop directly from there, and of course, just keep on top of our overall communications here at Diff.
+
+346
+00:43:04.410 --> 00:43:13.060
+Limari Navarrete: So so yeah, thanks. And I hope you guys have a great day evening wherever you are, and we'll see you next time.
+
+347
+00:43:16.230 --> 00:43:18.010
+Clare Nelson: Thanks, Pran. Thanks, Lamari.
+
+348
+00:43:18.330 --> 00:43:19.380
+alexanderyenkalov: Thank you.
+
+349
+00:43:20.510 --> 00:43:21.820
+Limari Navarrete: Oh, thank you. Everyone.
+
