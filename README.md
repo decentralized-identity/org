@@ -23,9 +23,9 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [DID Communication WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_DIDcomm_WG_Charter_v1.pdf)
 * [Sidetree WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_Sidetree_WG_charter_v1.pdf)
 * [Secure Data Storage WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_SDS_WG_charter_v1.pdf)
-* [KERI WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_KERI_WG_charter_v1.pdf)
 *  [Wallet Security WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_Wallet_Security_WG_Charter_20210616.pdf) 
-*  [Applied Crytpo WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_Applied_Crypto_WG_charter_v2.pdf)
+*  [Applied Crypto WG](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_Applied_Crypto_WG_charter_v2.pdf)
+*  * [KERI WG (archived)](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_KERI_WG_charter_v1.pdf)
 
 ## Useful documents
 
