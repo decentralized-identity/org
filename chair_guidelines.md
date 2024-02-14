@@ -54,7 +54,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
         * Restate the IPR agreement, DIF Membership, and WG Charter considerations
     * [OGs]
         * Restate the OG Charter considerations
-        * Remind the participates that it is NOT an IPR-protected group
+        * Remind the participants that it is NOT an IPR-protected group
     * Drop links in chat to these documents if there are new members or guests
 * Chairs should “claim host” in Zoom; this is needed to pause or stop the recording, eject bad-faith participants, or to enable screen-sharing for attendees. 
     * Code for claiming host privileges is on the Chairs resource page linked above
