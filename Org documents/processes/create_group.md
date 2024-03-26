@@ -13,7 +13,11 @@ This describes the instructions for launch a DIF group
     - https://github.com/decentralized-identity/template-for-registry-workitems
     - https://github.com/decentralized-identity/template-for-profile-workitems
 - Link to approved charter 
-- Chair names and github usernames
+- Chair information
+    - Names
+    - Github usernames
+    - Photo (attached or linked)
+    - Social links (twitter, linkedin)
 - Group meeting cadence (day, time, recurrence)
 - [SIGs] Group preferred work location (for notes, documents): choice of github, notion, other
     - Note: WGs/UGs use github agenda.md by default
