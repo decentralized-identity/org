@@ -24,7 +24,6 @@ This describes the instructions for launch a DIF group
     - Other, please specify
     - Note: WGs always get slack and mailing list
 
-
 ### Steps
 
 DIF core team or approved person does the following steps:
@@ -46,5 +45,3 @@ DIF core team or approved person does the following steps:
 9. Ensure group's landing page / README is updated with all links/info **Related: https://github.com/decentralized-identity/org/issues/32** 
 10. Onboard chairs 
 11. Announce group
-
-   
