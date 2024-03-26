@@ -39,13 +39,14 @@ DIF core team or approved person does the following steps:
     - [**WGs**] Fork from (TODO)
     - [**UGs**] Fork from (TODO)
 3. [**WGs**] Set up group’s work item repos, if needed
-4. Give github access to group chairs (TODO: what level of permission? Is there a group)
-5. Create a calendar invite on “DIF Calendar” with a meeting (zoom) link. 
-6. Add group to DIF web site
-7. Set up meeting recording publishing 
-8. Set up communication channels
+4. Give github access to group chairs
+    - Create team for the group and add the chair github aliases 
+6. Create a calendar invite on “DIF Calendar” with a meeting (zoom) link. 
+7. Add group to DIF web site
+8. Set up meeting recording publishing 
+9. Set up communication channels
     - [**WGs**] Create slack channel and mailing list
    - [**UGs**, **SIGs**] Create discord channel, mailing list, or other
-9. Ensure group's landing page / README is updated with all links/info **Related: https://github.com/decentralized-identity/org/issues/32** 
-10. Onboard chairs 
-11. Announce group
+10. Ensure group's landing page / README is updated with all links/info **Related: https://github.com/decentralized-identity/org/issues/32** 
+11. Onboard chairs 
+12. Announce group
