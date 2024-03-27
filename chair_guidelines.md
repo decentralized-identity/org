@@ -15,29 +15,29 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 
 1. Prepare and share an Agenda for the call, ideally 24 hours in advance. Disclose any business relations between chairs and speakers/topics, if pertinent.
 2. Take notes (4-5 bullet points) to capture main topics 
-3. Make sure everyone on the call has signed the WG charter 
-4. Follow-up on agreed tasks 
-5. Your role, as chair, is to set and follow an agenda. Everyone should be equally represented and given a chance to speak
-6. Plan to join TSC calls (as per TSC guidelines, 1 chair/WG minimum) 
-
+3. [WGs] Make sure everyone on the call has signed the WG charter
+4. Make sure everyone understands the IPR status
+5. Follow-up on agreed tasks 
+6. Your role, as chair, is to set and follow an agenda. Everyone should be equally represented and given a chance to speak
+7. [WGs] Plan to join TSC calls (as per TSC guidelines, 1 chair/WG minimum) 
 ---
 
 ### ![](https://i.imgur.com/7cId82q.png) Before a Call
 
 ---
 
-* Prepare and share (email and/or Slack depending on group culture) an Agenda for the call, ideally 24 hours in advance
+* Prepare and share (email, Slack, or Discord depending on group culture) an Agenda for the call, ideally 24 hours in advance
     * This can simply be a list of discussion points
     * It can include concrete items like GitHub pull requests (with links)
     * Consider adding estimates of time in mins for each agenda item
     * Invite group members to add items to the agenda 
 * Double-check the meeting time in the public [DIF calendar](http://bit.ly/dif-calendar)
     * E.g. Daylight Saving Time affects meeting schedules differently on different continents
-* Send out an email reminder about the call to any guests or work item leads who are on the agenda.
+* Send out a reminder about the call to any guests or work item leads who are on the agenda.
 * A template for a content presentation is available [here](https://docs.google.com/presentation/d/1jXF5LhBLmKsbjCfGGBFNDC_tqISmgd8-DK-ISxSQkwc/edit#slide=id.g7760498cf3_0_50)
 * If a call has to be cancelled or postponed for whatever reason, give people as much advance notice as possible, and:
-    * Send a message via email and Slack to the group
-    * Reach out to Balazs or Chris to update the entry in the calendar
+    * Send a message via group's preferred communication channel(s)
+    * Reach out to operations@identity.foundation to update the entry in the calendar
     * Clearly communicate when the next meeting will happen
 
 ---
@@ -48,14 +48,19 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 
 * Arrive punctually to the call, allow 2-4 minutes for people to arrive
 * Greeting people as they arrive is a great opportunity to ensure everyone’s sound is working correctly as well as make them feel welcome
-* Welcome new faces and invite them to introduce themselves 
-* Restate the IPR agreement, DIF Membership, WG Charter etc considerations
-    * drop links in chat to these documents if there are new members or guests
+* Welcome new faces and invite them to introduce themselves
+* IPR, Membership, and Charter considerations:
+    * [WGs]
+        * Restate the IPR agreement, DIF Membership, and WG Charter considerations
+    * [OGs]
+        * Restate the OG Charter considerations
+        * Remind the participants that it is NOT an IPR-protected group
+    * Drop links in chat to these documents if there are new members or guests
 * Chairs should “claim host” in Zoom; this is needed to pause or stop the recording, eject bad-faith participants, or to enable screen-sharing for attendees. 
     * Code for claiming host privileges is on the Chairs resource page linked above
-* All WG calls are automatically recorded to DIF’s zoom account.
-    * If a member requests pausing the call, please inform them that since WG meetings are IPR protected the entire meeting must be on record. Suggest them to discuss their topic offline and find an alternative non WG meeting time to hear what they intend to share. If in doubt about IPR, please reach out to DIF operations. 
-* Share the link to the Agenda [hackmd] document in the Zoom chat
+* All calls are automatically recorded to DIF’s zoom account.
+    * [WGs] If a member requests pausing the call, please inform them that since WG meetings are IPR protected the entire meeting must be on record. Suggest them to discuss their topic offline and find an alternative non WG meeting time to hear what they intend to share. If in doubt about IPR, please reach out to DIF operations.
+* Share the link to the Agenda hackmd document in the Zoom chat
 * Consider screen-sharing the Agenda document and/or minutes, to encourage assistance with note-taking, URL sharing, and/or corrections
 * Invite people again to add items onto the agenda for the call
 * An attendance list in the agenda document is not essential, but can be helpful
@@ -120,11 +125,11 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 * It's never too early to start setting the agenda for the following week or sending out reminders about upcoming guests or special agendas.
 --- 
 
-### ![](https://i.imgur.com/SxAB6i1.png) Asynchronous: GitHub, Slack
+### ![](https://i.imgur.com/SxAB6i1.png) Asynchronous: GitHub, Slack, Discord
 
 ---
 
-* While calls are an important venue for work at DIF, plenty of work and conversations happen online via Slack, email and GitHub activity, and the same substantial-contribution/”IPR boundary” should be maintained across all channels
+* While calls are an important venue for work at DIF, plenty of work and conversations happen online via Slack, Discord, email and GitHub activity, and the same substantial-contribution/”IPR boundary” should be maintained across all channels
 * Chairs are responsible for maintaining the group mailing list & monitoring emails
 * Chairs are also expected to engage with and moderate the group work at GitHub and Slack, and also ensure compliance with the appropriate rules, IPR obligations, DIF code of conduct etc.
     * This extends to GH Discussions as well. As Discussions are created to host implementation related conversation, non-DIF members will also post there. There is a chance that such a post could include language/idea that might directly influence or qualify as a contribution to the IPR protected work item, in this case please follow these steps: 
@@ -145,8 +150,8 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
             If you have any questions, please feel free to get in touch with me via email or DM.
 ```
 * Remember to invite call attendees to join DIF Slack and WG channels
-    * For IPR-protected technical working groups and work items, **all active attendees **need to be DIF members; if not, they should not contribute
-    * For non-IPR-protected groups, any attendee can participate fully, with the understanding that any discussion topics that become work items of IPR-protected groups will require membership (i.e. it doesn’t hurt to often invite attendees to consider membership)
+    * [WGs] For IPR-protected technical working groups and work items, **all active attendees** need to be DIF members; if not, they may listen in, but please warn them that they should not contribute.
+    * [OGs] For non-IPR-protected groups, any attendee can participate fully, with the understanding that any discussion topics that become work items of IPR-protected groups will require membership (i.e. it doesn’t hurt to often invite attendees to consider membership)
 * Keep an eye on GitHub pull requests, GitHub discussions and issues - “Watch all activity” function recommended
     * Stale PRs, threads, and entire repos should be marked as such and put explicitly on the agenda for “last call” consideration before archiving
 * Collate links to GH items as a list on the agenda for the next meeting is recommended
