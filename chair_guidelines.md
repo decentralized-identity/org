@@ -150,7 +150,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
             If you have any questions, please feel free to get in touch with me via email or DM.
 ```
 * Remember to invite call attendees to join DIF Slack and WG channels
-    * [WGs] For IPR-protected technical working groups and work items, **all active attendees **need to be DIF members; if not, they should not contribute
+    * [WGs] For IPR-protected technical working groups and work items, **all active attendees** need to be DIF members; if not, they may listen in, but please warn them that they should not contribute.
     * [OGs] For non-IPR-protected groups, any attendee can participate fully, with the understanding that any discussion topics that become work items of IPR-protected groups will require membership (i.e. it doesn’t hurt to often invite attendees to consider membership)
 * Keep an eye on GitHub pull requests, GitHub discussions and issues - “Watch all activity” function recommended
     * Stale PRs, threads, and entire repos should be marked as such and put explicitly on the agenda for “last call” consideration before archiving
