@@ -1,5 +1,5 @@
 # Creating a DIF group
-This describes the instructions for launch a DIF group 
+This describes the DIF operational instructions for launch a DIF group. These steps are to be performed by DIF Core Team or appropriate TSC members. 
 
 **Assumption**: DIF Steering Committee has approved the group's charter
 
