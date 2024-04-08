@@ -56,7 +56,7 @@ The responsibilites of a DIF group chair include:
 ### Tools and tips for all Chairs:
 
 - ### Claim host in zoom
-    - 212121
+- Ask ED or get access to password manager for code
     - Claim host on both accounts
     - This is often needed to allow screen-sharing for participants
 - ### Recordings
