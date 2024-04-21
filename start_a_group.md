@@ -19,7 +19,7 @@ It's also possible that your idea can be accomplished as a work item in an exist
 DIF staff will work with the steering committee to get approval, and will contact you if there are any questions. 
 
 ## Provide information needed for launching the group
-After approval, DIF staff will contact you requesting the final information needed to set up the group. Fill out this information and return it to DIF.
+After approval, DIF staff will contact you requesting the final information needed to set up the group. Copy and fill out [this form template](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb) and return it to DIF.
 
 ## Group launch
 Your group is now ready to be launched. DIF staff will coordinate with you as needed.
