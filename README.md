@@ -8,6 +8,11 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [DIF Organizational FAQ](https://github.com/decentralized-identity/org/blob/master/dif_org_faq.md)
 * [Technical knowledge base](https://identity.foundation/faq/)
 
+## DIF Group Charter Templates
+* [User Group Charter Template](https://docs.google.com/document/d/1xS0tDieZbso-mNVCH-0CNHdafIeNChsPVM1Q5-IMYT4/edit?usp=drive_link)
+* [Special Interest Group Charter Template](https://docs.google.com/document/d/1lDFjZEzdxpvU840QReqahyQyLoeV73SyCctz7aYXkTQ/edit?usp=drive_link)
+* [Working Group Charter Template](https://docs.google.com/document/d/1h89kC4-RUsbHiaiIW1Gu9pMdUmhqQAFbay0aHL3U5oo/edit?usp=drive_link)
+
 ## Legal documents
 
 * [DIF Member Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf)
@@ -38,3 +43,5 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [Code of Conduct](code-of-conduct.md)
 * [DIF Chair cheat sheet](https://github.com/decentralized-identity/org/blob/master/chair_cheat_sheet.md) (Handy reference)
 * [DIF Chair guidelines](https://github.com/decentralized-identity/org/blob/master/chair_guidelines.md) (More comprehensive)
+* [Liason Proposal Template](https://docs.google.com/document/d/1AQlNytTm08natnSV7ACEjNPD1ISLOVFCNaeECywgjZo/edit?usp=drive_link)
+
