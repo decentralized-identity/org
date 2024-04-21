@@ -5,28 +5,7 @@ This describes the DIF operational instructions for launch a DIF group. These st
 
 ### Input needed
 
-- Group name
-- Group type (WG | SIG | UG)
-    - The group type will determine which github repo template is used. **Blocking issue: https://github.com/decentralized-identity/org/issues/32**
-- [WGs only] Work item repo template, if applicable, or repo to transfer in:
-    - https://github.com/decentralized-identity/template-IETF-bound
-    - https://github.com/decentralized-identity/template-for-registry-workitems
-    - https://github.com/decentralized-identity/template-for-profile-workitems
-- Link to approved charter 
-- Chair information
-    - Names
-    - Github usernames
-    - Photo (attached or linked)
-    - Social links (twitter, linkedin)
-- Group meeting cadence (day, time, recurrence)
-- [SIGs] Group preferred work location (for notes, documents): choice of github, notion, other
-    - Note: WGs/UGs use github agenda.md by default
-    - **Blocking issue: https://github.com/decentralized-identity/org/issues/32**
-- [SIGs and UGs] Group preferred communication channel (can include multiple)
-    - Mailing list
-    - Discord channel
-    - Other, please specify
-    - Note: WGs always get slack and mailing list
+Group Chair / Proposer must fill out [this form](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb)
 
 ### Steps
 
