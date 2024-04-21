@@ -8,9 +8,7 @@ First, decide which group type is appropriate for your needs:
 - Special Interest Group: Open group serving as a cooperative space to align on common areas of interest and encourage ideation
 - User Group: Open group consisting of users interested in a DIF codebase
 
-It's also possible that your idea can be accomplished as a work item in an existing group. 
-
-See [Participation](https://github.com/decentralized-identity/org/blob/master/dif_org_faq.md#participation) for more details.
+It's also possible that your idea can be accomplished as a work item in an existing group. See [Participation](https://github.com/decentralized-identity/org/blob/master/dif_org_faq.md#participation) for more details. 
 
 ## Fill out and submit a charter proposal
 1. Select the appropriate charter template from [TODO: insert link after PR merged] and make a copy so you can edit it.
@@ -25,3 +23,5 @@ After approval, DIF staff will contact you requesting the final information need
 
 ## Group launch
 Your group is now ready to be launched. DIF staff will coordinate with you as needed.
+
+See [Working Group Lifecycle](https://github.com/decentralized-identity/org/blob/master/working-group-lifecycle.md) for additional context.
