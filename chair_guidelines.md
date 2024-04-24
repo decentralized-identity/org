@@ -57,7 +57,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
         * Remind the participants that it is NOT an IPR-protected group
     * Drop links in chat to these documents if there are new members or guests
 * Chairs should “claim host” in Zoom; this is needed to pause or stop the recording, eject bad-faith participants, or to enable screen-sharing for attendees. 
-    * Code for claiming host privileges is on the Chairs resource page linked above
+    * Code for claiming host privileges is in the #tsc-channel Slack channel
 * All calls are automatically recorded to DIF’s zoom account.
     * [WGs] If a member requests pausing the call, please inform them that since WG meetings are IPR protected the entire meeting must be on record. Suggest them to discuss their topic offline and find an alternative non WG meeting time to hear what they intend to share. If in doubt about IPR, please reach out to DIF operations.
 * Share the link to the Agenda hackmd document in the Zoom chat
