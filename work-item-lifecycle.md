@@ -30,6 +30,15 @@ Group chair will designate each submission as a “Pre-Draft” document.
 2. Additional “Straw men” can serve as input documents to a Draft Deliverable,
    in part or in whole, and can be submitted after a Draft has been initiated at
    the discretion of the chairs.
+3. If a deliverable builds on prior art designed and/or built by a participant
+   in the DIF work in a legally significant way, i.e., if one or more input
+   documents to the DIF work could constitute a threat to the IP safety of the
+   DIF work item, the Working Group MAY request that it be officially donated to
+   DIF before acceptance of the work item, such that IP rights (and ongoing
+   maintenance) of the legacy work can be brought into the remit of the group.
+   Review by the Executive Director and/or the Technical Steering Committee may
+   help to clarify the scope or procedure for this donation in case of conflicts
+   over this request.
 
 ### 7.2. **Draft**. 
 Each Pre-Draft document of a Working Group must first be Approved by the Working
