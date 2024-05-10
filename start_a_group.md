@@ -11,7 +11,7 @@ First, decide which group type is appropriate for your needs:
 It's also possible that your idea can be accomplished as a work item in an existing group. See [Participation](https://github.com/decentralized-identity/org/blob/master/dif_org_faq.md#participation) for more details. 
 
 ## Fill out and submit a charter proposal
-1. Select the appropriate charter template from [TODO: insert link after PR merged] and make a copy so you can edit it.
+1. Select the appropriate template from [DIF's Charter Templates](https://github.com/decentralized-identity/org/blob/master/README.md#dif-group-charter-templates) and make a copy so you can edit it.
 2. Fill out the proposal
 3. Email to community@identity.foundation
 
