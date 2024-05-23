@@ -1,19 +1,24 @@
 # Creating a DIF group
 This describes the DIF operational instructions for launch a DIF group. These steps are to be performed by DIF Core Team or appropriate TSC members. 
 
-**Assumption**: DIF Steering Committee has approved the group's charter
+DIF groups include:
+- Working Groups (WGs)
+- Special Interest Groups (SIGs)
+- User Groups (UGs)
 
-### Input needed
+SIGs and UGs are collectively referred to as Open Groups (OGs)
 
-Group Chair / Proposer must fill out [this form](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb)
+### Prerequistites
+- DIF Steering Committee has approved the group's charter
+- Group Chair / Proposer has filled out [this form](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb)
 
 ### Steps
 
 DIF core team or approved person does the following steps:
 1. Ratify charter
     - [**WGs**] Create docusign for approved charter and have parties sign
-    - [**SIGs and UGs**] Convert to markdown (will be placed in group’s github repo)
-2. Set up group’s landing page
+    - [**OGs**] Convert to markdown (will be placed in group’s github repo)
+2. Set up group’s landing page by forking the appropriate template repo and updating appropriately
     - [**OGs**] Fork from [https://github.com/decentralized-identity/template-for-SIGs](https://github.com/decentralized-identity/template-for-OGs)
     - [**WGs**] Fork from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
 3. [**WGs**] Set up group’s work item repos, if needed
