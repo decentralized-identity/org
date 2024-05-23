@@ -13,10 +13,9 @@ DIF core team or approved person does the following steps:
 1. Ratify charter
     - [**WGs**] Create docusign for approved charter and have parties sign
     - [**SIGs and UGs**] Convert to markdown (will be placed in group’s github repo)
-2. Set up group’s landing page **Blocking issue: https://github.com/decentralized-identity/org/issues/32**
-    - [**SIGs**] Fork from [https://github.com/decentralized-identity/template-for-SIGs](https://github.com/decentralized-identity/template-for-SIGs)
-    - [**WGs**] Fork from (TODO)
-    - [**UGs**] Fork from (TODO)
+2. Set up group’s landing page
+    - [**OGs**] Fork from [https://github.com/decentralized-identity/template-for-SIGs](https://github.com/decentralized-identity/template-for-OGs)
+    - [**WGs**] Fork from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
 3. [**WGs**] Set up group’s work item repos, if needed
 4. Give github access to group chairs
     - Create team for the group and add the chair github aliases 
@@ -26,6 +25,6 @@ DIF core team or approved person does the following steps:
 9. Set up communication channels
     - [**WGs**] Create slack channel and mailing list
    - [**UGs**, **SIGs**] Create discord channel, mailing list, or other
-10. Ensure group's landing page / README is updated with all links/info **Related: https://github.com/decentralized-identity/org/issues/32** 
+10. Double-check that group's landing page / README is updated with all links/info 
 11. Onboard chairs 
 12. Announce group
