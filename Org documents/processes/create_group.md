@@ -21,7 +21,7 @@ DIF core team or approved person does the following steps:
 2. Set up group’s landing page by forking the appropriate template repo and updating appropriately
     - [**OGs**] Fork from [https://github.com/decentralized-identity/template-for-SIGs](https://github.com/decentralized-identity/template-for-OGs)
     - [**WGs**] Fork from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
-3. [**WGs**] Set up group’s work item repos, if needed
+3. [**WGs**] Set up group’s [work item repo(s)](create_work_item.md), if needed
 4. Give github access to group chairs
     - Create team for the group and add the chair github aliases 
 6. Create a calendar invite on “DIF Calendar” with a meeting (zoom) link. 
