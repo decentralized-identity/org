@@ -73,7 +73,7 @@ Group Approved” status.
    Template](#Acknowledgement-Template)` section below. If the WG chairs and
    membership cannot come to agreement about specific acknowledgements, this can
    be escalated to the Technical Steering Committee by either party.
-3. For Steering Committee Approval, the approved version should be placed at a 
+3. Before Steering Committee Approval, the approved version should be placed at a 
 **permanent link** tracked on DIF’s spec-tracking github repo. [See Presentation 
 Exchange v1.0.0 for an example](https://identity.foundation/presentation-exchange/spec/v1.0.0/). 
 This includes:
@@ -82,7 +82,7 @@ This includes:
     - In the tagged location, ensure the spec's version and specification status are up to date. 
 	- Title: Presentation Exchange v1.0.0
 	- Specification Status: DIF Ratified Specification
-4. The WG Chair then requests SC approval.
+4. The WG Chair may then requests SC approval.
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive
