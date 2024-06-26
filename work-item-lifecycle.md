@@ -77,11 +77,14 @@ Group Approved” status.
 **permanent link** tracked on DIF’s spec-tracking github repo. [See Presentation 
 Exchange v1.0.0 for an example](https://identity.foundation/presentation-exchange/spec/v1.0.0/). 
 This includes:
-    - Copy the spec to a tagged folder in the repo
-	- For Presentation Exchange v1.0.0, spec.md is copied to the subfolder v1.0.0/
-    - In the tagged location, ensure the spec's version and specification status are up to date. 
-	- Title: Presentation Exchange v1.0.0
-	- Specification Status: DIF Ratified Specification
+    - Create a subfolder under the `spec` folder named `version_number`
+    	- For Presentation Exchange v1.0.0, that results in `spec/v1.0.0/`
+    - Copy the spec.md file to the newly-created subfolder
+	- For Presentation Exchange v1.0.0, `spec/spec.md` was copied to `spec/v1.0.0/spec.md`
+    - In the copied version, ensure the spec's version and specification status are up to date.
+        - In the file `spec/v1.0.0/spec.md`, the following updates were made:
+	    - Title: Presentation Exchange v1.0.0
+	    - Specification Status: DIF Ratified Specification
 4. The WG Chair requests SC approval.
 
 ### 7.4. **Final Approval**.
