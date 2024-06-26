@@ -26,7 +26,7 @@ DIF Developer Advocates are vital for fostering a vibrant and informed DIF commu
 
 - **Community Onboarding**: Assisting newcomers in integrating into the DIF community and understanding how to actively participate.
 - **Working Group Support**: Contributing to the processes and continuous improvement of DIF working groups.
-- **Hackathon Support**: Help us with our hackathons, including getting participants up to speed in decentralized identity or helping judge the submissions. 
+- **Hackathon Support**: Help us with our hackathons, including getting participants up to speed in decentralized identity, hosting office hours, or judging submissions. 
 - **Education and Outreach**: Conducting webinars and other educational sessions to disseminate knowledge and skills related to decentralized identity.
 - **Documentation**: Creating and or maintaining community documentation on decentralized identity
   - DIDComm book is a good example, target audience is non-technical as well as technical
