@@ -73,13 +73,20 @@ Group Approved” status.
    Template](#Acknowledgement-Template)` section below. If the WG chairs and
    membership cannot come to agreement about specific acknowledgements, this can
    be escalated to the Technical Steering Committee by either party.
-3. Approved drafts should be put at a **permanent link** tracked on DIF's 
-   [spec-tracking
-   repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
-   github. See the entry for [Presentation
-   Exchange](https://identity.foundation/presentation-exchange) for an example
-   of how to publish 1 or more "ratified versions" in addition to an ongoing
-   "current draft".
+3. Before Steering Committee Approval, the approved version should be placed at a 
+**permanent link** tracked on DIF’s spec-tracking github repo. [See Presentation 
+Exchange v1.0.0 for an example](https://identity.foundation/presentation-exchange/spec/v1.0.0/). 
+This includes:
+    - In the spec repo, create a subfolder under the `spec` folder named `version_number`
+    	- For Presentation Exchange v1.0.0, that results in `spec/v1.0.0/`
+    - Copy the WG approved `spec.md` file to the newly-created subfolder
+	- For Presentation Exchange v1.0.0, `spec/spec.md` was copied to `spec/v1.0.0/spec.md`
+    - In the copied version, ensure the spec's version and specification status are up to date.
+        - In the file `spec/v1.0.0/spec.md`, the following updates were made:
+	    - Title: Presentation Exchange v1.0.0
+	    - Specification Status: DIF Ratified Specification
+4. The WG Chair requests SC approval.
+
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive
@@ -94,14 +101,17 @@ Deliverable.”
    proceed to step 7.6 or only to step 7.5
 
 ### 7.5. **Publication and Submission**.
-Upon the designation of a Draft Deliverable as an Approved Deliverable, the
-Executive Director will publish the Approved Deliverable in a manner agreed upon
-by the Working Group Participants (i.e., Project Participant only location,
+
+The Executive Director will publish the Approved Deliverable in a manner agreed
+upon by the Working Group Participants (i.e., Project Participant only location,
 publicly available location, Project maintained website, Project member website,
-etc.). The publication of an Approved Deliverable in a publicly accessible
-manner must include the terms under which the Approved Deliverable and/or source
-code is being made available under, as set forth in the applicable Working Group
-Charter.
+etc.). 
+
+Publicly-available specifications will be added to [DIF's spec tracking repo](https://github.com/decentralized-identity/specs/blob/master/README.md)
+
+The publication of an Approved Deliverable in a publicly accessible manner must 
+include the terms under which the Approved Deliverable and/or source code is being 
+made available under, as set forth in the applicable Working Group Charter.
 
 ### 7.6. **Submissions to Standards Bodies**.
 No Draft Deliverable or Approved Deliverable may be submitted to another
