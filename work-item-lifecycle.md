@@ -82,7 +82,7 @@ This includes:
     - In the tagged location, ensure the spec's version and specification status are up to date. 
 	- Title: Presentation Exchange v1.0.0
 	- Specification Status: DIF Ratified Specification
-4. The WG Chair may then requests SC approval.
+4. The WG Chair requests SC approval.
 
 ### 7.4. **Final Approval**.
 Upon a Draft Deliverable reaching Working Group Approved status, the Executive
