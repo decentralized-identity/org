@@ -43,7 +43,7 @@ The responsibilites of a DIF group chair include:
     - https://github.com/orgs/decentralized-identity/teams
 - ### WG Training Video and Presentation
     - **DIF Working Group Training** (all DIF members recommended to watch):
-        - [Working group training recording - June 2024](https://drive.google.com/file/d/1PIsF1xQ5i1NPp_RG2A39NEfh6ck95HQg/view?usp=drive_link) 
+        - [Working group training recording - June 2024](https://drive.google.com/file/d/19W8AFdhTXZ_x0mxc9g2taRVEc9hln06P/view?usp=drive_link) 
         - [Working group training slides (June 2024)](https://drive.google.com/file/d/1CEjuQZdO8_byygJI1r3rOcz3OIr4ccDe/view?usp=drive_link)
     - Linux Foundation General Working Group Training (optional): 
         - [Working group training recording - Sept 2023](https://drive.google.com/file/d/1PIsF1xQ5i1NPp_RG2A39NEfh6ck95HQg/view?usp=drive_link) 
