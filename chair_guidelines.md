@@ -169,7 +169,7 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 * Each Working Group is expected to send at least one chairperson to the monthly meetings of the Technical Steering Committee
     * More than one chair per WG may attend, however for TSC voting, each [IPR-protected] WG has one vote only. Chairs may of course confer among themselves about their vote.
     * Chairs are encouraged to use the #tsc-internal Slack channel to propose agenda items for the TSC wherever technical and procedural questions about chairship are a blocker to the WG’s productivity.
-* If a chair leaves their organization or their employer leaves DIF, a new Chair must be selected by consensus of the other co-chairs. The outgoing chair may not appoint a replacement unilaterally. It is up to the WG Chairs to pick a replacement chair, either by consensus or taking a vote, which should be announced and minuted as a public agenda item.
+* If 1 chair of 3 leaves their organization or their employer leaves DIF, a new Chair must be selected by consensus of the other co-chairs. The outgoing chair may not appoint a replacement unilaterally. It is up to the WG Chairs to pick a replacement chair, either by rough consensus or a formal vote of the group's active membership, which should be announced and minuted as a public agenda item.
 
 ---
 
