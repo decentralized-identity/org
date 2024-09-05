@@ -13,9 +13,9 @@ _This includes links to IPR and Membership agreements, WG charters, DIF Governan
 
 --- 
 
-1. Prepare and share an Agenda for the call, ideally 24 hours in advance. Disclose any business relations between chairs and speakers/topics, if pertinent.
-2. Take notes (4-5 bullet points) to capture main topics 
-3. [WGs] Make sure everyone on the call has signed the WG charter
+1. Prepare and share an Agenda for the call, using the repo agenda.md file, ideally 24 hours in advance. Disclose any business relations between chairs and speakers/topics, if pertinent.
+2. Take notes (4-5 bullet points) to capture main topics in the agenda.md file
+3. [WGs] Make sure everyone on the call has signed the WG charter. (DIF staff will help.)
 4. Make sure everyone understands the IPR status
 5. Follow-up on agreed tasks 
 6. Your role, as chair, is to set and follow an agenda. Everyone should be equally represented and given a chance to speak

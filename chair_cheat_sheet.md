@@ -44,7 +44,7 @@ The responsibilites of a DIF group chair include:
 - ### WG Training Video and Presentation
     - **DIF Working Group Training** (all DIF members recommended to watch):
         - [Working group training recording - June 2024](https://drive.google.com/file/d/19W8AFdhTXZ_x0mxc9g2taRVEc9hln06P/view?usp=drive_link) 
-        - [Working group training slides (June 2024)](https://drive.google.com/file/d/1CEjuQZdO8_byygJI1r3rOcz3OIr4ccDe/view?usp=drive_link)
+        - [Working group training slides (June 2024)](https://docs.google.com/presentation/d/1ynQBb2NetBZ8T_gIYXWXWjhvOz9n98HUsBz6xsczOM8/edit?usp=sharing)
     - Linux Foundation General Working Group Training (optional): 
         - [Working group training recording - Sept 2023](https://drive.google.com/file/d/1PIsF1xQ5i1NPp_RG2A39NEfh6ck95HQg/view?usp=drive_link) 
         - [Working group training slides - Sept 2023](https://docs.google.com/presentation/d/1I0B3dQLQa51uCV3VFXHLsbzmyB_jZMl4/edit?usp=sharing&ouid=116182654223161791531&rtpof=true&sd=true)
@@ -68,7 +68,7 @@ The responsibilites of a DIF group chair include:
     - Recordings are broken down by group using TABS at the bottom
     - http://bit.ly/DIF_recordings_list
 - ### Send the agenda before the meeting via email/slack/discord
-    - Please share an agenda before the meeting
+    - Please share an agenda before the meeting, using the agenda.md in the repo.
     - Link to agenda can be reshared in meeting chat 
     - Link to agenda should also be available in the calendar entry and from the DIF group webpage
 - ### Work items (GitHub)
