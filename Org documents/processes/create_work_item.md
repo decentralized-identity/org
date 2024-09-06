@@ -6,3 +6,5 @@ Each DIF working group may have its own process around launch of work items. Onc
 - https://github.com/decentralized-identity/template-for-profile-workitems
 - https://github.com/decentralized-identity/template-IETF-bound
 - https://github.com/decentralized-identity/template-for-work-items (general purpose for work items not covered above)
+
+After instantiating the repo based on a template, follow the template's readme to continue.
