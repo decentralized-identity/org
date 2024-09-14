@@ -16,9 +16,9 @@ DIF working group and work item repositories include an `agenda.md` file by conv
 
 ## Structure and Content
 
-See [Credential Schemas agenda.md](https://github.com/decentralized-identity/credential-schemas/blob/main/AGENDA.md) for an example.
+DIF uses GitHub repo templates which include a starting point agenda.md file you can use. See [Credential Schemas agenda.md](https://github.com/decentralized-identity/credential-schemas/blob/main/AGENDA.md) for an example of a populated file.
 
-A typical agenda includes:
+A typical meeting agenda includes:
 
 - Time to review GitHub issues and pull requests
 - List of discussion points
