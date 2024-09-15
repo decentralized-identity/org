@@ -18,9 +18,9 @@ DIF core team or approved person does the following steps:
 1. Ratify charter
     - [**WGs**] Create docusign for approved charter and have parties sign
     - [**OGs**] Convert to markdown (will be placed in group’s github repo)
-2. Set up group’s landing page by forking the appropriate template repo and updating appropriately
-    - [**OGs**] Fork from [https://github.com/decentralized-identity/template-for-OGs](https://github.com/decentralized-identity/template-for-OGs)
-    - [**WGs**] Fork from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
+2. Set up group’s landing page by using the appropriate template repo and updating appropriately. Make sure to check "Include all branches"
+    - [**OGs**] Create from [https://github.com/decentralized-identity/template-for-OGs](https://github.com/decentralized-identity/template-for-OGs)
+    - [**WGs**] Create from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
 3. [**WGs**] Set up group’s [work item repo(s)](create_work_item.md), if needed
 4. Give github access to group chairs
     - Create team for the group and add the chair github aliases 
