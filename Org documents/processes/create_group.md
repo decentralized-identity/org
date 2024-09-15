@@ -8,7 +8,7 @@ DIF groups include:
 
 SIGs and UGs are collectively referred to as Open Groups (OGs)
 
-### Prerequistites
+### Prerequisites
 - DIF Steering Committee has approved the group's charter
 - Group Chair / Proposer has filled out [this form](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb)
 
