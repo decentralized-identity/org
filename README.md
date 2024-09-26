@@ -33,15 +33,13 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [KERI WG (archived)](https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_KERI_WG_charter_v1.pdf)
 
 ## Useful documents
-
-* [Brand Guidelines](brand-guidelines.md)
-* [Style Guide](style-guide.md)
+* [DIF Chair Guidance](./chair_guides/chair_readme.md)
+* [Code of Conduct](code-of-conduct.md)
 * [Working Group Lifecycle](working-group-lifecycle.md)
 * [Work Item Lifecycle](work-item-lifecycle.md)
-* [Github Donation](github-donation.md)
 * [Spec Tooling Guides](spec-tooling-guides.md)
-* [Code of Conduct](code-of-conduct.md)
-* [DIF Chair cheat sheet](https://github.com/decentralized-identity/org/blob/master/chair_cheat_sheet.md) (Handy reference)
-* [DIF Chair guidelines](https://github.com/decentralized-identity/org/blob/master/chair_guidelines.md) (More comprehensive)
 * [Liason Proposal Template](https://docs.google.com/document/d/1AQlNytTm08natnSV7ACEjNPD1ISLOVFCNaeECywgjZo/edit?usp=drive_link)
+* [Brand Guidelines](brand-guidelines.md)
+* [Style Guide](style-guide.md)
+* [Github Donation](github-donation.md)
 
