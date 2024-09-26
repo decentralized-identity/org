@@ -8,7 +8,7 @@
 ## Starting the Meeting
 
 1. Welcome participants
-2. Ensure recording has started (WGs only)
+2. Ensure recording has started
 3. Claim host
 4. Remind participants:
    - Join DIF: https://identity.foundation/join
