@@ -1,125 +1,49 @@
-# Chair Quick Reference
+# DIF Chair Cheat Sheet
 
-This page is designed as a central resource hub for DIF chairs. It will be kept up-to-date with useful links and information, official DIF processes and tooling.
+## Before the Meeting
 
-### Chair Duties:
+1. Prepare agenda in repo's agenda.md file
+2. Notify participants via preferred channel
 
-The responsibilites of a DIF group chair include:
+## Starting the Meeting
 
-- Ensuring compliance with all DIF rules applicable to the group.
-- Organizing the smooth operation of the group, scheduling and, where neccessary, cancelling meetings.
-- Driving inclusivity, setting a positive and productive tone.
-- Identifying consensus within the group, and recording decisions & further actions.
-- Developing, communicating an agenda and leading the meetings.
-  - Inviting guests and publicising guest appearances (it's good form to disclosure business relations with guests in both introductions and in public advance promotion of guest appearances)
-- Attendance lists are recommended, and chairs should invite new members to introduce themselves to the group.
-- Overseeing note-taking for the group meetings
-- Being a liaison between the group and all groups (both at DIF and externally) with which the group is coordinating.
-- Engaging with media, performing outreach, and ensuring the transparent operation of the group.
-- Sharing monthly updates for the DIF newsletter to inform the community
-- Engagement with activity on GitHub, responding to PRs and Issues.
-- Ensuring conformance with the group's IPR agreements.
+1. Welcome participants
+2. Ensure recording has started (WGs only)
+3. Claim host
+4. Remind participants:
+   - Join DIF: https://identity.foundation/join
+   - Sign WG charter: https://bit.ly/DIF-WG-select1
+   - Code of Conduct: https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md
+5. Share agenda link in chat
+6. [WGs] Record attendees in agenda.md
 
-### Tools and tips for Working Group Chairs:
+## During the Meeting
 
-- ### New member onboarding
-  - Any company or individual who is interested in joining DIF to contribute MUST first sign one of the legal forms of affiliation (Associate, Contributor, Feedback Agreement) according to their status and budget. Once they finalize this document all necessary information will be forwarded to them via a welcome email, including the WG charters etc.
-    - Associate member - paid dif member. Any company over 1000 employees can only choose this option.
-    - Contributor - non-paid dif member. Companies under 1000 employees can decided between this or Associate
-    - Feedback Agreement - only for individuals who are not employed
-  - https://identity.foundation/join/
-- ### Joining Working Groups at DIF
-  - Fill out the WG joining form(s) and complete the DocuSign that will be automatically sent to the registered email address - these steps must be done by someone who can legally represent the company
-  - Can be used for all but the SDS WG. The language of the charter in PDF format can be found on the WG's page on the website.
-    - https://bit.ly/DIF-WG-select1
-  - For the SDS WG use this form
-    - https://bit.ly/DIF_WG_select_SDS
-- ### Track signed WG agreements
-  - This is a public, automatically-updated document used to summarize the companies that have joined specific WGs
-  - WG charters in combination with DIF membership are required for Intellectual Property Rights (IPR) protection.
-  - http://bit.ly/dif_wg_participation |
-- ### GitHub WG teams
-  - Invite GitHub contributors to the Github team according to signed WG charter
-  - https://github.com/orgs/decentralized-identity/teams
-- ### WG Training Video and Presentation
-  - **DIF Working Group Training** (all DIF members recommended to watch):
-    - [Working group training recording - June 2024](https://drive.google.com/file/d/19W8AFdhTXZ_x0mxc9g2taRVEc9hln06P/view?usp=drive_link)
-    - [Working group training slides (June 2024)](https://drive.google.com/file/d/1CEjuQZdO8_byygJI1r3rOcz3OIr4ccDe/view?usp=drive_link)
-  - Linux Foundation General Working Group Training (optional):
-    - [Working group training recording - Sept 2023](https://drive.google.com/file/d/1PIsF1xQ5i1NPp_RG2A39NEfh6ck95HQg/view?usp=drive_link)
-    - [Working group training slides - Sept 2023](https://docs.google.com/presentation/d/1I0B3dQLQa51uCV3VFXHLsbzmyB_jZMl4/edit?usp=sharing&ouid=116182654223161791531&rtpof=true&sd=true)
+1. Follow agenda
+2. Facilitate discussion, ensure equal participation
+3. Create or update github issues, and take notes in agenda.md (or assign note-taker) [See agenda.md details](./agenda_files.md)
+4. Manage time effectively
 
-### Tools and tips for Open Group Chairs:
+## Wrapping Up
 
-- ### Joining non-working groups
-  - DIF has a set of non-WG "Open Groups" that can be found on the website in the "groups" menu
-  - These groups can be joined without signing anything as there is no specific IPR protection
-  - http://identity.foundation/
+1. Summarize action items and decisions
+2. Confirm next meeting date/time
 
-### Tools and tips for all Chairs:
+## Post-Meeting
 
-- ### Claim host in zoom
-- Ask ED or get access to password manager for code
-  - Claim host on both accounts
-  - This is often needed to allow screen-sharing for participants
-- ### Recordings
-  - A list of all DIF recordings.
-  - Recordings are broken down by group using TABS at the bottom
-  - http://bit.ly/DIF_recordings_list
-- ### Send the agenda before the meeting via email/slack/discord
-  - Use the DIF standard agenda.md file and format
-    - Use this file both for tracking both the agenda before the meeting and for taking brief notes during the meeting
-    - See https://github.com/decentralized-identity/credential-schemas/blob/main/AGENDA.md for an example
-  - Please share an agenda before the meeting
-  - Link to agenda can be reshared in meeting chat
-  - Link to agenda should also be available in the calendar entry and from the DIF group webpage
-- ### Work items (GitHub)
-  - Use DIF's website to navigate between repos by opening up the working group's sub-page.
-  - https://identity.foundation/working-groups/
-- ### Spec writing tool
-  - DIF recommends two different tools for writing specifications: SpecUP, ReSpec
-  - https://github.com/decentralized-identity/org/blob/master/spec-tooling-guides.md
-- ### Mailing list(s)
-  - Join the main mailing list and find group/topic relevant mailing lists in sub-categories
-  - Please use corporate email address when joining the list. Please use full name when registering.
-  - https://dif.groups.io/g/main
-- ### Slack
-  - Only for DIF members.
-  - Fill out the form and provide mail address(es) divided by comma. You will be able to invite further colleagues from within Slack (admin approval will still be required). When signing up: Use: First Last (Company) format for display name Do not contribute to WGs unless your company has signed the appropriate WG charters (as above)
-  - https://bit.ly/DIF_slack_invite
-- ### DIF Calendar / online meetings
-  - Shared public calendar with all DIF meetings and dial-ins
-  - Contribution only for members that finalized the WG charter in DocuSign (described above)
-  - http://bit.ly/dif-calendar
-- ### Brand Guidelines
-  - DIF is often represented in online/in-person settings, materials and information is collected here
-  - http://bit.ly/DIF_brand_guidelines
-- ### Presentation Template
-  - A template to create presentations at DIF
-  - [Template](https://docs.google.com/presentation/d/1jXF5LhBLmKsbjCfGGBFNDC_tqISmgd8-DK-ISxSQkwc/edit#slide=id.g7760498cf3_0_50)
-- ### Whimsical
-  - A visualization tool to create graphics and flowcharts
-    - whimsical@identity.foundation
-    - Password - ask DIF operations
-    - [Whimsical](https://whimsical.com/DMbT3mCT74bQ3wxCKBTDbQ)
-- ### Setting up new WG
-  - Any two DIF members can initiate a new working item or group. (further information on the linked GitHub page)
-  - For IPR-protectable material, it is best to incubate the project within an already existing WG until it reaches a level of maturity and contributing circle.
-  - [Life Cycle](https://github.com/decentralized-identity/org/blob/master/working-group-lifecycle.md)
-- ### New chair election/nomination
-  - If a DIF wg chair steps down, the WG can nominate new chairs. The preferred method for electing the new chair is via consensus. If there is no consensus within the group then voting must be organized - rules for the voting process are in DIF's charter.
-  - A chair can not replace her/himself with a colleague. A nomination must take place and the group should follow consensus/voting process.
-  - As DIF is a place for collaboration, acknowledging work funded or done by others is a gesture to recognize the efforts behind ratified work items. Consider creating a section for acknowledgments and recognize specific grants, people, or organizations whose work is invaluable for the delivered work item.
-- ### Updating group page
-  - The website uses templates and content is rendered accordingly. For major changes, please reach out to operations.
-  - **Update via github:**
-    - Use the [templates/pages/working-groups/](https://github.com/decentralized-identity/decentralized-identity.github.io/tree/master/templates/pages/working-groups) of the DIF website repo.
-      ![](https://i.imgur.com/oA6smED.jpg)
-    - Push the changes
-      ![](https://i.imgur.com/3eaHrxd.png)
-    - An action automatically renders the site based on the template changes.
-      ![](https://i.imgur.com/M65meIn.png)
-  - **Update offline:**
-    - in terminal: `npm install` then `gulp watch`
-    - implement changes on the template (only)
-    - push the changes to GitHub
+1. Update agenda.md with notes and action items
+2. Begin preparing for next meeting
+
+## Handling Issues
+
+- Mute disruptive participants
+- Remove trolls/inappropriate content immediately
+- Refer to Code of Conduct for guidance
+
+**Remember**: Your role is to facilitate productive, inclusive discussions and ensure compliance with DIF policies.
+
+For more detailed information, refer to the [Chair Guidelines](./chair_guidelines.md).
+
+For a comprehensive list of resources, training materials, and technical tools, please see the [Chair Reference Document](./chair_reference.md).
+
+If you need assistance, contact operations@identity.foundation.
