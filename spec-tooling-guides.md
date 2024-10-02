@@ -10,7 +10,7 @@ DIF recommends picking the spec-authoring tool most appropriate to the target
 audience and/or target Standards Development Organization (SDO).  If your work
 item can come to a consensus *up front* about an SDO that it wants to target
 from the beginning, we advise the group to work within the format and tooling
-preferences of that SDO from the begining.  If no clear SDO can be agreed to
+preferences of that SDO from the beginning.  If no clear SDO can be agreed to
 upfront, or if a "DIF-terminal" specification is consensual from the beginning,
 we recommend SpecUp, a markdown-based tool maintained as a standing work item of
 the DIF technical steering committee.
