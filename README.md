@@ -43,3 +43,16 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [Style Guide](style-guide.md)
 * [Github Donation](github-donation.md)
 
+## Helpful Links
+* [DIF website](https://bit.ly/DIF-website)
+* [DIF meeting recordings](https://bit.ly/3lcfhkM)
+* [DIF meeting calendar](https://bit.ly/3sXChVp)
+* Join DIF:
+  * [Participation matrix](https://bit.ly/DIF-WG-select1) 
+  * [Join as contributor](https://bit.ly/DIF-contributor)
+  * [Join as associate member](https://bit.ly/dif-associate-member)
+  * [Join as individual feedback member](https://bit.ly/DIF-feedback-agreement)
+* [DIF WG selection](https://bit.ly/DIF-WG-select1)
+* [DIF WG selection - Joint participation](https://bit.ly/DIF_Joint_WG_select)
+
+
