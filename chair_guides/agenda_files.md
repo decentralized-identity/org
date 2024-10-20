@@ -70,7 +70,7 @@ Creating a new note: "New note" > "Import a file from Github"
 
 ![Example of TDW agenda.md file in HackMD](./img/tdw_agenda_hackmd.png "Example of TDW agenda.md file in HackMD")
 
-**Tip**: HackMD supports its own notion of teams, separately from GitHub teams. To allow others in your group to access, set up a HackMD team with working group members allowed to edit. You may need to explicitly transfer ownership of the note to the team
+5. **Transfer ownership to the proper team**: HackMD supports its own notion of teams, separately from GitHub teams. To allow other approved editors to access in hackmd, you can transfer ownership to the team. Ask DIF operations if you need a new team or you're not sure about this part.
 
 **Note**: Edit collaboratively during the meeting, and make sure you push changes back to GitHub afterward.
 
