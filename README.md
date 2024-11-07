@@ -48,11 +48,13 @@ New members and organizations considering joining DIF are recommended to peruse 
 * [DIF meeting recordings](https://bit.ly/3lcfhkM)
 * [DIF meeting calendar](https://bit.ly/3sXChVp)
 * Join DIF:
-  * [Participation matrix](https://bit.ly/DIF-WG-select1) 
+  * [Participation matrix](https://bit.ly/DIFParticipationMatrix_4_0_3)
   * [Join as contributor](https://bit.ly/DIF-contributor)
   * [Join as associate member](https://bit.ly/dif-associate-member)
   * [Join as individual feedback member](https://bit.ly/DIF-feedback-agreement)
-* [DIF WG selection](https://bit.ly/DIF-WG-select1)
-* [DIF WG selection - Joint participation](https://bit.ly/DIF_Joint_WG_select)
+* DIF Project Charter
+  * [DIF Project Charter 4.0.3 - all](https://bit.ly/DIFProjectCharter_4_0_3)
+  * [DIF Project Charter 4.0.3, Appendix C](https://bit.ly/DIF_project_charter_c)
+  * [DIF Project Charter 4.0.3, Working Group Charter Template](https://bit.ly/wg_charter_4_0_3)
 
 
