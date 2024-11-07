@@ -15,10 +15,10 @@ New members and organizations considering joining DIF are recommended to peruse 
 
 ## Legal documents
 
-* [DIF Member Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf)
+* [DIF Member Charter](https://bit.ly/DIFProjectCharter_4_0_3)
 * [DIF Feedback Agreement](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Feedback%20Agreement%20v.%204.0.2_3_18.pdf)
 * [DIF Liaison Agreement](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Generic%20Liaison%20Agreement_preview.pdf)
-* [DIF Participation Matrix](https://bit.ly/DIF_participationmatrix_5)
+* [DIF Participation Matrix](https://bit.ly/DIFParticipationMatrix_4_0_3)
 
 ## Working Group charters 
 
