@@ -85,7 +85,7 @@ The DIF [Participation Matrix](https://bit.ly/DIFParticipationMatrix_4_0_3) give
 
 **Associate membership:**
 	
-The highest tier of membership level is available for companies of all sizes. The Associate membership is a paid membership and the fees are dynamically scaled based on total employee numbers. The fee scale can be found in the [DIF Project Charter, Appendix C](https://bit.ly/DIFProjectCharter_4_0_3).
+The highest tier of membership level is available for companies of all sizes. The Associate membership is a paid membership and the fees are dynamically scaled based on total employee numbers. The fee scale can be found in the [DIF Project Charter, Appendix C](https://bit.ly/DIF_project_charter_c).
 
 **Contributor membership:**
 	
