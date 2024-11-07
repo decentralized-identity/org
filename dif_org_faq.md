@@ -48,7 +48,7 @@ The Decentralized Identity Foundation (DIF) exists to advance the interests of t
 **<details><summary>Internal Org Structure</summary>**
 	
 ![DIF Org Structure](https://user-images.githubusercontent.com/89832649/146234518-218dd260-e82d-466a-8884-a21a64c93d09.png)
-As defined in the [DIF Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf) and [Governance - Operating Addendum](https://github.com/decentralized-identity/org/blob/c06c17bd2df58633eb74d9d5237281c79d9b676e/Org%20documents/Membership%20agreements/DIF%20Governance%20-%20Operating%20Addendum%20-%2020210304.pdf), DIF is governed by the elected Steering Committee (SC). The SC is made up of 10 elected members and the representatives of the Technical Steering Committee. The election takes place in Q1-2 of each year.  Nominees are required to be members of DIF at the time of the annual elections, however, only Associate member organizations are qualified to vote.  \
+As defined in the [DIF Charter](https://bit.ly/DIFParticipationMatrix_4_0_3) and [Governance - Operating Addendum](https://github.com/decentralized-identity/org/blob/c06c17bd2df58633eb74d9d5237281c79d9b676e/Org%20documents/Membership%20agreements/DIF%20Governance%20-%20Operating%20Addendum%20-%2020210304.pdf), DIF is governed by the elected Steering Committee (SC). The SC is made up of 10 elected members and the representatives of the Technical Steering Committee. The election takes place in Q1-2 of each year.  Nominees are required to be members of DIF at the time of the annual elections, however, only Associate member organizations are qualified to vote.  \
 The SC is the legal decision-maker in DIF: it created the Technical Steering Commitee (TSC) to delegate decision-making authority on operational technical matters to the TSC. The TSC is made up of the current (technical) Working Group chairs, with every WG sending at least one chair to participate. On voting matters, there is one vote per WG, not per person. The TSC chair is elected by the WG chairs at the TSC and not general DIF membership. 
 
 The Executive Director is the primary official representative of the foundation. The ED is selected by the SC.
@@ -85,7 +85,7 @@ The DIF [Participation Matrix](https://github.com/decentralized-identity/decentr
 
 **Associate membership:**
 	
-The highest tier of membership level is available for companies of all sizes. The Associate membership is a paid membership and the fees are dynamically scaled based on total employee numbers. The fee scale can be found [here](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2_appendix_C.pdf).
+The highest tier of membership level is available for companies of all sizes. The Associate membership is a paid membership and the fees are dynamically scaled based on total employee numbers. The fee scale can be found in the [DIF Project Charter, Appendix C](https://bit.ly/DIFProjectCharter_4_0_3).
 
 **Contributor membership:**
 	

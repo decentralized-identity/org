@@ -7,7 +7,7 @@
 
 
 *Note: this overview was created by combining section 7 of the underlying JDF
-[charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf)
+[charter](https://bit.ly/DIFParticipationMatrix_4_0_3)
 with the October 2020
 [addendum](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/Project%20Charter%20Addendum.md)
 to be readable as a consolidated overview. It is not an authoritative document,
