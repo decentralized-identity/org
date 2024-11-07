@@ -38,7 +38,6 @@ This document serves as a comprehensive reference for DIF chairs, containing det
 ## Membership and Participation
 
 - [Join DIF](https://identity.foundation/join)
-- [Sign WG charter](https://bit.ly/DIF-WG-select1)
 - [GitHub Teams](https://github.com/orgs/decentralized-identity/teams)
 
 ## Working Group Processes

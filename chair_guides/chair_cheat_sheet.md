@@ -12,7 +12,6 @@
 3. Claim host
 4. Remind participants:
    - Join DIF: https://identity.foundation/join
-   - Sign WG charter: https://bit.ly/DIF-WG-select1
    - Code of Conduct: https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md
 5. Share agenda link in chat
 6. [WGs] Record attendees in agenda.md
