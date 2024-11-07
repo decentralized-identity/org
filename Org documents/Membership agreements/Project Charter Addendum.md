@@ -2,7 +2,7 @@
 # Addendum to Deliverable Development Process
 
 
-The following resolutions supplement for the [Project Charter (v4.0.2)](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf) to clarify our process.
+The following resolutions supplement for the [Project Charter (v4.0.2)](https://bit.ly/DIFProjectCharter_4_0_3) to clarify our process.
 
 
 

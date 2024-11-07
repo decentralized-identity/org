@@ -6,7 +6,7 @@
  
 The DIF Working Group process is set up as follows: 
  
-DIF's [Charter](https://github.com/decentralized-identity/org/blob/master/Org%20documents/Membership%20agreements/DIF%20Project%20Charter%20_4.0.2.pdf) and various [Addenda](https://github.com/decentralized-identity/org/tree/master/Org%20documents/Membership%20agreements) added over time by the Steering Committee include the authoritative text on all the processes and the IPR regime of the foundation. 
+DIF's [Charter](https://bit.ly/DIFProjectCharter_4_0_3) and various [Addenda](https://github.com/decentralized-identity/org/tree/master/Org%20documents/Membership%20agreements) added over time by the Steering Committee include the authoritative text on all the processes and the IPR regime of the foundation. 
 
 1.**Read the charter template**. Under DIF, each a Working Group is governed by
 a (legal) charter, based on a Joint Development Foundation template and reviewed
