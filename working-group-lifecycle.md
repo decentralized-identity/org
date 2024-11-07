@@ -16,7 +16,7 @@ participation of DIF member organizations in the Working Group; member
 organizations can join at or any time after chartering by signing it. 
 
 The JDF WG Charter
-[template](https://docs.google.com/document/d/1aT-05-yheMpaj3oEhFgI2Cl6n1lU50fn5tytanY5T7s/edit?usp=sharing)
+[template](https://bit.ly/wg_charter_4_0_3)
 is a very efficient template document by design. DIF has the flexibility to
 modify only the name and scope of the Working Group in this document.
 Additionally, DIF introduced an Operating Charter
