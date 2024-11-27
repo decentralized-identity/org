@@ -22,7 +22,7 @@ Here you will find the authoritative legal texts of the [foundation](https://git
 
 ## Working at DIF
 
-- Creating groups and work ite,s
+- Creating groups and work items
   - [Propose a group](./start_a_group.md)
     - This applies to working groups, user groups, and special interest groups
   - Propose a work item: this happens at the working group level; ask in the group channel or contact community@identity.foundation
