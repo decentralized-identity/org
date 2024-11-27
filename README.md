@@ -25,7 +25,9 @@ Here you will find the authoritative legal texts of the [foundation](https://git
 - Creating groups and work items
   - [Propose a group](./start_a_group.md)
     - This applies to working groups, user groups, and special interest groups
-  - Propose a work item: this happens at the working group level; ask in the group channel or contact community@identity.foundation
+  - Propose a work item
+    - This happens at the working group level; ask in the group's channel
+    - Contact community@identity.foundation if you have questions
   - Operational guidelines for creating a group or work item (once it's been approved)
     - [Create a group](./Org%20documents/processes/create_group.md)
     - [Create a work item](./Org%20documents/processes/create_work_iten.md)
