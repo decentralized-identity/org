@@ -30,7 +30,7 @@ Here you will find the authoritative legal texts of the [foundation](https://git
     - Contact community@identity.foundation if you have questions
   - Operational guidelines for creating a group or work item (once it's been approved)
     - [Create a group](./Org%20documents/processes/create_group.md)
-    - [Create a work item](./Org%20documents/processes/create_work_iten.md)
+    - [Create a work item](./Org%20documents/processes/create_work_item.md)
 - [DIF Chair Guidance](./chair_guides/README.md)
 - [Code of Conduct](code-of-conduct.md)
 - [Working Group Lifecycle](working-group-lifecycle.md)
