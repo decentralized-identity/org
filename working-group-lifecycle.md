@@ -23,7 +23,7 @@ Additionally, DIF introduced an Operating Charter
 [template](https://docs.google.com/document/d/1aLjawYuju-uIz5Lfu0OdpATky6q6Gc44uF-NLitYYu0/edit?usp=sharing),
 which gives a working group freedom to add additional content or restrictions,
 including any processes or policies that are not part of the base charter but
-which can be vital for the Working Group's healthy and succesful cooperation.
+which can be vital for the Working Group's healthy and successful cooperation.
 The Operating Charter is accepted by the WG and ratified by DIF's Steering
 Committee to create a higher barrier for modification. 
  

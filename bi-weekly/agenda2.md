@@ -301,7 +301,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
            *   how to transport VP. Larger demand on transferring VP using any model, not just SIOP. What if Google wants to send a VP on behalf of me, based on access token.
                *   1: embed VP entirely in the id token
                *   2: send back VP from user endpoint
-           *   company specific implementations how to to use the spec stack 
+           *   company specific implementations how to use the spec stack 
        *   NFC support - Passport NFC
    * **Identifiers & Discovery** (Markus, Alen) - [meeting page](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md)
        * new time for UR calls, Wednesday 2 pm CET (8 am ET) as mostly european countries atten it
