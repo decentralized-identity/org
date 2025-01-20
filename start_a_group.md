@@ -23,6 +23,7 @@ It's also possible that your idea can be accomplished as a work item in an exist
 - [User Group Charter Template](https://docs.google.com/document/d/1xS0tDieZbso-mNVCH-0CNHdafIeNChsPVM1Q5-IMYT4/edit?usp=drive_link)
 - [Special Interest Group Charter Template](https://docs.google.com/document/d/1lDFjZEzdxpvU840QReqahyQyLoeV73SyCctz7aYXkTQ/edit?usp=drive_link)
 - [Working Group Charter Template](https://docs.google.com/document/d/1bcLcoNwqhISBoimRpP5mupYA_uFgv1_00EvHuaPGegE/edit?usp=sharing)
+  - If needed, groups may use an Operating Addendum. Example structure is here: [Working Group Operating Addendum Template](https://docs.google.com/document/d/11R8Qo6WARWVTz7UGqmypLL9MDTwfIj3_9ZZHI9Lyux8/edit?tab=t.0)
 
 ## DIF approval
 
