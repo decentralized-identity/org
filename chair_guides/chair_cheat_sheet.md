@@ -9,18 +9,20 @@
 
 1. Welcome participants
 2. Ensure recording has started
-3. Claim host
+3. Claim host (password is in #tsc-internal slack channel)
 4. Remind participants:
    - Join DIF: https://identity.foundation/join
    - Code of Conduct: https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md
-5. Share agenda link in chat
-6. [WGs] Record attendees in agenda.md
+5. Share/review agenda
+6. [WGs] 
+   - Check meeting participants are members (link and password is in #tsc-internal slack channel)
+   - Record attendees in agenda.md
 
 ## During the Meeting
 
 1. Follow agenda
-2. Facilitate discussion, ensure equal participation
-3. Create or update github issues, and take notes in agenda.md (or assign note-taker) [See agenda.md details](./agenda_files.md)
+2. Facilitate discussion, ensure broad participation
+3. Create or update github issues, and record decisions/outcomes in agenda.md (or assign note-taker) [See agenda.md details](./agenda_files.md)
 4. Manage time effectively
 
 ## Wrapping Up
@@ -37,7 +39,7 @@
 
 - Mute disruptive participants
 - Remove trolls/inappropriate content immediately
-- Refer to Code of Conduct for guidance
+- Refer to [Code of Conduct](https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md) for guidance
 
 **Remember**: Your role is to facilitate productive, inclusive discussions and ensure compliance with DIF policies.
 

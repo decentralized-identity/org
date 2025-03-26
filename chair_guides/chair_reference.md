@@ -5,14 +5,13 @@ This document serves as a comprehensive reference for DIF chairs, containing det
 ## Important Links
 
 - [DIF Website](https://identity.foundation/)
+- [DIF Recordings & Summaries](https://identity.foundation/recordings)
 - [DIF GitHub Organization](https://github.com/decentralized-identity)
 - [DIF Public Calendar](http://bit.ly/dif-calendar)
 - [DIF Slack Invite](https://bit.ly/DIF_slack_invite)
 - [DIF Mailing List](https://dif.groups.io/g/main)
 - [DIF Code of Conduct](https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md)
 - [DIF Brand Guidelines](http://bit.ly/DIF_brand_guidelines)
-- [Working Group Participation Tracker](http://bit.ly/dif_wg_participation)
-- [DIF Recordings List](http://bit.ly/DIF_recordings_list)
 
 ## Training Resources
 
@@ -24,6 +23,8 @@ This document serves as a comprehensive reference for DIF chairs, containing det
   - [Slides](https://docs.google.com/presentation/d/1I0B3dQLQa51uCV3VFXHLsbzmyB_jZMl4/edit?usp=sharing&ouid=116182654223161791531&rtpof=true&sd=true)
 
 ## Technical Resources
+
+Spec writing support is in the #help-up slack channel
 
 - **Specification Writing Tools**:
   - SpecUP and ReSpec

@@ -28,10 +28,11 @@ For a quick reference guide, please see the [Chair Cheat Sheet](./chair_cheat_sh
 2. Greet people as they arrive to ensure audio is working and make them feel welcome.
 3. Welcome new faces and invite them to introduce themselves.
 4. Ensure the meeting is being recorded (for WGs only).
-5. Claim host privileges in Zoom using the code provided in the #tsc-channel Slack channel.
-6. Share the link to the agenda document in the Zoom chat.
+5. Claim host privileges in Zoom using the code provided in the #tsc-internal Slack channel.
+6. Share/review agenda
 7. For Working Groups:
    - Restate the IPR agreement, DIF Membership, and WG Charter considerations.
+   - Check meeting participants are members (link and password is in #tsc-internal slack channel)
    - Record attendee names in the agenda.md file.
 8. For Open Groups:
    - Restate the OG Charter considerations.
