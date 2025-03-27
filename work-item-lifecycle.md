@@ -74,7 +74,7 @@ Group Approved” status.
    membership cannot come to agreement about specific acknowledgements, this can
    be escalated to the Technical Steering Committee by either party.
 3. Before Steering Committee Approval, the approved version should be placed at a 
-**permanent link** tracked on DIF’s spec-tracking github repo. [See Presentation 
+**versioned link**. [See Presentation 
 Exchange v1.0.0 for an example](https://identity.foundation/presentation-exchange/spec/v1.0.0/). 
 This includes:
     - In the spec repo, create a subfolder under the `spec` folder named `version_number`
