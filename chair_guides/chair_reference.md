@@ -15,9 +15,8 @@ This document serves as a comprehensive reference for DIF chairs, containing det
 
 ## Training Resources
 
-- DIF Working Group Training (June 2024):
-  - [Recording](https://drive.google.com/file/d/19W8AFdhTXZ_x0mxc9g2taRVEc9hln06P/view?usp=drive_link)
-  - [Slides](https://docs.google.com/presentation/d/1ynQBb2NetBZ8T_gIYXWXWjhvOz9n98HUsBz6xsczOM8/edit?usp=sharing)
+- DIF Working Group Training (March 2025):
+  - [Slides](https://docs.google.com/presentation/d/1Z4o-6tzZ8QV-PmEet1xLoRy32dVzLgRGoe1rBzQzG-s/edit#slide=id.p1)
 - Linux Foundation Working Group Training (Sept 2023):
   - [Recording](https://drive.google.com/file/d/1PIsF1xQ5i1NPp_RG2A39NEfh6ck95HQg/view?usp=drive_link)
   - [Slides](https://docs.google.com/presentation/d/1I0B3dQLQa51uCV3VFXHLsbzmyB_jZMl4/edit?usp=sharing&ouid=116182654223161791531&rtpof=true&sd=true)
