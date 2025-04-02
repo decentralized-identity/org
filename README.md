@@ -5,7 +5,7 @@ Here you will find the authoritative legal texts of the [foundation](https://git
 ## Helpful Links
 
 - [DIF website](https://bit.ly/DIF-website)
-- [DIF meeting recordings](https://bit.ly/3lcfhkM)
+- [DIF meeting recordings](https://identity.foundation/recordings)
 - [DIF meeting calendar](https://bit.ly/3sXChVp)
 - Join DIF:
   - [Participation matrix](https://bit.ly/DIFParticipationMatrix_4_0_3)
