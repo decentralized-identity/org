@@ -8,33 +8,41 @@ DIF group types include:
 - Special Interest Groups (SIGs)
 - User Groups (UGs)
 
-SIGs and UGs are collectively referred to as Open Groups (OGs)
+Some steps apply to WGs only.
 
 ### Prerequisites
 
 - DIF Steering Committee has approved the group's charter
-- Group Chair / Proposer has filled out [this form](https://docs.google.com/document/d/16L5qhVky6DCf3-0y5_EooAGdpNPlpMi5STKA0KIgHfA/edit#heading=h.qcn49g1ayebb)
+- DIF Staff has collected chair information (github username, images for site, etc)
 
-### Steps
+### Working Groups Only
+- Set the github topic (for tagging group repos)
+- Set up group’s work item repo(s), if needed, or transfer in repo. Tag then with the github topic
+- Give github access to group chairs in Github teams:
+    - Create team for the group and add the chair github aliases
+        - Add the appropriate repos
+    - Add chairs to TSC github team
+- Channels/perms
+    - Add to tsc-internal channel
+    - Add to tsc meetings
+    - Add ability to manage DIF calendar
 
-DIF core team or approved person does the following steps:
+### All
 
-1. Memorialize charter
-   - [**WGs**] Save as PDF and store in "WG documents"
-   - [**OGs**] Convert to markdown (will be placed in group’s github repo)
-2. Set up group’s landing page by using the appropriate template repo and updating appropriately. Make sure to check "Include all branches", then follow the instructions in the README.md file
-   - [**OGs**] Create from [https://github.com/decentralized-identity/template-for-OGs](https://github.com/decentralized-identity/template-for-OGs)
-   - [**WGs**] Create from [https://github.com/decentralized-identity/template-for-WGs](https://github.com/decentralized-identity/template-for-WGs)
-3. [**WGs**] Set up group’s [work item repo(s)](create_work_item.md), if needed
-4. Give github access to group chairs
-   - Create team for the group and add the chair github aliases
-5. Set up group meetings and recordings (calendar entry, zoom room, recordings)
-6. Add group to DIF web site [Repo](https://github.com/decentralized-identity/decentralized-identity.github.io)
-   - [**OGs**] The repo hosts the web site, but you still have to link to it from the DIF web site.
-   - [**WGs**] Create WG page; [see WG templates](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/templates/pages/working-groups/index.html)
-7. Set up communication channels
-   - [**WGs**] Create slack channel and mailing list
-   - [**UGs**, **SIGs**] Create discord channel, mailing list, or other
-8. Double-check that group's landing page / README is updated with all links/info
-9. Onboard chairs
-10. Announce group
+- Memorialize charter
+- Set up Communication Channels; any of the following that apply:
+    - Slack channel 
+    - Mailing list
+    - Discord channel
+- Set up group meetings and recordings (calendar entry, zoom room, recordings):
+- Set up group’s web site (in DIF's identity.foundation site) by editing config file
+- Double-check that group's landing page has correct info for meetings, chairs, etc
+- Onboard chairs
+    - All:
+        - Review WG presentation training
+        - Point to github chair guides
+        - Make sure they know how to claim host
+    - WGs:
+        - Make sure they know how to check membership
+- Announce group
+
