@@ -1,6 +1,6 @@
 # Creating a DIF group
 
-This describes the DIF operational instructions for launching a DIF group. These steps are to be performed by DIF Core Team or appropriate TSC members.
+This describes the DIF operational instructions for launching a DIF group. These steps are to be performed by DIF Core Team or appropriate TSC members. This is currently managed through DIF's Airtable.
 
 DIF group types include:
 
