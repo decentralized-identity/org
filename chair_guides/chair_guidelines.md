@@ -78,6 +78,7 @@ For a quick reference guide, please see the [Chair Cheat Sheet](./chair_cheat_sh
 3. Ensure compliance with IPR obligations and DIF code of conduct in all channels.
 4. Collate links to GitHub items for the next meeting's agenda.
 5. Be aware of IPR considerations, particularly for unknown GitHub accounts.
+6. If membership wants to directly run co-chair elections rather than delegate this decision to DIF staff and Technical Steering Committee, contact DIF Staff after reading the "[OpaVote](#opavote)" section below.
 
 ## Communication Channels
 
@@ -86,14 +87,14 @@ DIF groups decide which communication channels they prefer to use for updates. C
 1. **Slack**:
 
    - Primary platform for quick communications in Working Groups
-   - Join using corporate email: [DIF Slack Invite](https://bit.ly/DIF_slack_invite)
+   - Join using corporate email, not personal email: [DIF Slack Invite](https://bit.ly/DIF_slack_invite)
    - Use format "First Last (Company)" for display name
 
 2. **Mailing Lists**:
 
    - Used by some Special Interest Groups
    - Join the [main mailing list](https://dif.groups.io/g/main) and find group-specific lists
-   - Use corporate email and full name when registering
+   - Use corporate email and full name when registering for IPR-tracking purposes
 
 3. **GitHub**:
 
@@ -103,6 +104,14 @@ DIF groups decide which communication channels they prefer to use for updates. C
 4. **Discord**:
    - Used by some groups for community engagement
    - Check with your specific group for Discord details
+
+5. **OpaVote**:
+   - Free account is usually enough to run one election
+   - For transparency and in case of challenges or legal complications, elections are best operated by DIF staff and using a DIF OpaVote account, where possible
+   - Decide carefully between running an "election" (1 secret unique ballot per email address; works best for groups already using a mailing list) and a "poll" (anyone with link can vote as many times as they have email addresses)
+   - San Francisco Ranked-Choice is usually the best option procedurally
+   - "No confidence" (in current chair(s)) and "no change" (null election, no new chairs) can be helpful options to include, beyond each candidate
+   - Set voting period carefully and explicitly warn group before it starts of the open and close dates, giving them time to update/re-register to mailing list if needed (for an election)
 
 ## Additional Responsibilities
 
