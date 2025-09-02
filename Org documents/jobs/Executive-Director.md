@@ -1,15 +1,10 @@
 # DIF is hiring
 
-We are looking for an experienced, motivated and engaged Executive Director (full-time, remote) to oversee and facilitate important ongoing work across
+We are looking for an experienced, motivated and engaged Executive Director (remote) to oversee and facilitate important ongoing work across
 the open-source pre-standards community at DIF. Help organize, represent and care for DIF members, both prospective and existing, and grow
 along with the booming digital identity sector and the foundation itself. Is this you, or do you know of someone excited to work on open standards?
 
-See a detailed job description below and apply directly via [LinkedIn](https://www.linkedin.com/jobs/view/3380750986) or by sending an email to jobs@identity.foundation.
-
-*Please send the following two documents:*
-
-* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.*
-* *a résumé*
+To apply, see the information below.
 
 ## Executive Director - Full-time
 
@@ -44,16 +39,19 @@ Possessing strong business and communication skills is essential for this role. 
 
 Experience working in a member-driven, not-for-profit organization is a positive, along with the ability to work relatively autonomously and with delegated authority to deliver on DIF’s vision and mission.
 
-This is a full time contractor role in a global team and will involve business travel and event participation.
+This is a contractor role in a global team and will involve business travel and event participation.
+
+Full-time is preferred, but part-time is possible for the right candidate.
 
 DIF values transparency, integrity, and a high degree of diversity in its member constitution and actively encourages a wide range of applicants for the role of Executive Director.
 
-**Start Date**: January 2023
+### *How to apply*
 
-Apply via [LinkedIn](https://www.linkedin.com/jobs/view/3380750986) or email jobs@identity.foundation.
+Send an email to jobs@identity.foundation with the following:
 
-#### *Please send the following two documents:*
+* A cover letter describing your interest in the role and goals, such as
+  * Why are you interested in DIF?
+  * What would you like to achieve as DIF's ED? How you would be able to help DIF to grow?
+  * Anything else you think we should know about you
+* A résumé
 
-* *an application letter about your interest in the role; how you would be able to help DIF to grow; anything else you think we should know about you.*
-
-* *a resume*
