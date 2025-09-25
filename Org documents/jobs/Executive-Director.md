@@ -55,3 +55,4 @@ Send an email to jobs@identity.foundation with the following:
   * Anything else you think we should know about you
 * A résumé
 
+Application deadline: October 7, 2025
