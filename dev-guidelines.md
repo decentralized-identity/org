@@ -16,7 +16,7 @@ For all phases of interaction described within, participants will rigorously app
 
 ## Process
 
-The three sections below represent the major phases members and groups engage in to deliver the the outputs they seek. While the directions and guidelines found in these sections are not meant as rigid, legalistic mandates, they are suggestions that should be followed whenever possible, and members should hold each other accountable for living up to the ideals they promote.
+The three sections below represent the major phases members and groups engage in to deliver the outputs they seek. While the directions and guidelines found in these sections are not meant as rigid, legalistic mandates, they are suggestions that should be followed whenever possible, and members should hold each other accountable for living up to the ideals they promote.
 
 ### Discussion
 
