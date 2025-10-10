@@ -85,6 +85,7 @@ This includes:
         - In the file `spec/v1.0.0/spec.md`, the following updates were made:
 	    - Title: Presentation Exchange v1.0.0
 	    - Specification Status: DIF Ratified Specification
+    - You should also modify the specs.json file to include the published version, see [this sample](https://github.com/decentralized-identity/presentation-exchange/blob/main/specs.json), also the [spec-up readme provides more details on how to do versioning](https://github.com/decentralized-identity/spec-up?tab=readme-ov-file#versioning)
 4. The WG Chair requests SC approval.
 
 
