@@ -3,7 +3,7 @@
 |[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|*Code of Conduct*|
 |---|---|---|---|---|---|---|
 
-_Last Revised: 6/20/20_
+_Last Revised: 4/16/26_
 
 *Note: This is a living document intended to evolve with our community over time. As such, please comment or open issues as you see fit; the DIF Steering Committee will review and accept proposals for change on a quarterly basis.*
 
@@ -11,7 +11,7 @@ _Last Revised: 6/20/20_
 ### Purpose: Creating an open, healthy and productive culture where members and the community can build and grow together.
 
 
-## Open, Inclusive & Diverse
+## Open, Inclusive, Diverse & Human
 
 __Open__: We invite anyone to participate in our community. We preferably use public methods of communication for project-related messages, unless discussing something sensitive. 
 
@@ -26,6 +26,9 @@ Diversity of perspective, identity and experience should be considered a positiv
 
 
 Though we welcome people fluent in all languages, DIF development is conducted in English. Participants that feel functional but disadvantaged in English should feel comfortable requesting to bring coworkers to meetings or tap bilingual participants/colleagues to assist in a side discussion during meetings.
+
+__Human__: Though diverse, DIF is an organization of diverse _humans._ Membership is reserved for individual humans and organizational employers of humans. Autonomous AI agents are not allowed to join or contribute to DIF independently.
+
 
 ## Welcoming, Empathetic & Thoughtful
 
