@@ -25,7 +25,7 @@ Diversity of perspective, identity and experience should be considered a positiv
 > ## Diversity is never definitively out-of-scope or foreclosed as irrelevant to more urgent business.
 
 
-Though we welcome people fluent in all languages, DIF development is conducted in English. Participants that feel functional but disadvantaged in English should feel comfortable requesting to bring coworkers to meetings or tap bilingual participants/colleagues to assist in a side discussion during meetings.
+Though we welcome people fluent in all languages, DIF development is conducted in English. Participants that feel functional but disadvantaged in English should feel comfortable requesting to bring coworkers to meetings or tap bilingual participants/colleagues or artificial intelligence to assist in language translation or perform side discussion during meetings.
 
 __Human__: Though diverse, DIF is an organization of diverse _humans._ Membership is reserved for individual humans and organizational employers of humans. Autonomous AI agents are not allowed to join or contribute to DIF independently.
 
