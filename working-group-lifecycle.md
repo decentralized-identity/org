@@ -107,9 +107,9 @@ at a future time.
 
 9.**Agentic Contributions to DIF Working Group Products.** Working group members
 are encouraged to think of agentic contributors (whether LLMs or otherwise)
-as "inadvertent patent trolls." There is a risk that an LLM could reference,
-depend on, or include content that is not available under any license that is
-compatible with open standards and open source. Direct contributions from
+as introducing a risk of violating patent rights. There is a risk that an LLM could
+reference, depend on, or include content that is not available under any license
+that is compatible with open standards and open source. Direct contributions from
 independent AI tools are not allowed. WG chairs are asked to add a clause to
 their project's contribution guides requiring that all contributions be signed
 off by humans who can reasonably attest to and honor the IPR obligations that
