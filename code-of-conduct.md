@@ -3,7 +3,7 @@
 |[Brand Guidelines](brand-guidelines.md)|[Style Guide](style-guide.md)|[Working Group Lifecycle](working-group-lifecycle.md)|[Work Item Lifecycle](work-item-lifecycle.md)|[Github Donation](github-donation.md)|[Spec Tooling Guides](spec-tooling-guides.md)|*Code of Conduct*|
 |---|---|---|---|---|---|---|
 
-_Last Revised: 4/16/26_
+_Last Revised: 5/14/26_
 
 *Note: This is a living document intended to evolve with our community over time. As such, please comment or open issues as you see fit; the DIF Steering Committee will review and accept proposals for change on a quarterly basis.*
 
