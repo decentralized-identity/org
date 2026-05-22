@@ -104,3 +104,15 @@ it recommended that no exceptions or special treatment be extended to any
 non-member guests during WG meetings, on WG mailing lists or Slack channels, or
 over personal email/private message, regardless of intention to sign the charter
 at a future time.
+
+9.**Agentic Contributions to DIF Working Group Products.** Working group members
+are encouraged to think of agentic contributors (whether LLMs or otherwise)
+as introducing a risk of violating patent rights. There is a risk that an LLM could
+reference, depend on, or include content that is not available under any license
+that is compatible with open standards and open source. Direct contributions from
+independent AI tools are not allowed. WG chairs are asked to add a clause to
+their project's contribution guides requiring that all contributions be signed
+off by humans who can reasonably attest to and honor the IPR obligations that
+were agreed to when joining DIF. In all cases, contributions to DIF WG projects
+must be put forward by DIF members; contributions from any agent acting
+autonomously must not be accepted.
